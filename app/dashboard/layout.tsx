@@ -251,29 +251,17 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
           }}
             className="sidebar-logo-zone"
           >
-            <img 
-              src="/LOGO.png" 
-              alt="Veloprome Logo" 
-              style={{ height: 40, width: "auto", objectFit: "contain", borderRadius: 6, flexShrink: 0 }} 
+            <img
+              src="/LOGO.png"
+              alt="Veloprome"
+              style={{
+                height: "clamp(28px, 4vw, 42px)",
+                width: "auto",
+                objectFit: "contain",
+                display: "block",
+                flexShrink: 0,
+              }}
             />
-            <div>
-              <p style={{
-                fontSize: 16, fontWeight: 600,
-                fontFamily: "'Geist', system-ui, sans-serif",
-                color: "#111", lineHeight: 1.2,
-                letterSpacing: "-0.03em",
-              }}>
-                Veloprome
-              </p>
-              <p style={{
-                fontSize: 12, color: "#A1A1AA", marginTop: 2,
-                fontFamily: "'Geist', system-ui, sans-serif",
-                fontWeight: 400,
-                letterSpacing: "-0.005em",
-              }}>
-                {totalCount ? `${totalCount.toLocaleString()} prompts` : "1,000+ prompts"}
-              </p>
-            </div>
           </div>
 
           {/* Mobile hamburger */}

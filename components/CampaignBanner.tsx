@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Sparkles, X, ArrowRight } from "lucide-react";
-import { delay, motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 export const CampaignBanner = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -11,12 +11,14 @@ export const CampaignBanner = () => {
 
   return (
     <AnimatePresence>
-      <motion.div
-        initial={{ opacity: 0, y: -20, height: 0 }}
-        animate={{ opacity: 1, y: 0, height: "auto" }}
-        exit={{ opacity: 0, y: -20, height: 0 }}
-        style={{ overflow: "hidden", marginBottom: 24 }}
-      >
+      {isVisible && (
+        <motion.div
+          initial={{ opacity: 0, y: -16, height: 0 }}
+          animate={{ opacity: 1, y: 0, height: "auto" }}
+          exit={{ opacity: 0, y: -16, height: 0 }}
+          transition={{ duration: 0.25 }}
+          style={{ overflow: "hidden", marginBottom: 24 }}
+        >
         <div style={{
           position: "relative",
           background: "linear-gradient(135deg, #111 0%, #27272A 100%)",
@@ -76,7 +78,8 @@ export const CampaignBanner = () => {
             </button>
           </div>
         </div>
-      </motion.div>
+        </motion.div>
+      )}
     </AnimatePresence>
   );
 };

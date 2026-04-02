@@ -81,25 +81,27 @@ export default async function LandingPage() {
           justifyContent: "space-between",
         }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <img 
-              src="/LOGO.png" 
-              alt="Veloprome Logo" 
-              style={{ height: 40, width: "auto", objectFit: "contain", borderRadius: 8 }} 
+            <img
+              src="/LOGO.png"
+              alt="Veloprome"
+              style={{
+                height: "clamp(28px, 5vw, 44px)",
+                width: "auto",
+                objectFit: "contain",
+                display: "block",
+              }}
             />
-            <span style={{ fontWeight: 600, fontSize: 15, color: "#111", letterSpacing: "-0.02em" }}>
-              Veloprome
-            </span>
+            <span style={{
+              fontFamily: "'Geist', system-ui, sans-serif",
+              fontWeight: 800,
+              fontSize: "clamp(18px, 2vw, 24px)",
+              letterSpacing: "0.12em",
+              color: "#78fd6e",
+              lineHeight: 1,
+            }}>VELOPROME</span>
           </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-            <Link href="/dashboard" style={{ textDecoration: "none" }}>
-              <button className="preview-btn" style={{
-                fontSize: 13, fontWeight: 500, color: "#71717A",
-                background: "none", border: "none", cursor: "pointer", padding: "6px 12px",
-              }}>
-                Preview Dashboard
-              </button>
-            </Link>
+          <div className="nav-cta" style={{ display: "flex", alignItems: "center", gap: 12 }}>
             {userId ? (
               <Link href="/dashboard" style={{ textDecoration: "none" }}>
                 <button style={{
@@ -440,6 +442,7 @@ export default async function LandingPage() {
           .features-grid { grid-template-columns: 1fr !important; }
           .prompts-grid { grid-template-columns: 1fr !important; }
           .preview-btn { display: none !important; }
+          .nav-cta { display: none !important; }
         }
         @media (max-width: 480px) {
           .stats-grid { grid-template-columns: 1fr !important; }
