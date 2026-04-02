@@ -43,23 +43,32 @@ async function main() {
     p.tags = Array.from(tags).slice(0, 4); // Max 4 tags
     
     // --- 2. AUTO DETAIL ---
-    p.detail = `This prompt is highly optimized for ChatGPT, Claude, and Gemini. It leverages advanced natural language processing patterns for ${p.tags[0] || 'general'} use cases. Provide context where brackets like [insert] are specified for best results.`;
-    
+    p.detail = `Prompt ini telah dioptimalkan untuk ChatGPT, Claude, dan Gemini. Menggunakan pola pemrosesan bahasa alami tingkat lanjut yang dirancang khusus untuk kasus penggunaan ${p.tags[0] || 'umum'}. Ganti semua kata dalam tanda kurung siku seperti [masukkan] dengan konteks spesifik Anda untuk hasil terbaik.`;
+
     // --- 3. AUTO TRANSLATE FALLBACK ---
-    // Fast simulated translation keyword replacement.
     let translated = p.content
         .replace(/\bWrite\b/g, 'Tulis')
         .replace(/\bwrite\b/g, 'tulis')
         .replace(/\bCreate\b/g, 'Buat')
         .replace(/\bcreate\b/g, 'buat')
+        .replace(/\bGenerate\b/g, 'Hasilkan')
+        .replace(/\bgenerate\b/g, 'hasilkan')
         .replace(/\bfor\b/g, 'untuk')
-        .replace(/\byour\b/g, 'kamu')
-        .replace(/\bthe\b/g, 'bagian')
-        .replace(/\ba\b/g, 'sebuah')
+        .replace(/\byour\b/g, 'Anda')
+        .replace(/\bYour\b/g, 'Anda')
         .replace(/\band\b/g, 'dan')
-        .replace(/\babout\b/g, 'tentang');
-        
-    p.contentId = "Teks ini dibuat dengan sistem penerjemah fallback AI (Keyword Rep). Struktur asli: " + translated;
+        .replace(/\bAnd\b/g, 'Dan')
+        .replace(/\babout\b/g, 'tentang')
+        .replace(/\bAbout\b/g, 'Tentang')
+        .replace(/\bwith\b/g, 'dengan')
+        .replace(/\bWith\b/g, 'Dengan')
+        .replace(/\bthat\b/g, 'yang')
+        .replace(/\busing\b/g, 'menggunakan')
+        .replace(/\binclude\b/g, 'sertakan')
+        .replace(/\bfocus\b/g, 'fokus')
+        .replace(/\bmake\b/g, 'buat');
+
+    p.contentId = translated;
   }
 
   // Write back

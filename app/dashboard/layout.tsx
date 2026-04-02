@@ -262,6 +262,15 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
                 flexShrink: 0,
               }}
             />
+            <span style={{
+              fontFamily: "'Geist', system-ui, sans-serif",
+              fontWeight: 800,
+              fontSize: "clamp(14px, 2vw, 18px)",
+              letterSpacing: "0.12em",
+              color: "#78fd6e",
+              lineHeight: 1,
+              flexShrink: 0,
+            }}>VELOPROME</span>
           </div>
 
           {/* Mobile hamburger */}
