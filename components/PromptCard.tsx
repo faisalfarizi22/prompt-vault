@@ -8,6 +8,7 @@ interface PromptCardProps {
   title: string;
   category: string;
   content: string;
+  onSelect?: () => void;
 }
 
 const getGradientForCategory = (category: string) => {
@@ -27,7 +28,7 @@ const getGradientForCategory = (category: string) => {
   return gradients[hash % gradients.length];
 };
 
-export function PromptCard({ id, title, category, content }: PromptCardProps) {
+export function PromptCard({ id, title, category, content, onSelect }: PromptCardProps) {
   const [copied, setCopied] = useState(false);
   const [hovered, setHovered] = useState(false);
 
@@ -42,6 +43,7 @@ export function PromptCard({ id, title, category, content }: PromptCardProps) {
 
   return (
     <div
+      onClick={onSelect}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{

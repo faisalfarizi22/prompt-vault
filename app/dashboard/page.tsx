@@ -3,6 +3,8 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useDashboard } from "./context";
 import { PromptCard } from "@/components/PromptCard";
+import { CampaignBanner } from "@/components/CampaignBanner";
+import { PromptSidePanel } from "@/components/PromptSidePanel";
 import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
 
 interface Prompt {
@@ -11,6 +13,7 @@ interface Prompt {
   title: string;
   content: string;
   isPremium: boolean;
+  tags?: string[];
 }
 
 interface ApiResponse {
@@ -25,6 +28,7 @@ const PAGE_SIZE = 24;
 export default function DashboardPage() {
   const { activeCategory, searchQuery } = useDashboard();
   const [data, setData] = useState<ApiResponse | null>(null);
+  const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const gridRef = useRef<HTMLDivElement>(null);
@@ -66,6 +70,7 @@ export default function DashboardPage() {
 
   return (
     <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
+      <CampaignBanner />
 
       {/* ── Page Header ── */}
       <div style={{
@@ -183,10 +188,12 @@ export default function DashboardPage() {
               className="animate-fadein-up"
               style={{ animationDelay: `${(i % 12) * 20}ms` }}
             >
-              <PromptCard {...prompt} />
+              <PromptCard {...prompt} onSelect={() => setSelectedPrompt(prompt)} />
             </div>
           ))}
       </div>
+
+      <PromptSidePanel prompt={selectedPrompt} onClose={() => setSelectedPrompt(null)} />
 
       {/* ── Pagination ── */}
       {!loading && data && data.totalPages > 1 && (

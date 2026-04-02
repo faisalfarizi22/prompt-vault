@@ -8,12 +8,16 @@ export interface Prompt {
   title: string;
   content: string;
   isPremium: boolean;
+  tags?: string[];
+  detail?: string;
+  contentId?: string;
 }
 
 let cachedPrompts: Prompt[] | null = null;
 
 function loadPrompts(): Prompt[] {
-  if (cachedPrompts) return cachedPrompts;
+  // Always reload in development, cache in production
+  if (cachedPrompts && process.env.NODE_ENV === 'production') return cachedPrompts;
   const filePath = path.join(process.cwd(), 'data', 'prompts.json');
   const raw = fs.readFileSync(filePath, 'utf-8');
   const data = JSON.parse(raw) as Omit<Prompt, 'id'>[];
@@ -43,7 +47,8 @@ export async function GET(req: NextRequest) {
         (p) =>
           p.title.toLowerCase().includes(lower) ||
           p.content.toLowerCase().includes(lower) ||
-          p.category.toLowerCase().includes(lower)
+          p.category.toLowerCase().includes(lower) ||
+          (p.tags && p.tags.some(tag => tag.toLowerCase().includes(lower)))
       );
     }
 
