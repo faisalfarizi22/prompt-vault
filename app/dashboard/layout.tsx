@@ -267,9 +267,12 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
               fontWeight: 800,
               fontSize: "clamp(14px, 2vw, 18px)",
               letterSpacing: "0.12em",
-              color: "#78fd6e",
               lineHeight: 1,
               flexShrink: 0,
+              background: "linear-gradient(90deg, #57d27b, #79f870, #7afc6d, #74fa77)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
             }}>VELOPROME</span>
           </div>
 

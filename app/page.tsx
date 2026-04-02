@@ -96,8 +96,11 @@ export default async function LandingPage() {
               fontWeight: 800,
               fontSize: "clamp(18px, 2vw, 24px)",
               letterSpacing: "0.12em",
-              color: "#78fd6e",
               lineHeight: 1,
+              background: "linear-gradient(90deg, #57d27b, #79f870, #7afc6d, #74fa77)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
             }}>VELOPROME</span>
           </div>
 
