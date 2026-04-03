@@ -18,12 +18,25 @@ let cachedPrompts: Prompt[] | null = null;
 function loadPrompts(): Prompt[] {
   // Always reload in development, cache in production
   if (cachedPrompts && process.env.NODE_ENV === 'production') return cachedPrompts;
-  const filePath = path.join(process.cwd(), 'data', 'prompts.json');
-  const raw = fs.readFileSync(filePath, 'utf-8');
-  const data = JSON.parse(raw) as Omit<Prompt, 'id'>[];
-  cachedPrompts = data.map((p, i) => ({ ...p, id: i + 1 }));
+  
+  const dataDir = path.join(process.cwd(), 'data');
+  const files = ['prompts.json', 'image-prompts.json'];
+  
+  let allData: Omit<Prompt, 'id'>[] = [];
+  
+  files.forEach(file => {
+    const filePath = path.join(dataDir, file);
+    if (fs.existsSync(filePath)) {
+      const raw = fs.readFileSync(filePath, 'utf-8');
+      const data = JSON.parse(raw);
+      allData = [...allData, ...data];
+    }
+  });
+
+  cachedPrompts = allData.map((p, i) => ({ ...p, id: i + 1 }));
   return cachedPrompts;
 }
+
 
 export async function GET(req: NextRequest) {
   try {
