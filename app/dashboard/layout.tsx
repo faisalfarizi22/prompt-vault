@@ -6,8 +6,9 @@ import {
   LayoutGrid, Menu, X, Zap, Settings,
   HelpCircle, Search, Music, Megaphone, User,
   Headphones, Calendar, BarChart2, Play,
-  Mail, BookOpen, Rocket,
+  Mail, BookOpen, Rocket, Image,
 } from "lucide-react";
+
 import { DashboardContext } from "./context";
 import { UserButton, useUser } from "@clerk/nextjs";
 
@@ -22,7 +23,9 @@ const CATEGORIES = [
   { key: "Email Marketing & FOMO Newsletters",       Icon: Mail,        short: "Email Marketing" },
   { key: "Storytelling & Emotional Selling",         Icon: BookOpen,    short: "Storytelling" },
   { key: "Product Launch Strategy (H-7 to Launch Day)", Icon: Rocket,  short: "Product Launch" },
+  { key: "Image Generation",                          Icon: Image,   short: "Image Gen" },
 ];
+
 
 function NavItem({
   icon, label, isActive, onClick,
