@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Lock, ArrowRight, Loader2, CheckCircle, HelpCircle } from "lucide-react";
+import { Lock, ArrowRight, Loader2, CheckCircle, HelpCircle, Check, ShieldCheck, Zap, Layers } from "lucide-react";
 import { useUser } from "@clerk/nextjs";
 import { useEffect, useState } from "react";
 
@@ -10,10 +10,8 @@ export default function PaymentPage() {
   const [isSuccess, setIsSuccess] = useState(false);
 
   useEffect(() => {
-    // Jangan lakukan polling jika user belum termuat
     if (!isLoaded || !user) return;
 
-    // Jika masuk ke halaman payment ternyata sudah bayar, langsung tendang ke dashboard!
     if (user.publicMetadata?.isPaid === true) {
       window.location.href = "/dashboard";
       return;
@@ -21,26 +19,22 @@ export default function PaymentPage() {
 
     let isMounted = true;
 
-    // Fungsi polling (Mengecek Clerk Server tiap 5 detik apakah webhook berhasil)
     const checkPaymentStatus = async () => {
       while (isMounted && !isSuccess) {
         await new Promise((resolve) => setTimeout(resolve, 5000));
         if (!isMounted) break;
 
         try {
-          // Memuat ulang data user dan cookie dari Clerk (mengecek isPaid)
           await user.reload();
-          
           if (user.publicMetadata?.isPaid === true) {
             setIsSuccess(true);
-            // Tunggu 1 detik agar animasi rileks, lalu refresh keras masuk ke dashboard
             setTimeout(() => {
               window.location.href = "/dashboard";
-            }, 1000);
+            }, 1500);
             break;
           }
         } catch (error) {
-           console.error("Clerk polling error", error);
+          console.error("Clerk polling error", error);
         }
       }
     };
@@ -48,141 +42,166 @@ export default function PaymentPage() {
     checkPaymentStatus();
 
     return () => { isMounted = false; };
-  }, [isLoaded, user?.publicMetadata?.isPaid]); 
+  }, [isLoaded, user?.publicMetadata?.isPaid, isSuccess]);
 
-  // Jangan render UI jika Clerk belum siap untuk menghindari kedipan 
   if (!isLoaded) {
-    return <div style={{ minHeight: "100vh", background: "#FAFAFA" }} />;
+    return <div style={{ minHeight: "100vh", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <Loader2 className="w-8 h-8 animate-spin text-emerald-500" />
+    </div>;
   }
 
-  return (
-    <div style={{ position: "relative", minHeight: "100vh", background: "#FAFAFA", overflow: "hidden", fontFamily: "'Geist', system-ui, sans-serif" }}>
-      
-      {/* BACKGROUND SKELETON (Fake Dashboard) */}
-      <div style={{ display: "flex", height: "100vh", opacity: 0.8, filter: "blur(3px)", pointerEvents: "none", background: "#f9fafb" }}>
-        {/* Sidebar Fake */}
-        <div style={{ width: 280, borderRight: "1px solid #e5e7eb", background: "#fff", display: "flex", flexDirection: "column" }}>
-            <div style={{ padding: "24px 16px", display: "flex", alignItems: "center", gap: 12 }}>
-                <div style={{ width: 32, height: 32, background: "#111", borderRadius: 8 }} />
-                <div style={{ flex: 1, height: 18, background: "#e5e7eb", borderRadius: 4 }} />
-            </div>
-            <div style={{ padding: "20px 16px", display: "flex", flexDirection: "column", gap: 16 }}>
-                {[1,2,3,4,5,6,7].map(i => <div key={i} style={{ height: 32, background: "#f3f4f6", borderRadius: 8 }} />)}
-            </div>
-        </div>
-        {/* Main Content Fake */}
-        <div style={{ flex: 1, padding: 40, display: "flex", flexDirection: "column" }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 40 }}>
-                <div style={{ height: 48, width: 240, background: "#d1d5db", borderRadius: 8 }} />
-                <div style={{ height: 40, width: 120, background: "#e5e7eb", borderRadius: 20 }} />
-            </div>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 24 }}>
-                {[1,2,3,4,5,6,7,8].map(i => (
-                  <div key={i} style={{ height: 200, background: "#fff", border: "1px solid #e5e7eb", borderRadius: 16, padding: 20, display: 'flex', flexDirection: 'column', gap: 12, boxShadow: "0 2px 4px rgba(0,0,0,0.02)" }}>
-                    <div style={{ height: 24, width: '60%', background: '#d1d5db', borderRadius: 4 }} />
-                    <div style={{ height: 16, width: '40%', background: '#f3f4f6', borderRadius: 4 }} />
-                    <div style={{ flex: 1 }} />
-                    <div style={{ height: 48, width: '100%', background: '#f9fafb', border: "1px solid #f3f4f6", borderRadius: 8 }} />
-                  </div>
-                ))}
-            </div>
-        </div>
-      </div>
+  const benefits = [
+    "Akses 1.000+ Prompt Terkurasi",
+    "Update Prompt Baru Selamanya",
+    "Ebook Eksklusif AI Masterclass",
+    "Akses Komunitas VIP Veloprome",
+    "Lisensi Komersial Penggunaan"
+  ];
 
-      {/* GRADIENT OVERLAY (Jelas ke Putih) */}
+  return (
+    <div style={{ 
+      minHeight: "100vh", 
+      background: "#fff", 
+      fontFamily: "'Geist', system-ui, sans-serif",
+      position: "relative",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center",
+      overflow: "hidden"
+    }}>
+      {/* Background Luxury Elements */}
       <div style={{
-          position: "absolute", inset: 0,
-          background: "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.4) 30%, rgba(255,255,255,0.95) 70%, rgba(255,255,255,1) 100%)",
-          zIndex: 1
+        position: "absolute", top: "-10%", right: "-10%", width: "60%", height: "60%",
+        background: "radial-gradient(circle, rgba(34, 197, 94, 0.05) 0%, rgba(255, 255, 255, 0) 70%)",
+        filter: "blur(80px)", pointerEvents: "none"
+      }} />
+      <div style={{
+        position: "absolute", bottom: "-10%", left: "-10%", width: "50%", height: "50%",
+        background: "radial-gradient(circle, rgba(6, 95, 70, 0.03) 0%, rgba(255, 255, 255, 0) 70%)",
+        filter: "blur(100px)", pointerEvents: "none"
       }} />
 
-      {/* PAYMENT MODAL (Centered over overlay) */}
+      {/* Main Glass Container */}
       <div style={{
-         position: "absolute", inset: 0, zIndex: 10,
-         display: "flex", alignItems: "center", justifyContent: "center", padding: 20
-      }}>
-          <div style={{
-            background: "#fff", border: "1px solid rgba(0,0,0,0.06)", borderRadius: 24, padding: "48px 40px",
-            maxWidth: 480, width: "100%", textAlign: "center",
-            boxShadow: "0 24px 60px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.02)",
-          }}>
-            
-            {isSuccess ? (
-              // === UI SUKSES BAYAR (TRANSISI AUTO MASUK) ===
-              <div style={{ animation: "fadeIn 0.5s ease" }}>
-                <div style={{
-                  width: 64, height: 64, borderRadius: "50%", background: "#D1FAE5", margin: "0 auto 24px",
-                  display: "flex", alignItems: "center", justifyContent: "center",
-                  boxShadow: "0 0 0 8px rgba(209, 250, 229, 0.4)"
-                }}>
-                  <CheckCircle style={{ width: 28, height: 28, color: "#065F46" }} />
-                </div>
-                <h1 style={{ fontSize: 26, fontWeight: 800, letterSpacing: "-0.04em", color: "#111", marginBottom: 12 }}>
-                  Payment Received!
-                </h1>
-                <p style={{ fontSize: 15, color: "#10B981", fontWeight: 500, lineHeight: 1.6, marginBottom: 32 }}>
-                  Verifying your license token... Please wait a moment.
-                </p>
-                <div style={{ display: "flex", justifyContent: "center" }}>
-                  <Loader2 style={{ width: 24, height: 24, animation: "spin 1s linear infinite", color: "#A1A1AA" }} />
-                </div>
-              </div>
-            ) : (
-              // === UI LOCK STANDAR ===
-              <>
-                <div style={{
-                  width: 64, height: 64, borderRadius: "50%", background: "#F4F4F5", margin: "0 auto 24px",
-                  display: "flex", alignItems: "center", justifyContent: "center",
-                  boxShadow: "0 0 0 8px rgba(244, 244, 245, 0.5)"
-                }}>
-                  <Lock style={{ width: 28, height: 28, color: "#111" }} />
-                </div>
-                
-                <h1 style={{ fontSize: 26, fontWeight: 800, letterSpacing: "-0.04em", color: "#111", marginBottom: 12 }}>
-                  Dashboard Locked
-                </h1>
-                <p style={{ fontSize: 15, color: "#71717A", lineHeight: 1.6, marginBottom: 32 }}>
-                  Pilih email yang sama saat di checkout Lynk.id <br/>
-                  Akses langsung terbuka otomatis setelah pembayaran berhasil.
-                </p>
-                
-                <Link href="http://lynk.id/beurchef/34x317jlepkm/checkout" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
-                  <button style={{
-                    display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
-                    width: "100%", padding: "16px", borderRadius: 100,
-                    background: "#111", color: "#fff", fontSize: 15, fontWeight: 600,
-                    border: "none", cursor: "pointer", boxShadow: "0 4px 14px rgba(0,0,0,0.15)",
-                    transition: "transform 0.1s ease",
-                  }}>
-                    Pay IDR 8,000 via LYNK.ID <ArrowRight style={{ width: 16, height: 16 }} />
-                  </button>
-                </Link>
-                
-                <div style={{ marginTop: 24, fontSize: 13, color: "#A1A1AA", lineHeight: 1.6 }}>
-                  Secure payment processed by Lynk.id <br/>
-                  Auto-activation takes 1-5 seconds after payment.
-                </div>
-
-                {/* Butuh Bantuan */}
-                <div style={{ marginTop: 32, paddingTop: 20, borderTop: "1px solid #EBEBEB" }}>
-                  <a href="https://wa.me/6281383521750" target="_blank" rel="noreferrer" style={{ 
-                    display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
-                    color: "#71717A", fontSize: 13, textDecoration: "none", fontWeight: 500,
-                    transition: "color 0.2s"
-                  }}
-                  onMouseOver={(e) => e.currentTarget.style.color = "#111"}
-                  onMouseOut={(e) => e.currentTarget.style.color = "#71717A"}
-                  >
-                    <HelpCircle style={{ width: 14, height: 14 }} /> Mengalami kendala? Hubungi Support
-                  </a>
-                </div>
-              </>
-            )}
+        maxWidth: 540,
+        width: "90%",
+        background: "rgba(255, 255, 255, 0.7)",
+        backdropFilter: "blur(32px)",
+        WebkitBackdropFilter: "blur(32px)",
+        borderRadius: 40,
+        padding: "56px 48px",
+        border: "1px solid rgba(255, 255, 255, 0.5)",
+        boxShadow: "0 40px 100px -20px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.02)",
+        position: "relative",
+        zIndex: 10,
+        textAlign: "center"
+      }} className="payment-card">
+        
+        {isSuccess ? (
+          <div style={{ animation: "fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1)" }}>
+            <div style={{
+              width: 80, height: 80, borderRadius: "50%", background: "#ECFDF5", margin: "0 auto 32px",
+              display: "flex", alignItems: "center", justifyContent: "center",
+              boxShadow: "0 0 0 10px rgba(236, 253, 245, 0.6)"
+            }}>
+              <CheckCircle style={{ width: 40, height: 40, color: "#10B981" }} />
+            </div>
+            <h1 style={{ fontSize: 32, fontWeight: 800, color: "#111", letterSpacing: "-0.04em", marginBottom: 16 }}>
+              Pembayaran Berhasil!
+            </h1>
+            <p style={{ fontSize: 16, color: "#64748B", lineHeight: 1.6, marginBottom: 40 }}>
+              Lisensi Anda sedang diaktifkan. Anda akan dialihkan ke dashboard dalam hitungan detik.
+            </p>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Loader2 style={{ width: 24, height: 24, animation: "spin 1s linear infinite", color: "#10B981" }} />
+            </div>
           </div>
+        ) : (
+          <>
+            <div style={{ display: "flex", justifyContent: "center", gap: 12, marginBottom: 32 }}>
+               <div style={{ padding: "8px 16px", background: "rgba(34, 197, 94, 0.08)", borderRadius: 100, border: "1px solid rgba(34, 197, 94, 0.2)", display: "flex", alignItems: "center", gap: 8 }}>
+                  <ShieldCheck style={{ width: 14, height: 14, color: "#10B981" }} />
+                  <span style={{ fontSize: 12, fontWeight: 700, color: "#10B981", textTransform: "uppercase", letterSpacing: "0.05em" }}>Aktivasi Akun Premium</span>
+               </div>
+            </div>
+
+            <h1 style={{ fontSize: 40, fontWeight: 800, color: "#111", letterSpacing: "-0.04em", marginBottom: 12 }}>
+              Langkah Terakhir.
+            </h1>
+            <p style={{ fontSize: 16, color: "#64748B", lineHeight: 1.6, marginBottom: 40 }}>
+              Buka potensi penuh AI Anda dengan akses seumur hidup ke koleksi prompt terbaik kami.
+            </p>
+
+            {/* Price Highlight */}
+            <div style={{ 
+              background: "#F8FAFC", borderRadius: 24, padding: "24px", 
+              border: "1px solid #F1F5F9", marginBottom: 32, textAlign: "left" 
+            }}>
+               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 }}>
+                  <span style={{ fontSize: 14, fontWeight: 600, color: "#64748B" }}>Total Pembayaran</span>
+                  <span style={{ fontSize: 12, fontWeight: 700, color: "#10B981", background: "rgba(16, 185, 129, 0.1)", padding: "4px 8px", borderRadius: 6 }}>OFF 90%</span>
+               </div>
+               <div style={{ fontSize: 32, fontWeight: 800, color: "#111" }}>IDR 8.000 <span style={{ fontSize: 14, color: "#94A3B8", fontWeight: 400, textDecoration: "line-through", marginLeft: 8 }}>IDR 80.000</span></div>
+            </div>
+
+            {/* Benefits List */}
+            <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 40, textAlign: "left" }}>
+               {benefits.map((b, i) => (
+                 <div key={i} style={{ display: "flex", alignItems: "center", gap: 12 }}>
+                    <div style={{ width: 20, height: 20, borderRadius: "50%", background: "#F0FDF4", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>
+                       <Check style={{ width: 12, height: 12, color: "#10B981" }} />
+                    </div>
+                    <span style={{ fontSize: 14, color: "#475569", fontWeight: 500 }}>{b}</span>
+                 </div>
+               ))}
+            </div>
+
+            <Link href="http://lynk.id/beurchef/34x317jlepkm/checkout" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+              <button style={{
+                display: "flex", alignItems: "center", justifyContent: "center", gap: 12,
+                width: "100%", padding: "20px", borderRadius: 100,
+                background: "#111", color: "#fff", fontSize: 16, fontWeight: 700,
+                border: "none", cursor: "pointer", boxShadow: "0 20px 40px -12px rgba(0,0,0,0.3)",
+                transition: "all 0.2s ease"
+              }} className="pay-btn">
+                Aktivasi Akses Sekarang <ArrowRight style={{ width: 18, height: 18 }} />
+              </button>
+            </Link>
+
+            <p style={{ marginTop: 24, fontSize: 12, color: "#94A3B8", lineHeight: 1.6 }}>
+               Gunakan email yang sama dengan akun Clerk Anda saat di checkout Lynk.id.<br />
+               Akses akan terbuka otomatis dalam <span style={{ color: "#64748B", fontWeight: 600 }}>1-5 detik</span> setelah pembayaran.
+            </p>
+
+            <div style={{ marginTop: 32, paddingTop: 24, borderTop: "1px solid #F1F5F9" }}>
+               <a href="https://wa.me/6281383521750" target="_blank" rel="noreferrer" style={{
+                 display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
+                 color: "#64748B", fontSize: 13, textDecoration: "none", fontWeight: 600
+               }}>
+                 <HelpCircle style={{ width: 16, height: 16 }} /> Punya pertanyaan? Hubungi Kami
+               </a>
+            </div>
+          </>
+        )}
       </div>
+
+      {/* Footer Branding */}
+      <div style={{ position: "absolute", bottom: 40, left: 0, right: 0, textAlign: "center", opacity: 0.5 }}>
+         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
+            <img src="/LOGO.png" alt="Logo" style={{ height: 20, width: "auto" }} />
+            <span style={{ fontSize: 12, fontWeight: 800, letterSpacing: "0.1em" }}>VELOPROME</span>
+         </div>
+      </div>
+
       <style>{`
         @keyframes spin { 100% { transform: rotate(360deg); } }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .pay-btn:hover { transform: translateY(-4px); background: #065F46 !important; box-shadow: 0 25px 50px -12px rgba(6, 95, 70, 0.4); }
+        .payment-card { transition: transform 0.3s ease; }
+        @media (max-width: 640px) {
+          .payment-card { padding: 40px 24px !important; margin: 16px !important; border-radius: 32px !important; }
+          h1 { fontSize: 32px !important; }
+        }
       `}</style>
     </div>
   );

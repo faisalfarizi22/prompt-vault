@@ -1,6 +1,6 @@
 "use client";
 
-import { X, Copy, Check, BookOpen, Tag, Globe } from "lucide-react";
+import { X, Copy, Check, BookOpen, Tag, Sparkles } from "lucide-react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -49,8 +49,9 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
             onClick={onClose}
             style={{
               position: "fixed", inset: 0,
-              background: "rgba(0,0,0,0.35)",
-              backdropFilter: "blur(4px)",
+              background: "rgba(0,0,0,0.4)",
+              backdropFilter: "blur(12px)",
+              WebkitBackdropFilter: "blur(12px)",
               zIndex: 100,
             }}
           />
@@ -60,65 +61,76 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
-            transition={{ type: "spring", damping: 28, stiffness: 220 }}
+            transition={{ type: "spring", damping: 32, stiffness: 260 }}
             style={{
               position: "fixed", top: 0, right: 0, bottom: 0,
-              width: "100%", maxWidth: 480,
-              background: "#fff",
+              width: "100%", maxWidth: 520,
+              background: "rgba(255, 255, 255, 0.95)",
+              backdropFilter: "blur(32px)",
+              WebkitBackdropFilter: "blur(32px)",
               zIndex: 101,
               display: "flex", flexDirection: "column",
               fontFamily: "'Geist', system-ui, sans-serif",
-              boxShadow: "-8px 0 40px rgba(0,0,0,0.12)",
+              boxShadow: "-20px 0 60px rgba(0,0,0,0.1)",
+              borderLeft: "1px solid rgba(0,0,0,0.05)",
             }}
           >
             {/* ── Header ── */}
             <div style={{
               display: "flex", alignItems: "center", justifyContent: "space-between",
-              padding: "18px 24px", borderBottom: "1px solid #EBEBEB",
-              background: "#fff",
+              padding: "24px 32px", borderBottom: "1px solid rgba(0, 0, 0, 0.04)",
             }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-                <BookOpen style={{ width: 18, height: 18, color: "#22C55E" }} />
-                <h2 style={{ fontSize: 17, fontWeight: 700, margin: 0, color: "#111" }}>
-                  Detail Prompt
-                </h2>
+              <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                <div style={{
+                  width: 36, height: 36, borderRadius: 10,
+                  background: "linear-gradient(135deg, #065f46 0%, #10b981 100%)",
+                  display: "flex", alignItems: "center", justifyContent: "center"
+                }}>
+                  <Sparkles style={{ width: 18, height: 18, color: "#fff" }} />
+                </div>
+                <div>
+                  <h2 style={{ fontSize: 18, fontWeight: 800, margin: 0, color: "#111", letterSpacing: "-0.02em" }}>
+                    Prompt Details
+                  </h2>
+                  <span style={{ fontSize: 11, fontWeight: 600, color: "#10B981", textTransform: "uppercase" }}>Premium Vault #00{prompt.id}</span>
+                </div>
               </div>
               <button
                 onClick={onClose}
                 style={{
-                  background: "#F4F4F5", border: "none", cursor: "pointer",
+                  background: "rgba(0,0,0,0.05)", border: "none", cursor: "pointer",
                   display: "flex", alignItems: "center", justifyContent: "center",
-                  color: "#71717A", padding: 6, borderRadius: 8,
-                  transition: "background 0.15s",
+                  color: "#111", padding: 8, borderRadius: 100,
+                  transition: "all 0.2s",
                 }}
+                className="close-panel-btn"
               >
-                <X style={{ width: 18, height: 18 }} />
+                <X style={{ width: 20, height: 20 }} />
               </button>
             </div>
 
             {/* ── Scrollable Body ── */}
-            <div style={{ padding: "20px 24px", overflowY: "auto", flex: 1 }}>
+            <div style={{ padding: "32px", overflowY: "auto", flex: 1 }} className="scroll-panel">
 
-              {/* Tags */}
-              <div style={{ marginBottom: 14 }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 8 }}>
-                  <Tag style={{ width: 12, height: 12, color: "#A1A1AA" }} />
-                  <span style={{ fontSize: 11, fontWeight: 600, color: "#A1A1AA", textTransform: "uppercase", letterSpacing: "0.05em" }}>
-                    Kategori &amp; Tag
+              {/* Category & Tags */}
+              <div style={{ marginBottom: 28 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 12 }}>
+                  <Tag style={{ width: 14, height: 14, color: "#94A3B8" }} />
+                  <span style={{ fontSize: 12, fontWeight: 700, color: "#64748B", textTransform: "uppercase", letterSpacing: "0.08em" }}>
+                    Category & Labels
                   </span>
                 </div>
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                   <span style={{
-                    background: "#22C55E", color: "#fff",
-                    padding: "4px 12px", borderRadius: 100, fontSize: 11, fontWeight: 700,
-                    textTransform: "uppercase", letterSpacing: "0.02em",
+                    background: "#065f46", color: "#fff",
+                    padding: "6px 14px", borderRadius: 100, fontSize: 11, fontWeight: 700,
                   }}>
                     {prompt.category}
                   </span>
                   {prompt.tags?.map(tag => (
                     <span key={tag} style={{
-                      background: "#F4F4F5", color: "#3F3F46", border: "1px solid #E4E4E7",
-                      padding: "4px 10px", borderRadius: 100, fontSize: 11, fontWeight: 600,
+                      background: "rgba(0,0,0,0.04)", color: "#111", border: "1px solid rgba(0,0,0,0.05)",
+                      padding: "5px 12px", borderRadius: 100, fontSize: 11, fontWeight: 600,
                     }}>
                       {tag}
                     </span>
@@ -128,65 +140,68 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
 
               {/* Title */}
               <h1 style={{
-                fontSize: 22, fontWeight: 800, color: "#111",
-                lineHeight: 1.25, letterSpacing: "-0.03em", marginBottom: 20,
+                fontSize: 28, fontWeight: 800, color: "#111",
+                lineHeight: 1.2, letterSpacing: "-0.04em", marginBottom: 24,
               }}>
                 {prompt.title}
               </h1>
 
-              {/* Technical Details */}
+              {/* Technical Explanation (Indonesian) */}
               <div style={{
-                background: "#FAFAFA", border: "1px solid #EBEBEB", borderRadius: 12, padding: "14px 16px",
-                marginBottom: 24,
+                background: "#F8FAFC", border: "1px solid #F1F5F9", borderRadius: 20, padding: "20px 24px",
+                marginBottom: 32,
               }}>
-                <h4 style={{
-                  fontSize: 11, fontWeight: 700, color: "#A1A1AA",
-                  textTransform: "uppercase", letterSpacing: "0.05em",
-                  marginBottom: 8, marginTop: 0,
-                }}>
-                  Detail Teknis
-                </h4>
-                <p style={{ fontSize: 13, color: "#52525B", lineHeight: 1.65, margin: 0 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+                  <BookOpen style={{ width: 14, height: 14, color: "#065F46" }} />
+                  <h4 style={{
+                    fontSize: 12, fontWeight: 700, color: "#065F46",
+                    textTransform: "uppercase", letterSpacing: "0.05em",
+                    margin: 0,
+                  }}>
+                    Penjelasan & Panduan
+                  </h4>
+                </div>
+                <p style={{ fontSize: 14, color: "#475569", lineHeight: 1.7, margin: 0 }}>
                   {prompt.detail
                     ? prompt.detail
-                    : "Prompt ini dioptimalkan untuk ChatGPT, Claude, dan Gemini. Ganti semua kata dalam tanda kurung siku seperti [industri] dengan konteks spesifik Anda untuk hasil terbaik."}
+                    : "Prompt ini telah dioptimalkan untuk model AI terbaru (ChatGPT-4o, Claude 3.5, & Flux). Pastikan Anda mengganti bagian di dalam kurung siku [seperti ini] dengan data spesifik Anda agar hasil yang dihasilkan lebih akurat dan relevan."}
                 </p>
               </div>
 
               {/* Prompt Content Section */}
-              <div style={{ marginBottom: 16 }}>
+              <div style={{ marginBottom: 24 }}>
                 <div style={{
-                  display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12,
+                  display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16,
                 }}>
-                  <h3 style={{ fontSize: 14, fontWeight: 700, margin: 0, color: "#111" }}>
-                    Teks Prompt
+                  <h3 style={{ fontSize: 15, fontWeight: 800, margin: 0, color: "#111", letterSpacing: "-0.02em" }}>
+                    Prompt Text
                   </h3>
 
-                  {/* Language Toggle — only show when translation is available */}
+                  {/* Language Toggle */}
                   {prompt.contentId && (
                     <div style={{
-                      display: "flex", background: "#F4F4F5", borderRadius: 100, padding: 3, gap: 2,
+                      display: "flex", background: "rgba(0,0,0,0.05)", borderRadius: 100, padding: 4, gap: 4,
                     }}>
                       <button
                         onClick={() => setLang("en")}
                         style={{
-                          padding: "4px 14px", borderRadius: 100, border: "none",
-                          fontSize: 11, fontWeight: 600, cursor: "pointer",
+                          padding: "6px 14px", borderRadius: 100, border: "none",
+                          fontSize: 12, fontWeight: 700, cursor: "pointer",
                           background: lang === "en" ? "#fff" : "transparent",
-                          color: lang === "en" ? "#111" : "#71717A",
-                          boxShadow: lang === "en" ? "0 1px 4px rgba(0,0,0,0.08)" : "none",
-                          transition: "all 0.18s",
+                          color: lang === "en" ? "#111" : "#64748B",
+                          boxShadow: lang === "en" ? "0 4px 12px rgba(0,0,0,0.08)" : "none",
+                          transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
                         }}
                       >🇺🇸 English</button>
                       <button
                         onClick={() => setLang("id")}
                         style={{
-                          padding: "4px 14px", borderRadius: 100, border: "none",
-                          fontSize: 11, fontWeight: 600, cursor: "pointer",
+                          padding: "6px 14px", borderRadius: 100, border: "none",
+                          fontSize: 12, fontWeight: 700, cursor: "pointer",
                           background: lang === "id" ? "#fff" : "transparent",
-                          color: lang === "id" ? "#111" : "#71717A",
-                          boxShadow: lang === "id" ? "0 1px 4px rgba(0,0,0,0.08)" : "none",
-                          transition: "all 0.18s",
+                          color: lang === "id" ? "#111" : "#64748B",
+                          boxShadow: lang === "id" ? "0 4px 12px rgba(0,0,0,0.08)" : "none",
+                          transition: "all 0.2s cubic-bezier(0.4, 0, 0.2, 1)",
                         }}
                       >🇮🇩 Indonesia</button>
                     </div>
@@ -195,54 +210,45 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
 
                 {/* Prompt Box */}
                 <div style={{
-                  background: "#18181B", color: "rgba(255,255,255,0.88)",
-                  padding: "18px 20px", borderRadius: 12, fontSize: 13.5, lineHeight: 1.7,
-                  border: "1px solid #27272A", whiteSpace: "pre-wrap",
+                  background: "#0F172A", color: "#F1F5F9",
+                  padding: "24px", borderRadius: 24, fontSize: 14, lineHeight: 1.8,
+                  border: "1px solid rgba(255,255,255,0.05)", whiteSpace: "pre-wrap",
+                  boxShadow: "inset 0 2px 4px rgba(0,0,0,0.2), 0 10px 30px -10px rgba(15,23,42,0.4)"
                 }}>
                   {lang === "id" && prompt.contentId ? prompt.contentId : prompt.content}
                 </div>
-
-                {/* Notice if no translation */}
-                {!prompt.contentId && (
-                  <div style={{
-                    display: "flex", alignItems: "center", gap: 6, marginTop: 10,
-                    background: "#FFF8E7", border: "1px solid #FDE68A",
-                    borderRadius: 8, padding: "8px 12px",
-                  }}>
-                    <Globe style={{ width: 13, height: 13, color: "#B45309", flexShrink: 0 }} />
-                    <p style={{ fontSize: 12, color: "#B45309", margin: 0, lineHeight: 1.4 }}>
-                      Terjemahan Bahasa Indonesia untuk prompt ini sedang dalam proses dan akan segera tersedia.
-                    </p>
-                  </div>
-                )}
               </div>
             </div>
 
             {/* ── Footer / Copy CTA ── */}
             <div style={{
-              padding: "16px 24px", borderTop: "1px solid #EBEBEB", background: "#FAFAFA",
+              padding: "24px 32px", borderTop: "1px solid rgba(0,0,0,0.04)", background: "#fff",
             }}>
-              <p style={{ fontSize: 11, color: "#A1A1AA", margin: "0 0 10px", textAlign: "center" }}>
-                {lang === "id" ? "Menyalin versi Bahasa Indonesia" : "Menyalin versi Bahasa Inggris (asli)"}
-              </p>
               <button
                 onClick={handleCopy}
                 style={{
-                  width: "100%", display: "flex", alignItems: "center", gap: 8, justifyContent: "center",
-                  padding: "15px", borderRadius: 12, cursor: "pointer",
-                  fontSize: 14, fontWeight: 600,
-                  background: copied ? "#22C55E" : "#111",
+                  width: "100%", display: "flex", alignItems: "center", gap: 10, justifyContent: "center",
+                  padding: "18px", borderRadius: 100, cursor: "pointer",
+                  fontSize: 15, fontWeight: 800,
+                  background: copied ? "#10B981" : "#111",
                   color: "#fff", border: "none",
-                  transition: "background 0.2s",
-                  boxShadow: copied ? "0 8px 20px rgba(34,197,94,0.3)" : "0 4px 16px rgba(0,0,0,0.13)",
+                  transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+                  boxShadow: copied ? "0 12px 24px -6px rgba(16,185,129,0.4)" : "0 8px 24px -8px rgba(0,0,0,0.3)",
                 }}
               >
                 {copied
-                  ? <><Check style={{ width: 17, height: 17 }} /> Berhasil Disalin!</>
-                  : <><Copy style={{ width: 17, height: 17 }} /> Salin Prompt</>
+                  ? <><Check style={{ width: 20, height: 20 }} /> Copied Successfully!</>
+                  : <><Copy style={{ width: 20, height: 20 }} /> Copy This Prompt</>
                 }
               </button>
             </div>
+            
+            <style jsx>{`
+              .close-panel-btn:hover { background: rgba(0,0,0,0.1); transform: rotate(90deg); }
+              .scroll-panel::-webkit-scrollbar { width: 6px; }
+              .scroll-panel::-webkit-scrollbar-track { background: transparent; }
+              .scroll-panel::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.1); border-radius: 10px; }
+            `}</style>
           </motion.div>
         </>
       )}

@@ -5,7 +5,7 @@ import { useDashboard } from "./context";
 import { PromptCard } from "@/components/PromptCard";
 import { CampaignBanner } from "@/components/CampaignBanner";
 import { PromptSidePanel } from "@/components/PromptSidePanel";
-import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react";
+import { ChevronLeft, ChevronRight, Loader2, SearchX, Layers } from "lucide-react";
 
 interface Prompt {
   id: number;
@@ -77,45 +77,52 @@ export default function DashboardPage() {
         display: "flex",
         alignItems: "flex-end",
         justifyContent: "space-between",
-        marginBottom: 20,
-        paddingBottom: 0,
-        borderBottom: "none",
+        marginBottom: 40, // More spacing
+        marginTop: 12,
       }}>
-        <div>
-          <h1 style={{
-            fontSize: 32,
-            fontWeight: 700,
-            letterSpacing: "-0.04em",
-            color: "#111",
-            lineHeight: 1.1,
-            marginBottom: 5,
-            fontFamily: "'Geist', system-ui, sans-serif",
-          }}>
-            {activeCategory === "All" ? "All Prompts" : activeCategory}
-          </h1>
-          <p style={{
-            fontSize: 13, color: "#A1A1AA", fontWeight: 400,
-            fontFamily: "'Geist', system-ui, sans-serif",
-            letterSpacing: "-0.01em",
-          }}>
-            {loading
-              ? "Loading…"
-              : data
-              ? `${data.total.toLocaleString()} prompts${searchQuery ? ` matching "${searchQuery}"` : ""}`
-              : ""}
-          </p>
+        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <div style={{ 
+                width: 52, height: 52, borderRadius: 16, background: "#fff", 
+                border: "1px solid rgba(0,0,0,0.05)", display: "flex", 
+                alignItems: "center", justifyContent: "center",
+                boxShadow: "0 10px 25px -10px rgba(0,0,0,0.05)"
+            }}>
+                <Layers style={{ width: 24, height: 24, color: "#10B981" }} />
+            </div>
+            <div>
+            <h1 style={{
+                fontSize: 38,
+                fontWeight: 900,
+                letterSpacing: "-0.06em",
+                color: "#1E293B",
+                lineHeight: 1,
+                marginBottom: 10,
+                margin: 0
+            }}>
+                {activeCategory === "All" ? "Featured Vault" : activeCategory}
+            </h1>
+            <p style={{
+                fontSize: 15, color: "#94A3B8", fontWeight: 600,
+                letterSpacing: "-0.01em", margin: 0, marginTop: 4
+            }}>
+                {loading
+                ? "Synchronizing collection..."
+                : data
+                    ? `${data.total.toLocaleString()} unique prompts curated for you`
+                    : ""}
+            </p>
+            </div>
         </div>
 
         {loading && (
           <div style={{
-            display: "flex", alignItems: "center", gap: 6,
-            fontSize: 12, fontWeight: 400,
-            fontFamily: "'Geist', system-ui, sans-serif",
-            padding: "6px 12px", borderRadius: 7,
-            color: "#71717A", background: "#F4F4F5", border: "1px solid #E4E4E7",
+            display: "flex", alignItems: "center", gap: 10,
+            fontSize: 13, fontWeight: 700,
+            padding: "10px 20px", borderRadius: 100,
+            color: "#059669", background: "#ECFDF5", border: "1px solid #D1FAE5",
           }}>
-            <Loader2 style={{ width: 12, height: 12, animation: "spin 1s linear infinite" }} />
-            Loading
+            <Loader2 style={{ width: 14, height: 14, animation: "spin 1s linear infinite" }} />
+            Live Update
           </div>
         )}
       </div>
@@ -124,24 +131,39 @@ export default function DashboardPage() {
       {!loading && data && data.items.length === 0 && (
         <div style={{
           textAlign: "center",
-          padding: "80px 32px",
-          borderRadius: 12,
-          border: "1px dashed #D4D4D8",
-          color: "#A1A1AA",
+          padding: "120px 40px",
+          borderRadius: 40,
+          background: "#fff",
+          border: "1px solid rgba(0,0,0,0.04)",
+          color: "#64748B",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          boxShadow: "0 20px 50px rgba(0,0,0,0.02)"
         }}>
-          <p style={{
-            fontWeight: 500, fontSize: 15,
-            fontFamily: "'Instrument Serif', Georgia, serif",
-            color: "#374151", marginBottom: 6,
+          <div style={{ 
+            width: 80, height: 80, borderRadius: 24, background: "#F8FAFC", 
+            display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 32 
           }}>
-            No prompts found
-          </p>
-          <p style={{
-            fontSize: 13,
-            fontFamily: "'Geist', system-ui, sans-serif",
-            fontWeight: 400,
+            <SearchX style={{ width: 40, height: 40, color: "#94A3B8" }} />
+          </div>
+          <h3 style={{
+            fontWeight: 900, fontSize: 24,
+            color: "#0F172A", marginBottom: 12,
+            letterSpacing: "-0.04em"
           }}>
-            Try different keywords or select another category.
+            Collection Not Found
+          </h3>
+          <p style={{
+            fontSize: 16,
+            maxWidth: 400,
+            lineHeight: 1.7,
+            margin: "0 auto",
+            color: "#64748B",
+            fontWeight: 500
+          }}>
+            Kami tidak dapat menemukan hasil untuk pencarian Anda. Coba hapus filter atau gunakan kata kunci yang berbeda.
           </p>
         </div>
       )}
@@ -152,31 +174,31 @@ export default function DashboardPage() {
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
-          gap: 14,
+          gap: 32, // Increased gap for airy lux feel
         }}
         className="prompt-grid"
       >
         {loading &&
-          Array.from({ length: PAGE_SIZE }).map((_, i) => (
+          Array.from({ length: 6 }).map((_, i) => (
             <div key={`sk-${i}`} style={{
-              background: "linear-gradient(145deg, #F5F5F5 0%, #EFEFEF 100%)",
-              border: "1px solid #E2E2E6",
-              borderRadius: 12,
-              padding: 18,
+              background: "#fff",
+              border: "1px solid rgba(0,0,0,0.04)",
+              borderRadius: 28,
+              padding: 14,
               display: "flex",
               flexDirection: "column",
-              gap: 10,
+              gap: 18,
+              height: 420
             }}>
-              <div className="skeleton" style={{ height: 11, width: "40%", borderRadius: 4 }} />
-              <div className="skeleton" style={{ height: 14, width: "90%" }} />
-              <div className="skeleton" style={{ height: 14, width: "65%" }} />
-              <div style={{ height: 4 }} />
-              <div className="skeleton" style={{ height: 12, width: "100%" }} />
-              <div className="skeleton" style={{ height: 12, width: "75%" }} />
-              <div className="skeleton" style={{ height: 12, width: "50%" }} />
-              <div style={{ display: "flex", justifyContent: "space-between", marginTop: 8 }}>
-                <div className="skeleton" style={{ height: 11, width: 55 }} />
-                <div className="skeleton" style={{ height: 28, width: 65, borderRadius: 7 }} />
+              <div className="skeleton" style={{ height: 180, borderRadius: 22, width: "100%" }} />
+              <div style={{ padding: "0 8px" }}>
+                <div className="skeleton" style={{ height: 28, width: "80%", marginBottom: 16 }} />
+                <div className="skeleton" style={{ height: 16, width: "95%", marginBottom: 10 }} />
+                <div className="skeleton" style={{ height: 16, width: "70%" }} />
+              </div>
+              <div style={{ marginTop: "auto", display: "flex", justifyContent: "space-between", padding: "16px 8px" }}>
+                <div className="skeleton" style={{ height: 14, width: 70 }} />
+                <div className="skeleton" style={{ height: 38, width: 90, borderRadius: 100 }} />
               </div>
             </div>
           ))}
@@ -186,7 +208,7 @@ export default function DashboardPage() {
             <div
               key={prompt.id}
               className="animate-fadein-up"
-              style={{ animationDelay: `${(i % 12) * 20}ms` }}
+              style={{ animationDelay: `${(i % 12) * 40}ms` }}
             >
               <PromptCard {...prompt} onSelect={() => setSelectedPrompt(prompt)} />
             </div>
@@ -201,83 +223,87 @@ export default function DashboardPage() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          gap: 4,
-          marginTop: 48,
-          flexWrap: "wrap",
+          gap: 12,
+          marginTop: 80,
+          paddingBottom: 60,
         }}>
           <button
             disabled={page <= 1}
             onClick={() => goToPage(page - 1)}
             style={{
-              display: "flex", alignItems: "center", gap: 5,
-              fontSize: 12, fontWeight: 400,
-              fontFamily: "'Geist', system-ui, sans-serif",
-              padding: "7px 13px", borderRadius: 8,
-              border: "1px solid #E4E4E7",
-              background: "#fff", color: "#71717A",
+              display: "flex", alignItems: "center", gap: 8,
+              fontSize: 14, fontWeight: 800,
+              padding: "12px 24px", borderRadius: 18,
+              border: "1px solid rgba(0,0,0,0.08)",
+              background: "#fff", color: page <= 1 ? "#cbd5e1" : "#1e293b",
               cursor: page <= 1 ? "not-allowed" : "pointer",
-              opacity: page <= 1 ? 0.35 : 1,
-              transition: "all 0.12s ease",
+              transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
             }}
+            className="pg-btn"
           >
-            <ChevronLeft style={{ width: 13, height: 13 }} /> Prev
+            <ChevronLeft style={{ width: 18, height: 18 }} /> Prev
           </button>
 
-          {getPages(page, data.totalPages).map((n, i) =>
-            n === "…" ? (
-              <span key={`ellipsis-${i}`} style={{
-                padding: "0 5px", fontSize: 13, color: "#A1A1AA",
-                fontFamily: "'Geist', system-ui, sans-serif",
-              }}>…</span>
-            ) : (
-              <button
-                key={n}
-                onClick={() => goToPage(Number(n))}
-                style={{
-                  width: 34, height: 34,
-                  borderRadius: 8,
-                  fontSize: 12,
-                  fontWeight: n === page ? 600 : 400,
-                  fontFamily: "'Geist', system-ui, sans-serif",
-                  border: n === page ? "1px solid #16A34A" : "1px solid #E4E4E7",
-                  background: n === page ? "#22C55E" : "#fff",
-                  color: n === page ? "#fff" : "#71717A",
-                  cursor: "pointer",
-                  transition: "all 0.12s ease",
-                  boxShadow: n === page ? "0 2px 8px rgba(34,197,94,0.35)" : "none",
-                }}
-              >
-                {n}
-              </button>
-            )
-          )}
+          <div style={{ display: "flex", gap: 8, background: "rgba(0,0,0,0.04)", padding: 8, borderRadius: 22 }}>
+            {getPages(page, data.totalPages).map((n, i) =>
+              n === "…" ? (
+                <span key={`ellipsis-${i}`} style={{
+                  width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center",
+                  fontSize: 15, color: "#94A3B8", fontWeight: 800,
+                }}>…</span>
+              ) : (
+                <button
+                  key={n}
+                  onClick={() => goToPage(Number(n))}
+                  style={{
+                    width: 44, height: 44,
+                    borderRadius: 16,
+                    fontSize: 14,
+                    fontWeight: 900,
+                    border: "none",
+                    background: n === page ? "#0F172A" : "transparent",
+                    color: n === page ? "#fff" : "#64748B",
+                    cursor: "pointer",
+                    transition: "all 0.3s",
+                  }}
+                  className="pg-num"
+                >
+                  {n}
+                </button>
+              )
+            )}
+          </div>
 
           <button
             disabled={page >= data.totalPages}
             onClick={() => goToPage(page + 1)}
             style={{
-              display: "flex", alignItems: "center", gap: 5,
-              fontSize: 12, fontWeight: 400,
-              fontFamily: "'Geist', system-ui, sans-serif",
-              padding: "7px 13px", borderRadius: 8,
-              border: "1px solid #E4E4E7",
-              background: "#fff", color: "#71717A",
+              display: "flex", alignItems: "center", gap: 8,
+              fontSize: 14, fontWeight: 800,
+              padding: "12px 24px", borderRadius: 18,
+              border: "1px solid rgba(0,0,0,0.08)",
+              background: "#fff", color: page >= data.totalPages ? "#cbd5e1" : "#1e293b",
               cursor: page >= data.totalPages ? "not-allowed" : "pointer",
-              opacity: page >= data.totalPages ? 0.35 : 1,
-              transition: "all 0.12s ease",
+              transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
             }}
+            className="pg-btn"
           >
-            Next <ChevronRight style={{ width: 13, height: 13 }} />
+            Next <ChevronRight style={{ width: 18, height: 18 }} />
           </button>
         </div>
       )}
 
-      <style>{`
+      <style jsx global>{`
         @keyframes spin { to { transform: rotate(360deg); } }
-        @media (max-width: 1024px) {
-          .prompt-grid { grid-template-columns: repeat(2, 1fr) !important; }
+        .skeleton { background: #f1f5f9; animation: skeleton-pulse 1.5s infinite linear; }
+        @keyframes skeleton-pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+        .pg-btn:hover:not(:disabled) { background: #0F172A; color: #fff; border-color: #0F172A; transform: scale(1.05); }
+        .pg-num:hover:not([style*="background: rgb(15, 23, 42)"]) { background: rgba(0,0,0,0.06); color: #0F172A; }
+        
+        @media (max-width: 1200px) {
+          .prompt-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 24px !important; }
         }
-        @media (max-width: 640px) {
+        @media (max-width: 768px) {
           .prompt-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
