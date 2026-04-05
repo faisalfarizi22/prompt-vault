@@ -14,11 +14,22 @@ model User {
   clerkId   String     @unique // ID from Clerk Auth
   email     String     @unique
   name      String?
-  isPaid    Boolean    @default(false)
-  orders    Order[]
-  favorites Favorite[]
-  createdAt DateTime   @default(now())
-  updatedAt DateTime   @updatedAt
+  isPaid      Boolean    @default(false)
+  orders      Order[]
+  favorites   Favorite[]
+  submissions      ChallengeSubmission[]
+  
+  // Referral & Anti-Fraud
+  referralCode     String?    @unique // Short 5-char code (e.g. ABC12)
+  referredById     String?
+  referredBy       User?           @relation("UserReferrals", fields: [referredById], references: [id])
+  referrals        User[]          @relation("UserReferrals")
+  registrationIp   String?
+  deviceFingerprint String?
+  rewards          ReferralReward[] @relation("ReferrerRewards")
+  
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
 }
 
 model Order {
@@ -60,4 +71,45 @@ model Favorite {
 model Config {
   key   String @id
   value String
+}
+
+model ChallengeSubmission {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  platform  String   // tiktok, reels
+  videoUrl  String
+  username  String   // social media handle
+  views     Int      @default(0) // New: For 'Reach' points calculation
+  status    String   @default("PENDING") // PENDING, APPROVED, REJECTED
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+}
+
+model ReferralVisit {
+  id                String   @id @default(uuid())
+  referrerId        String   // ID of the user who shared the link
+  ipAddress         String?
+  deviceFingerprint String?
+  userAgent         String?
+  createdAt         DateTime @default(now())
+
+  @@index([referrerId])
+  @@index([ipAddress])
+}
+
+model ReferralReward {
+  id             String   @id @default(uuid())
+  referrerId     String   // Recipient
+  referrer       User     @relation("ReferrerRewards", fields: [referrerId], references: [id], onDelete: Cascade)
+  referredUserId String   // Who bought
+  orderId        String   @unique
+  amount         Float    // 15% of total
+  status         String   @default("SETTLED") // PENDING, SETTLED, WITHDRAWN
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([referrerId])
 }

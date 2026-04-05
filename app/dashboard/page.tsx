@@ -3,9 +3,18 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useDashboard } from "./context";
 import { PromptCard } from "@/components/PromptCard";
-import { CampaignBanner } from "@/components/CampaignBanner";
+// import { 
+//   DashboardBanner, 
+//   CampaignPopup, 
+//   ReferralWidget,
+//   CampaignChallengeSection,
+//   CampaignFloatingBadge,
+//   CampaignRulesDetail,
+//   LeaderboardView
+// } from "@/components/VideoCampaignBanner";
 import { PromptSidePanel } from "@/components/PromptSidePanel";
 import { PricingModal } from "@/components/PricingModal";
+import { DashboardPreviewBanner } from "@/components/DashboardPreviewBanner";
 import { useUser } from "@clerk/nextjs";
 import { ChevronLeft, ChevronRight, Loader2, SearchX, Layers } from "lucide-react";
 
@@ -15,7 +24,10 @@ interface Prompt {
   title: string;
   content: string;
   isPremium: boolean;
+  isLocked: boolean;
   tags?: string[];
+  detail?: string;
+  contentId?: string;
 }
 
 interface ApiResponse {
@@ -28,18 +40,40 @@ interface ApiResponse {
 const PAGE_SIZE = 24;
 
 export default function DashboardPage() {
-  const { activeCategory, searchQuery } = useDashboard();
+  const { activeCategory, setActiveCategory, searchQuery } = useDashboard();
   const [data, setData] = useState<ApiResponse | null>(null);
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(true);
   const [showPricingModal, setShowPricingModal] = useState(false);
-  const { user, isLoaded } = useUser();
+  const { user } = useUser();
   const gridRef = useRef<HTMLDivElement>(null);
+  const [hasAgreedToSnK, setHasAgreedToSnK] = useState(false);
+
+  // Load S&K agreement from localStorage
+  useEffect(() => {
+    const agreed = localStorage.getItem("veloprome_snk_agreed") === "true";
+    setHasAgreedToSnK(agreed);
+  }, []);
+
+  const handleAgreeSnK = (val: boolean) => {
+    setHasAgreedToSnK(val);
+    localStorage.setItem("veloprome_snk_agreed", String(val));
+  };
 
   const isPaid = user?.publicMetadata?.isPaid === true;
 
+  // Strict Guard: Prevent non-paid users from manually staying in Referral Hub
+  useEffect(() => {
+    if (activeCategory === "Referral" && !isPaid) {
+      setActiveCategory("All");
+      setShowPricingModal(true);
+    }
+  }, [activeCategory, isPaid, setActiveCategory]);
+
   const fetchPrompts = useCallback(async (pg: number) => {
+    if (activeCategory === "Campaign" || activeCategory === "Leaderboard" || activeCategory === "Referral") return;
+    
     setLoading(true);
     try {
       const params = new URLSearchParams({ page: String(pg), limit: String(PAGE_SIZE) });
@@ -74,16 +108,90 @@ export default function DashboardPage() {
     return pages;
   };
 
+  // Special State: Campaign View (Commenting out for GitHub push)
+  /*
+  if (activeCategory === "Campaign") {
+    return (
+      <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
+         <CampaignPopup 
+            isPaid={isPaid} 
+            onUpgrade={() => setShowPricingModal(true)} 
+            onJoin={() => setActiveCategory("Campaign")} 
+         />
+         <div style={{ marginBottom: 48 }}>
+            <h1 style={{ fontSize: 48, fontWeight: 900, letterSpacing: "-0.06em", color: "#1E293B", marginBottom: 12 }}>Veloprome Creator Challenge</h1>
+            <p style={{ fontSize: 18, color: "#64748B", fontWeight: 500 }}>Pelajari cara memenangkan total hadiah Rp 25.000.000 dengan membuat video testimoni.</p>
+         </div>
+         <DashboardBanner 
+            isPaid={isPaid}
+            onUpgrade={() => setShowPricingModal(true)}
+            variant="leaderboard" 
+            onJoin={() => setActiveCategory("Leaderboard")} 
+         />
+         
+         <CampaignRulesDetail 
+            isPaid={isPaid}
+            onUpgrade={() => setShowPricingModal(true)}
+            hasAgreed={hasAgreedToSnK}
+            onAgree={handleAgreeSnK}
+         />
+      </div>
+    );
+  }
+  */
+
+  // Special State: Referral Hub (Commenting out for GitHub push)
+  /*
+  if (activeCategory === "Referral" && isPaid) {
+    return (
+      <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
+         <div style={{ marginBottom: 48 }}>
+            <h1 style={{ fontSize: 48, fontWeight: 900, letterSpacing: "-0.06em", color: "#1E293B", marginBottom: 12 }}>Referral Hub</h1>
+            <p style={{ fontSize: 18, color: "#64748B", fontWeight: 500 }}>Kelola link referral Anda dan pantau komisi yang Anda dapatkan secara real-time.</p>
+         </div>
+         <ReferralWidget isPaid={isPaid} onUpgrade={() => setShowPricingModal(true)} />
+      </div>
+    );
+  }
+
+  // Special State: Leaderboard View (Commenting out for GitHub push)
+  if (activeCategory === "Leaderboard") {
+    return (
+      <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
+         <div style={{ marginBottom: 48 }}>
+            <h1 style={{ fontSize: 48, fontWeight: 900, letterSpacing: "-0.06em", color: "#1E293B", marginBottom: 12 }}>Live Ranking</h1>
+            <p style={{ fontSize: 18, color: "#64748B", fontWeight: 500 }}>Lihat 100 kreator teratas dan pacu semangat Anda untuk memenangkan challenge ini!</p>
+         </div>
+         <LeaderboardView />
+      </div>
+    );
+  }
+  */
+
   return (
     <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
-      <CampaignBanner />
+      {/* 
+      {activeCategory === "All" && (
+        <DashboardBanner 
+            isPaid={isPaid} 
+            onUpgrade={() => setShowPricingModal(true)}
+            onJoin={() => setActiveCategory("Campaign")} 
+        />
+      )}
+      <CampaignPopup 
+        isPaid={isPaid}
+        onUpgrade={() => setShowPricingModal(true)}
+        onJoin={() => setActiveCategory("Campaign")} 
+      />
+      */}
+      <DashboardPreviewBanner />
+      {/* <CampaignFloatingBadge onClick={() => setActiveCategory("Campaign")} /> */}
 
-      {/* ── Page Header ── */}
       <div style={{
         display: "flex",
         alignItems: "flex-end",
         justifyContent: "space-between",
-        marginBottom: 40, // More spacing
+        marginBottom: 40,
         marginTop: 12,
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
@@ -133,7 +241,6 @@ export default function DashboardPage() {
         )}
       </div>
 
-      {/* ── Empty State ── */}
       {!loading && data && data.items.length === 0 && (
         <div style={{
           textAlign: "center",
@@ -174,13 +281,12 @@ export default function DashboardPage() {
         </div>
       )}
 
-      {/* ── Card Grid ── */}
       <div
         ref={gridRef}
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(3, 1fr)",
-          gap: 32, // Increased gap for airy lux feel
+          gap: 32,
         }}
         className="prompt-grid"
       >
@@ -218,9 +324,9 @@ export default function DashboardPage() {
             >
               <PromptCard 
                 {...prompt} 
-                isLocked={!isPaid}
+                isLocked={prompt.isLocked}
                 onSelect={() => {
-                  if (!isPaid) {
+                  if (prompt.isLocked) {
                     setShowPricingModal(true);
                   } else {
                     setSelectedPrompt(prompt);
@@ -238,7 +344,6 @@ export default function DashboardPage() {
         onClose={() => setShowPricingModal(false)} 
       />
 
-      {/* ── Pagination ── */}
       {!loading && data && data.totalPages > 1 && (
         <div style={{
           display: "flex",
@@ -320,7 +425,6 @@ export default function DashboardPage() {
         @keyframes skeleton-pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
         .pg-btn:hover:not(:disabled) { background: #0F172A; color: #fff; border-color: #0F172A; transform: scale(1.05); }
         .pg-num:hover:not([style*="background: rgb(15, 23, 42)"]) { background: rgba(0,0,0,0.06); color: #0F172A; }
-        
         @media (max-width: 1200px) {
           .prompt-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 20px !important; }
         }

@@ -166,12 +166,15 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
             flexGrow: 1,
             fontWeight: 500,
             position: "relative",
-            filter: isLocked ? "blur(4px)" : "none",
+            filter: isLocked ? "blur(8px)" : "none",
             userSelect: isLocked ? "none" : "auto",
-            transition: "all 0.3s ease"
+            transition: "all 0.3s ease",
+            opacity: isLocked ? 0.35 : 1
           }}
         >
-          {preview}
+          {isLocked ? (
+            "Dapatkan Strategi [KATEGORI] yang dioptimalkan untuk [TUJUAN] Anda. Dilengkapi dengan langkah-langkah [METODE] dan matriks [DETAIL]..."
+          ) : preview}
           {isLocked && (
             <div style={{
               position: "absolute",
@@ -182,13 +185,13 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
               zIndex: 10
             }}>
               <div style={{
-                background: "rgba(255,255,255,0.8)",
-                padding: 8,
+                background: "rgba(255,255,255,0.9)",
+                padding: 10,
                 borderRadius: "50%",
-                boxShadow: "0 4px 12px rgba(0,0,0,0.05)",
-                border: "1px solid rgba(0,0,0,0.04)"
+                boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
+                border: "1px solid rgba(0,0,0,0.05)"
               }}>
-                <LucideLock style={{ width: 14, height: 14, color: "#94A3B8" }} />
+                <LucideLock style={{ width: 16, height: 16, color: "#10B981" }} />
               </div>
             </div>
           )}
@@ -203,9 +206,9 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
           paddingTop: 16
         }}>
           <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-            <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#10B981" }} />
+            <div style={{ width: 6, height: 6, borderRadius: "50%", background: isLocked ? "#94A3B8" : "#10B981" }} />
             <span style={{ fontSize: 11, fontWeight: 800, color: "#94A3B8", letterSpacing: "0.02em" }}>
-              PREMIUM VAULT
+              {isLocked ? "PREMIUM VAULT" : "FREE VAULT"}
             </span>
           </div>
 
@@ -217,12 +220,12 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
               borderRadius: 100,
               fontSize: 13,
               fontWeight: 800,
-              background: copied ? "#10B981" : "#F1F5F9",
-              color: copied ? "#fff" : "#1E293B",
+              background: copied ? "#10B981" : isLocked ? "#F1F5F9" : "linear-gradient(135deg, #065f46, #10b981)",
+              color: (copied || !isLocked) ? "#fff" : "#1E293B",
               border: "none",
               cursor: "pointer",
               transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
-              boxShadow: copied ? "0 4px 12px rgba(16,185,129,0.3)" : "none"
+              boxShadow: (copied || !isLocked) ? "0 4px 12px rgba(16,185,129,0.3)" : "none"
             }}
           >
             {copied ? (
@@ -232,7 +235,7 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
             ) : (
               <Copy style={{ width: 14, height: 14 }} />
             )}
-            {copied ? "Copied" : isLocked ? "Unlock" : "Copy"}
+            {copied ? "Copied" : isLocked ? "Unlock Access" : "Gunakan Sekarang (Gratis)"}
           </button>
         </div>
       </div>
