@@ -3,6 +3,8 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Check, ArrowRight, ShieldCheck, Zap, Star } from "lucide-react";
 import Link from "next/link";
+import { useUser } from "@clerk/nextjs";
+import { useEffect, useState } from "react";
 
 interface PricingModalProps {
   isOpen: boolean;
@@ -19,6 +21,30 @@ const BENEFITS = [
 ];
 
 export function PricingModal({ isOpen, onClose }: PricingModalProps) {
+  const { user } = useUser();
+  const [isChecking, setIsChecking] = useState(false);
+
+  // Auto-check payment status
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    if (isOpen && user) {
+       // Set interval directly
+       interval = setInterval(async () => {
+          setIsChecking(true);
+          await user.reload();
+          if (user.publicMetadata?.isPaid) {
+              clearInterval(interval);
+              onClose();
+              window.location.reload(); // Full reload to refresh dashboard contexts
+          }
+          setIsChecking(false);
+       }, 5000);
+    }
+    return () => {
+        if (interval) clearInterval(interval);
+    };
+  }, [isOpen, user, onClose]);
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -207,14 +233,34 @@ export function PricingModal({ isOpen, onClose }: PricingModalProps) {
                       justifyContent: "center",
                       gap: 12,
                       boxShadow: "0 20px 40px -12px rgba(0,0,0,0.3)",
+                      position: "relative",
+                      overflow: "hidden"
                     }}
                   >
-                    Aktivasi Sekarang <ArrowRight style={{ width: 18, height: 18 }} />
+                    {isChecking ? "Mengecek Pembayaran..." : "Aktivasi Sekarang"} 
+                    {!isChecking && <ArrowRight style={{ width: 18, height: 18 }} />}
+                    
+                    {/* Animated shine line for checking state */}
+                    {isChecking && (
+                      <motion.div
+                        initial={{ left: "-100%" }}
+                        animate={{ left: "100%" }}
+                        transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
+                        style={{
+                           position: "absolute",
+                           top: 0,
+                           bottom: 0,
+                           width: "50%",
+                           background: "linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent)"
+                        }}
+                      />
+                    )}
                   </motion.button>
                 </Link>
 
-                <p style={{ textAlign: "center", marginTop: 20, fontSize: 11, color: "#94A3B8", fontWeight: 500 }}>
-                  Gunakan email Clerk Anda saat checkout untuk aktivasi otomatis.
+                <p style={{ textAlign: "center", marginTop: 20, fontSize: 11, color: "#94A3B8", fontWeight: 500, display: "flex", flexDirection: "column", gap: 6 }}>
+                  <span>Gunakan email Clerk Anda saat checkout untuk aktivasi otomatis.</span>
+                  {isChecking && <span style={{ color: "#10B981" }}>Sistem sedang mendeteksi pembayaran Anda...</span>}
                 </p>
               </div>
             </motion.div>

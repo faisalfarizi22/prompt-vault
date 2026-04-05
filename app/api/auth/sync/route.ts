@@ -46,6 +46,23 @@ export async function POST(req: Request) {
     const clerkUser = await currentUser();
     const email = clerkUser?.emailAddresses[0]?.emailAddress || "";
     const name = clerkUser?.fullName || "";
+    const isPaid = clerkUser?.publicMetadata?.isPaid === true;
+
+    // Resolve referredById if it's a referral code
+    let actualReferredById = null;
+    if (referrerId) {
+      const referrerUser = await (prisma.user as any).findFirst({
+        where: {
+          OR: [
+            { id: referrerId },
+            { referralCode: referrerId }
+          ]
+        }
+      });
+      if (referrerUser) {
+        actualReferredById = referrerUser.id;
+      }
+    }
 
     // 2. Check if user already exists and has a referral code
     const existingUser = await (prisma.user as any).findUnique({
@@ -62,16 +79,17 @@ export async function POST(req: Request) {
     const user = await (prisma.user as any).upsert({
       where: { clerkId } as any,
       update: {
-        referralCode // Update or keep existing
+        referralCode, // Update or keep existing
+        isPaid // Sync payment state if changed externally before sync
       } as any,
       create: {
         clerkId,
         email,
         name,
-        isPaid: false,
+        isPaid,
         registrationIp: ip,
         deviceFingerprint: fingerprint,
-        referredById: referrerId || null,
+        referredById: actualReferredById,
         referralCode,
       } as any
     });
