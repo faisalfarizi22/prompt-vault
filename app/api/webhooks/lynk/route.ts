@@ -42,29 +42,60 @@ export async function POST(req: Request) {
     // 2. Jika Pembayaran Berhasil
     if (event === 'payment.received' && data.message_action === 'SUCCESS') {
       
-      // 3. Update Database Prisma (gunakan updateMany agar tidak error jika user belum daftar di web)
-      await prisma.user.updateMany({
+      // 3. Update Database Prisma (set isPaid)
+      const user = await prisma.user.findFirst({
         where: { email: customerEmail },
-        data: { isPaid: true }
+        select: { id: true, referredById: true } as any
       });
 
-      // 4. Update Clerk Metadata (Cari user berdasarkan email)
-      // Dukungan kompabilitas Clerk v4/v5/v6
+      if (user) {
+        const userId = (user as any).id as string;
+        await prisma.user.update({
+          where: { id: userId },
+          data: { isPaid: true }
+        });
+
+        // 3.1 Referral Reward Logic (15%)
+        const typedUser = user as any;
+        if (typedUser.referredById) {
+          const totalAmount = parseFloat(amount || "0");
+          const commission = totalAmount * 0.15;
+          
+          if (commission > 0) {
+            await (prisma as any).referralReward.create({
+              data: {
+                referrerId: typedUser.referredById,
+                referredUserId: user.id,
+                orderId: message_id, // unique from lynk
+                amount: commission,
+                status: "SETTLED"
+              }
+            }).catch((e: Error) => console.error("[Referral Reward Error]:", e));
+            console.log(`[Webhook Lynk] Komisi 15% (${commission}) diberikan kepada ${typedUser.referredById}`);
+          }
+        }
+      } else {
+        // Fallback: update many if user not in DB yet (though SyncUser should have handled it)
+        await prisma.user.updateMany({
+          where: { email: customerEmail },
+          data: { isPaid: true }
+        });
+      }
+
+      // 4. Update Clerk Metadata
       const client = typeof clerkClient === "function" ? await (clerkClient as any)() : clerkClient;
       
       const response = await client.users.getUserList({ emailAddress: [customerEmail] });
-      // Di versi Clerk terbaru getUserList mereturn object { data: [...] }, di versi lama mereturn langsung array
       const clerkUsers = response.data || response;
 
       if (Array.isArray(clerkUsers) && clerkUsers.length > 0) {
         const userId = clerkUsers[0].id;
-        // Tandai isPaid true di metadata
         await client.users.updateUserMetadata(userId, {
           publicMetadata: { isPaid: true }
         });
         console.log(`[Webhook Lynk] User ${customerEmail} otomatis diaktifkan.`);
       } else {
-        console.warn(`[Webhook Lynk] User dengan email ${customerEmail} belum daftar di Clerk. Harus aktivasi via KODE manual.`);
+        console.warn(`[Webhook Lynk] User dengan email ${customerEmail} belum daftar di Clerk.`);
       }
     }
 

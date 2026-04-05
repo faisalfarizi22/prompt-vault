@@ -1,7 +1,9 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 import { Geist, Instrument_Serif } from "next/font/google";
-import Script from "next/script"; // Import komponen Script untuk TikTok Pixel
+import Script from "next/script";
+import { Suspense } from 'react';
+import { ReferralTracker } from "@/components/ReferralTracker";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -43,6 +45,9 @@ export default function RootLayout({
           {/* TikTok Pixel Code End */}
         </head>
         <body style={{ margin: 0, fontFamily: "'Geist', system-ui, sans-serif", background: "#fff", color: "#111" }}>
+          <Suspense fallback={null}>
+            <ReferralTracker />
+          </Suspense>
           {children}
         </body>
       </html>

@@ -14,6 +14,7 @@ interface PromptCardProps {
   category: string;
   content: string;
   isLocked?: boolean;
+  isPaid?: boolean;
   onSelect?: () => void;
 }
 
@@ -35,7 +36,7 @@ const getCategoryConfig = (category: string) => {
   return { color: "#10B981", icon: Sparkles }; // Default Emerald
 };
 
-export function PromptCard({ id, title, category, content, isLocked = false, onSelect }: PromptCardProps) {
+export function PromptCard({ id, title, category, content, isLocked = false, isPaid = false, onSelect }: PromptCardProps) {
   const [copied, setCopied] = useState(false);
   const [hovered, setHovered] = useState(false);
 
@@ -206,10 +207,14 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
           paddingTop: 16
         }}>
           <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-            <div style={{ width: 6, height: 6, borderRadius: "50%", background: isLocked ? "#94A3B8" : "#10B981" }} />
-            <span style={{ fontSize: 11, fontWeight: 800, color: "#94A3B8", letterSpacing: "0.02em" }}>
-              {isLocked ? "PREMIUM VAULT" : "FREE VAULT"}
-            </span>
+            {!isPaid && (
+              <>
+                <div style={{ width: 6, height: 6, borderRadius: "50%", background: isLocked ? "#94A3B8" : "#10B981" }} />
+                <span style={{ fontSize: 11, fontWeight: 800, color: "#94A3B8", letterSpacing: "0.02em" }}>
+                  {isLocked ? "PREMIUM VAULT" : "FREE VAULT"}
+                </span>
+              </>
+            )}
           </div>
 
           <button
@@ -235,7 +240,7 @@ export function PromptCard({ id, title, category, content, isLocked = false, onS
             ) : (
               <Copy style={{ width: 14, height: 14 }} />
             )}
-            {copied ? "Copied" : isLocked ? "Unlock Access" : "Gunakan Sekarang (Gratis)"}
+            {copied ? "Copied" : isLocked ? "Unlock Access" : isPaid ? "Copy" : "Gunakan Sekarang (Gratis)"}
           </button>
         </div>
       </div>

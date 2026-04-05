@@ -18,9 +18,10 @@ interface Prompt {
 interface PromptSidePanelProps {
   prompt: Prompt | null;
   onClose: () => void;
+  isPaid?: boolean;
 }
 
-export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
+export const PromptSidePanel = ({ prompt, onClose, isPaid = false }: PromptSidePanelProps) => {
   const [copied, setCopied] = useState(false);
   const [lang, setLang] = useState<"en" | "id">("en");
 
@@ -47,6 +48,7 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
         <>
           {/* Backdrop */}
           <motion.div
+            key="side-panel-backdrop"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -62,6 +64,7 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
 
           {/* Panel */}
           <motion.div
+            key="side-panel-content"
             initial={{ x: "100%" }}
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
@@ -132,7 +135,7 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
                   }}>
                     {prompt.category}
                   </span>
-                  {!prompt.isPremium && (
+                  {!prompt.isPremium && !isPaid && (
                     <span style={{
                         background: "linear-gradient(135deg, #065f46, #10b981)", color: "#fff",
                         padding: "6px 14px", borderRadius: 100, fontSize: 11, fontWeight: 800,
@@ -253,8 +256,9 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
 
               {/* Teaser Notification (Conversion Trigger) */}
               <AnimatePresence>
-                {copied && !prompt.isPremium && (
+                {copied && !prompt.isPremium && !isPaid && (
                     <motion.div
+                        key="teaser-notification"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
@@ -315,9 +319,11 @@ export const PromptSidePanel = ({ prompt, onClose }: PromptSidePanelProps) => {
                   ? <><Check style={{ width: 20, height: 20 }} /> Copied Successfully!</>
                   : prompt.content === "PROTECTED_CONTENT" 
                     ? <><Lock style={{ width: 20, height: 20 }} /> Upgrade to View Content</>
-                    : !prompt.isPremium 
-                      ? <><Copy style={{ width: 20, height: 20 }} /> Gunakan Sekarang (Gratis)</>
-                      : <><Copy style={{ width: 20, height: 20 }} /> Copy This Premium Prompt</>
+                    : isPaid
+                      ? <><Copy style={{ width: 20, height: 20 }} /> Copy</>
+                      : !prompt.isPremium 
+                        ? <><Copy style={{ width: 20, height: 20 }} /> Gunakan Sekarang (Gratis)</>
+                        : <><Copy style={{ width: 20, height: 20 }} /> Copy This Premium Prompt</>
                 }
               </button>
             </div>

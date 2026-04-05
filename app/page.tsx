@@ -3,9 +3,17 @@ import {
   Sparkles, Copy, ArrowRight, Check, Zap, Shield, Layers,
   Music, Megaphone, User, Headphones, Calendar, BarChart2,
   Play, Mail, BookOpen, Rocket, Image as ImageIcon,
-  Smartphone, Globe, Clock, Star
+  Smartphone, Globe, Clock, Star, Trophy
 } from "lucide-react";
 import { PromptCard } from "@/components/PromptCard";
+import { 
+  CampaignStickyBar, 
+  CampaignChallengeSection, 
+  ExitIntentPopup
+} from "@/components/VideoCampaignBanner";
+import { LandingPageCampaignClient } from "@/components/LandingPageCampaignClient";
+import { FloatingCTA } from "@/components/FloatingCTA";
+import { PaymentReassurance } from "@/components/PaymentReassurance";
 import { SignInButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
 
@@ -93,12 +101,26 @@ const FAQS = [
   }
 ];
 
+import { prisma } from "@/lib/prisma";
+
 export default async function LandingPage() {
   const authObj = await auth();
   const userId = authObj.userId;
+  
+  // Fetch isPaid status if userId exists
+  let isPaid = false;
+  if (userId) {
+    const user = await prisma.user.findUnique({
+      where: { clerkId: userId },
+      select: { isPaid: true }
+    });
+    isPaid = !!user?.isPaid;
+  }
 
   return (
     <div style={{ minHeight: "100vh", background: "#fff", fontFamily: "'Geist', system-ui, sans-serif", overflowX: "hidden" }}>
+      <CampaignStickyBar isPaid={isPaid} />
+      <FloatingCTA />
 
       {/* ────── NAV ────── */}
       <nav style={{
@@ -148,12 +170,13 @@ export default async function LandingPage() {
               <Link href="/dashboard" style={{ textDecoration: "none" }}>
                 <button style={{
                   display: "inline-flex", alignItems: "center", gap: 7,
-                  background: "#111", color: "#fff",
-                  fontSize: 13, fontWeight: 600,
+                  background: isPaid ? "linear-gradient(135deg, #065F46, #10B981)" : "#111", 
+                  color: "#fff",
+                  fontSize: 13, fontWeight: 700,
                   padding: "10px 24px", borderRadius: 100, border: "none", cursor: "pointer",
                   boxShadow: "0 4px 14px rgba(0,0,0,0.15)",
                 }}>
-                  Dashboard <ArrowRight style={{ width: 14, height: 14 }} />
+                  {isPaid ? "Dashboard Pro" : "Dashboard"} <ArrowRight style={{ width: 14, height: 14 }} />
                 </button>
               </Link>
             ) : (
@@ -169,6 +192,10 @@ export default async function LandingPage() {
           </div>
         </div>
       </nav>
+
+      <div style={{ marginBottom: 32, marginTop: 48 }}>
+        {/* Banner placements are handled by CampaignStickyBar and CampaignChallengeSection */}
+      </div>
 
       {/* ────── HERO SECTION (Original) ────── */}
       <header style={{ position: "relative", overflow: "hidden" }}>
@@ -189,14 +216,6 @@ export default async function LandingPage() {
         }} className="hero-container">
 
           <div style={{ zIndex: 1 }}>
-            <div style={{
-              display: "inline-flex", alignItems: "center", gap: 8,
-              fontSize: 13, fontWeight: 600, padding: "8px 16px", borderRadius: 100,
-              background: "rgba(34, 197, 94, 0.08)", color: "#16A34A",
-              border: "1px solid rgba(34, 197, 94, 0.15)", marginBottom: 32
-            }}>
-              <Zap style={{ width: 14, height: 14, fill: "currentColor" }} /> EARLY ACCESS IDR 8.000
-            </div>
 
             <h1 style={{
               fontSize: "clamp(48px, 5vw, 72px)", fontWeight: 800, lineHeight: 1.05,
@@ -212,8 +231,10 @@ export default async function LandingPage() {
             </h1>
 
             <p style={{ fontSize: 19, lineHeight: 1.6, color: "#52525B", maxWidth: 540, marginBottom: 48 }}>
-              Buka akses ke 1.000+ prompt yang telah diuji untuk ChatGPT, Claude, dan Gemini.
-              Didesain untuk menghemat 20+ jam kerja Anda setiap minggu.
+              {isPaid 
+                ? "Selamat datang kembali! Akses penuh ke 1.000+ prompt premium siap Anda gunakan untuk memaksimalkan hasil AI Anda."
+                : "Buka akses ke 1.000+ prompt yang telah diuji untuk ChatGPT, Claude, dan Gemini. Didesain untuk menghemat 20+ jam kerja Anda setiap minggu."
+              }
             </p>
 
             <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
@@ -221,30 +242,31 @@ export default async function LandingPage() {
                 <Link href="/dashboard" style={{ textDecoration: "none" }}>
                   <button style={{
                     display: "inline-flex", alignItems: "center", gap: 10,
-                    background: "#111", color: "#fff",
-                    fontSize: 16, fontWeight: 600,
+                    background: isPaid ? "linear-gradient(135deg, #111, #333)" : "#111", 
+                    color: "#fff",
+                    fontSize: 16, fontWeight: 700,
                     padding: "18px 36px", borderRadius: 100, border: "none", cursor: "pointer",
                     boxShadow: "0 20px 40px -12px rgba(0,0,0,0.3)",
                   }} className="hover-scale">
-                    Go to Dashboard <ArrowRight style={{ width: 18, height: 18 }} />
+                    {isPaid ? "Go to Dashboard Pro" : "Go to Dashboard"} <ArrowRight style={{ width: 18, height: 18 }} />
                   </button>
                 </Link>
               ) : (
-                <SignInButton mode="modal" forceRedirectUrl="/dashboard">
-                  <button style={{
+                <SignInButton mode="modal">
+                  <button className="hover-scale" style={{
                     display: "inline-flex", alignItems: "center", gap: 10,
                     background: "#111", color: "#fff",
                     fontSize: 16, fontWeight: 600,
                     padding: "18px 36px", borderRadius: 100, border: "none", cursor: "pointer",
                     boxShadow: "0 20px 40px -12px rgba(0,0,0,0.3)",
-                  }} className="hover-scale">
-                    Get Instant Access <ArrowRight style={{ width: 18, height: 18 }} />
+                  }}>
+                    <span>Get Instant Access</span> <ArrowRight style={{ width: 18, height: 18 }} />
                   </button>
                 </SignInButton>
               )}
             </div>
             <div style={{ marginTop: 24, fontSize: 14, color: "#A1A1AA" }}>
-              One-time payment · <span style={{ fontWeight: 700, color: "#111" }}>Only IDR 8,000</span>
+              {isPaid ? "Akun Pro Aktif · Akses Selamanya" : "One-time payment · Only IDR 8,000"}
             </div>
           </div>
 
@@ -269,7 +291,8 @@ export default async function LandingPage() {
           </div>
         </div>
       </header>
-
+ 
+ 
       {/* ────── CATEGORY MARQUEE (Original) ────── */}
       <section style={{ borderTop: "1px solid rgba(0,0,0,0.05)", borderBottom: "1px solid rgba(0,0,0,0.05)", padding: "24px 0", background: "#fff", overflow: "hidden" }}>
         <div className="marquee-wrapper">
@@ -307,7 +330,7 @@ export default async function LandingPage() {
           <div style={{
             gridColumn: "span 2", background: "#f9fafb", borderRadius: 32, padding: 40,
             display: "flex", flexDirection: "column", justifyContent: "flex-end",
-            position: "relative", overflow: "hidden", border: "1px solid #F1F1F1"
+            position: "relative", overflow: "hidden", border: "1px solid #F1F5F9"
           }}>
             <div style={{ position: "absolute", top: 40, right: 40 }}>
               <div style={{ width: 80, height: 80, borderRadius: 20, background: "rgba(34, 197, 94, 0.1)", display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -317,7 +340,7 @@ export default async function LandingPage() {
             <h3 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>11+ Specialized Categories</h3>
             <p style={{ color: "#71717A", fontSize: 15, maxWidth: 360 }}>Dari TikTok Affiliate hingga Coding Python Tingkat Lanjut — kami mencakup setiap kebutuhan niche Anda.</p>
           </div>
-
+ 
           <div style={{
             background: "#fff", borderRadius: 32, padding: 32,
             border: "1px solid rgba(0,0,0,0.06)", boxShadow: "0 10px 30px rgba(0,0,0,0.03)",
@@ -363,6 +386,8 @@ export default async function LandingPage() {
           </div>
         </div>
       </section>
+
+      <CampaignChallengeSection />
 
       {/* ────── UVP SECTION (Why Choose Veloprome) ────── */}
       <section style={{ padding: "100px 24px", background: "#fcfcfc" }}>
@@ -526,7 +551,9 @@ export default async function LandingPage() {
           </div>
         </div>
       </section>
-
+ 
+      <PaymentReassurance />
+ 
       {/* ────── FAQ SECTION ────── */}
       <section style={{ padding: "100px 24px", background: "#fff" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
@@ -638,6 +665,8 @@ export default async function LandingPage() {
           .hero-container { padding: 40px 24px 60px !important; }
         }
       `}</style>
+      <ExitIntentPopup />
+      <LandingPageCampaignClient />
     </div>
   );
 }

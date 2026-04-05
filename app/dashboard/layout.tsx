@@ -2,15 +2,17 @@
 
 import { ReactNode, useEffect, useState } from "react";
 import Link from "next/link";
-import {
-  LayoutGrid, Menu, X, Settings,
-  HelpCircle, Search, Music, Megaphone, User,
-  Headphones, Calendar, BarChart2, Play,
-  Mail, BookOpen, Rocket, Image,
+import { 
+  BarChart2, BookOpen, Calendar, Crown, Headphones, 
+  HelpCircle, Image, LayoutGrid, Mail, Megaphone, 
+  Menu, Music, Play, Rocket, Settings, User, X, 
+  Trophy, ChevronRight, Search, Link as LinkIcon
 } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 import { DashboardContext } from "./context";
 import { UserButton, useUser } from "@clerk/nextjs";
+import { UserSync } from "@/components/UserSync";
 
 const CATEGORIES = [
   { key: "Image Generation", Icon: Image, short: "Image Gen" },
@@ -25,6 +27,73 @@ const CATEGORIES = [
   { key: "Storytelling & Emotional Selling", Icon: BookOpen, short: "Storytelling" },
   { key: "Product Launch Strategy (H-7 to Launch Day)", Icon: Rocket, short: "Product Launch" },
 ];
+
+function NavGroup({ 
+  label, 
+  children, 
+  defaultOpen = true 
+}: { 
+  label: string; 
+  children: ReactNode; 
+  defaultOpen?: boolean; 
+}) {
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+  const [hovered, setHovered] = useState(false);
+
+  return (
+    <div style={{ marginBottom: 4 }}>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          width: "100%",
+          padding: "10px 14px",
+          borderRadius: 8,
+          fontSize: 12,
+          fontFamily: "'Geist', system-ui, sans-serif",
+          fontWeight: 700,
+          color: hovered ? "#111" : "#A1A1AA",
+          background: hovered ? "rgba(0,0,0,0.03)" : "transparent",
+          border: "none",
+          cursor: "pointer",
+          textAlign: "left",
+          transition: "all 0.15s ease",
+          textTransform: "uppercase",
+          letterSpacing: "0.08em",
+          marginBottom: 4
+        }}
+      >
+        <span>{label}</span>
+        <motion.span
+          animate={{ rotate: isOpen ? 90 : 0 }}
+          style={{ display: "flex", alignItems: "center" }}
+        >
+          <ChevronRight style={{ width: 12, height: 12 }} />
+        </motion.span>
+      </button>
+
+      <AnimatePresence initial={false}>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            style={{ overflow: "hidden" }}
+          >
+            <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+              {children}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
 
 function NavItem({
   icon, label, isActive, onClick,
@@ -98,7 +167,7 @@ function SidebarContent({
       <nav style={{
         flex: 1,
         overflowY: "auto",
-        padding: "14px 8px 10px", // Exactly as requested
+        padding: "14px 8px 10px",
         scrollbarWidth: "thin",
         scrollbarColor: "#E5E7EB transparent",
       }}>
@@ -107,7 +176,7 @@ function SidebarContent({
           fontFamily: "'Geist', system-ui, sans-serif",
           color: "#A1A1AA",
           textTransform: "uppercase", letterSpacing: "0.08em",
-          padding: "4px 14px 10px", // Exactly as requested
+          padding: "4px 14px 10px",
           margin: 0
         }}>
           Browse
@@ -120,18 +189,30 @@ function SidebarContent({
           onClick={() => { setActiveCategory("All"); setSidebarOpen(false); }}
         />
 
-        <p style={{
-          fontSize: 12, fontWeight: 600,
-          fontFamily: "'Geist', system-ui, sans-serif",
-          color: "#A1A1AA",
-          textTransform: "uppercase", letterSpacing: "0.08em",
-          padding: "20px 14px 10px", // Exactly as requested
-          margin: 0
-        }}>
-          Categories
-        </p>
+        <NavGroup label="Rewards">
+          <NavItem
+            icon={<Trophy style={{ width: 13, height: 13 }} />}
+            label="Campaign"
+            isActive={activeCategory === "Campaign"}
+            onClick={() => { setActiveCategory("Campaign"); setSidebarOpen(false); }}
+          />
+          {user?.publicMetadata?.isPaid === true && (
+            <NavItem
+              icon={<LinkIcon style={{ width: 13, height: 13 }} />}
+              label="Referral"
+              isActive={activeCategory === "Referral"}
+              onClick={() => { setActiveCategory("Referral"); setSidebarOpen(false); }}
+            />
+          )}
+          <NavItem
+            icon={<Crown style={{ width: 13, height: 13 }} />}
+            label="Leaderboard"
+            isActive={activeCategory === "Leaderboard"}
+            onClick={() => { setActiveCategory("Leaderboard"); setSidebarOpen(false); }}
+          />
+        </NavGroup>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+        <NavGroup label="Categories">
           {CATEGORIES.map((cat) => (
             <NavItem
               key={cat.key}
@@ -141,7 +222,7 @@ function SidebarContent({
               onClick={() => { setActiveCategory(cat.key); setSidebarOpen(false); }}
             />
           ))}
-        </div>
+        </NavGroup>
       </nav>
 
       {/* Footer */}
@@ -187,7 +268,7 @@ function SidebarContent({
               {fallbackEmail}
             </p>
           </div>
-          {(user?.publicMetadata?.isPaid === true) && (
+          {user?.publicMetadata?.isPaid === true && (
             <span style={{
               fontSize: 10, fontWeight: 600,
               fontFamily: "'Geist', system-ui, sans-serif",
@@ -219,24 +300,24 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <DashboardContext.Provider value={{ activeCategory, searchQuery }}>
+    <DashboardContext.Provider value={{ activeCategory, setActiveCategory, searchQuery }}>
+      <UserSync />
       <div style={{
         display: "flex",
         flexDirection: "column",
-        height: "100vh", // Lock to viewport height
-        overflow: "hidden", // Disable global scroll
+        height: "100vh",
+        overflow: "hidden",
         background: "#fff",
         fontFamily: "'Geist', system-ui, sans-serif",
       }}>
 
-        {/* ────── STICKY TOPBAR ────── */}
         <header className="dashboard-header" style={{
           position: "sticky",
           top: 0,
           zIndex: 40,
           background: "#fff",
           borderBottom: "1px solid #EBEBEB",
-          height: 108, // Exactly as requested
+          height: 108,
           display: "flex",
           alignItems: "center",
           paddingLeft: 0,
@@ -244,9 +325,8 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
           flexShrink: 0,
         }}>
 
-          {/* Logo zone — same width as sidebar so content aligns */}
           <div style={{
-            width: 280, // Exactly as requested
+            width: 280,
             flexShrink: 0,
             display: "flex",
             alignItems: "center",
@@ -284,7 +364,6 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
             </Link>
           </div>
 
-          {/* Search */}
           <div style={{ position: "relative", flex: 1, maxWidth: 400, marginLeft: 16 }} className="search-container">
             <Search style={{
               position: "absolute", left: 12, top: "50%",
@@ -339,7 +418,6 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
 
           <div style={{ flex: 1 }} />
 
-          {/* Right side items */}
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <div style={{
               display: "flex", alignItems: "center", gap: 6,
@@ -377,19 +455,17 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
           </div>
         </header>
 
-        {/* ────── BODY ────── */}
         <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>
 
-          {/* Desktop Sidebar */}
           <aside
             className="desktop-sidebar"
             style={{
-              width: 280, // Exactly as requested
+              width: 280,
               flexShrink: 0,
               background: "#fff",
               borderRight: "1px solid #EBEBEB",
-              height: "100%", // Take full height of parent
-              overflow: "hidden", // Disable scrolling for entire sidebar
+              height: "100%",
+              overflow: "hidden",
             }}
           >
             <SidebarContent
@@ -399,7 +475,6 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
             />
           </aside>
 
-          {/* Mobile Overlay Sidebar */}
           {sidebarOpen && (
             <div
               style={{
@@ -463,7 +538,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
           .desktop-sidebar { display: none !important; }
           .sidebar-logo-zone { display: none !important; }
           .dashboard-header { 
-            height: 64px !important; // Reduced from 72 for sleeker mobile look
+            height: 64px !important;
             padding: 0 12px !important; 
           }
           .main-content { padding: 16px !important; }

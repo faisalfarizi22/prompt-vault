@@ -3,20 +3,22 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useDashboard } from "./context";
 import { PromptCard } from "@/components/PromptCard";
-// import { 
-//   DashboardBanner, 
-//   CampaignPopup, 
-//   ReferralWidget,
-//   CampaignChallengeSection,
-//   CampaignFloatingBadge,
-//   CampaignRulesDetail,
-//   LeaderboardView
-// } from "@/components/VideoCampaignBanner";
+import { 
+  DashboardBanner, 
+  CampaignPopup, 
+  ReferralWidget,
+  CampaignChallengeSection,
+  CampaignFloatingBadge,
+  CampaignRulesDetail,
+  LeaderboardView
+} from "@/components/VideoCampaignBanner";
 import { PromptSidePanel } from "@/components/PromptSidePanel";
 import { PricingModal } from "@/components/PricingModal";
 import { DashboardPreviewBanner } from "@/components/DashboardPreviewBanner";
 import { useUser } from "@clerk/nextjs";
 import { ChevronLeft, ChevronRight, Loader2, SearchX, Layers } from "lucide-react";
+import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 interface Prompt {
   id: number;
@@ -40,7 +42,24 @@ interface ApiResponse {
 const PAGE_SIZE = 24;
 
 export default function DashboardPage() {
+  return (
+    <Suspense fallback={<div style={{ padding: 40, color: "#94A3B8" }}>Loading dashboard...</div>}>
+      <DashboardContent />
+    </Suspense>
+  );
+}
+
+function DashboardContent() {
   const { activeCategory, setActiveCategory, searchQuery } = useDashboard();
+  const searchParams = useSearchParams();
+
+  // Handle category deep-link
+  useEffect(() => {
+    const cat = searchParams.get("category");
+    if (cat && ["All", "Campaign", "Referral", "Leaderboard"].includes(cat)) {
+      setActiveCategory(cat);
+    }
+  }, [searchParams, setActiveCategory]);
   const [data, setData] = useState<ApiResponse | null>(null);
   const [selectedPrompt, setSelectedPrompt] = useState<Prompt | null>(null);
   const [page, setPage] = useState(1);
@@ -108,10 +127,11 @@ export default function DashboardPage() {
     return pages;
   };
 
-  // Special State: Campaign View (Commenting out for GitHub push)
-  /*
+  // --- View Rendering Logic ---
+  let mainContent = null;
+
   if (activeCategory === "Campaign") {
-    return (
+    mainContent = (
       <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
          <CampaignPopup 
             isPaid={isPaid} 
@@ -137,13 +157,8 @@ export default function DashboardPage() {
          />
       </div>
     );
-  }
-  */
-
-  // Special State: Referral Hub (Commenting out for GitHub push)
-  /*
-  if (activeCategory === "Referral" && isPaid) {
-    return (
+  } else if (activeCategory === "Referral" && isPaid) {
+    mainContent = (
       <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
          <div style={{ marginBottom: 48 }}>
             <h1 style={{ fontSize: 48, fontWeight: 900, letterSpacing: "-0.06em", color: "#1E293B", marginBottom: 12 }}>Referral Hub</h1>
@@ -152,11 +167,8 @@ export default function DashboardPage() {
          <ReferralWidget isPaid={isPaid} onUpgrade={() => setShowPricingModal(true)} />
       </div>
     );
-  }
-
-  // Special State: Leaderboard View (Commenting out for GitHub push)
-  if (activeCategory === "Leaderboard") {
-    return (
+  } else if (activeCategory === "Leaderboard") {
+    mainContent = (
       <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
          <div style={{ marginBottom: 48 }}>
             <h1 style={{ fontSize: 48, fontWeight: 900, letterSpacing: "-0.06em", color: "#1E293B", marginBottom: 12 }}>Live Ranking</h1>
@@ -165,259 +177,168 @@ export default function DashboardPage() {
          <LeaderboardView />
       </div>
     );
-  }
-  */
-
-  return (
-    <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
-      {/* 
-      {activeCategory === "All" && (
-        <DashboardBanner 
-            isPaid={isPaid} 
-            onUpgrade={() => setShowPricingModal(true)}
-            onJoin={() => setActiveCategory("Campaign")} 
+  } else {
+    mainContent = (
+      <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
+        {activeCategory === "All" && (
+          <DashboardBanner 
+              isPaid={isPaid} 
+              onUpgrade={() => setShowPricingModal(true)}
+              onJoin={() => setActiveCategory("Campaign")} 
+          />
+        )}
+        <CampaignPopup 
+          isPaid={isPaid}
+          onUpgrade={() => setShowPricingModal(true)}
+          onJoin={() => setActiveCategory("Campaign")} 
         />
-      )}
-      <CampaignPopup 
-        isPaid={isPaid}
-        onUpgrade={() => setShowPricingModal(true)}
-        onJoin={() => setActiveCategory("Campaign")} 
-      />
-      */}
-      <DashboardPreviewBanner />
-      {/* <CampaignFloatingBadge onClick={() => setActiveCategory("Campaign")} /> */}
+        <DashboardPreviewBanner />
+        <CampaignFloatingBadge onClick={() => setActiveCategory("Campaign")} />
 
-      <div style={{
-        display: "flex",
-        alignItems: "flex-end",
-        justifyContent: "space-between",
-        marginBottom: 40,
-        marginTop: 12,
-      }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <div style={{ 
-                width: 52, height: 52, borderRadius: 16, background: "#fff", 
-                border: "1px solid rgba(0,0,0,0.05)", display: "flex", 
-                alignItems: "center", justifyContent: "center",
-                boxShadow: "0 10px 25px -10px rgba(0,0,0,0.05)"
-            }}>
-                <Layers style={{ width: 24, height: 24, color: "#10B981" }} />
-            </div>
-            <div>
-            <h1 style={{
-                fontSize: 38,
-                fontWeight: 900,
-                letterSpacing: "-0.06em",
-                color: "#1E293B",
-                lineHeight: 1,
-                marginBottom: 10,
-                margin: 0
-            }}>
-                {activeCategory === "All" ? "Featured Vault" : activeCategory}
-            </h1>
-            <p style={{
-                fontSize: 15, color: "#94A3B8", fontWeight: 600,
-                letterSpacing: "-0.01em", margin: 0, marginTop: 4
-            }}>
-                {loading
-                ? "Synchronizing collection..."
-                : data
-                    ? `${data.total.toLocaleString()} unique prompts curated for you`
-                    : ""}
-            </p>
-            </div>
+        <div style={{
+          display: "flex",
+          alignItems: "flex-end",
+          justifyContent: "space-between",
+          marginBottom: 40,
+          marginTop: 12,
+        }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+              <div style={{ 
+                  width: 52, height: 52, borderRadius: 16, background: "#fff", 
+                  border: "1px solid rgba(0,0,0,0.05)", display: "flex", 
+                  alignItems: "center", justifyContent: "center",
+                  boxShadow: "0 10px 25px -10px rgba(0,0,0,0.05)"
+              }}>
+                  <Layers style={{ width: 24, height: 24, color: "#10B981" }} />
+              </div>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                  <h2 style={{ fontSize: 24, fontWeight: 900, color: "#1e293b", margin: 0, letterSpacing: "-0.03em" }}>{activeCategory} Prompts</h2>
+                  <span style={{ fontSize: 13, color: "#64748b", fontWeight: 600 }}>{data?.total || 0} Premium Vaults</span>
+              </div>
+          </div>
         </div>
 
-        {loading && (
+        <div 
+          ref={gridRef}
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fill, minmax(360px, 1fr))",
+            gap: 24,
+            marginBottom: 60,
+          }}
+        >
+          {loading &&
+            Array.from({ length: 12 }).map((_, i) => (
+              <div key={i} style={{ background: "#fff", height: 200, borderRadius: 32, padding: 24, border: "1px solid rgba(0,0,0,0.05)", display: "flex", flexDirection: "column" }}>
+                <div style={{ padding: "0 8px" }}>
+                  <div className="skeleton" style={{ height: 28, width: "80%", marginBottom: 16 }} />
+                  <div className="skeleton" style={{ height: 16, width: "95%", marginBottom: 10 }} />
+                  <div className="skeleton" style={{ height: 16, width: "70%" }} />
+                </div>
+                <div style={{ marginTop: "auto", display: "flex", justifyContent: "space-between", padding: "16px 8px" }}>
+                  <div className="skeleton" style={{ height: 14, width: 70 }} />
+                  <div className="skeleton" style={{ height: 38, width: 90, borderRadius: 100 }} />
+                </div>
+              </div>
+            ))}
+
+          {!loading &&
+            data?.items.map((prompt, i) => (
+              <div
+                key={prompt.id}
+                className="animate-fadein-up"
+                style={{ animationDelay: `${(i % 12) * 40}ms` }}
+              >
+                <PromptCard 
+                  {...prompt} 
+                  isLocked={prompt.isLocked}
+                  isPaid={isPaid}
+                  onSelect={() => {
+                    if (prompt.isLocked) {
+                      setShowPricingModal(true);
+                    } else {
+                      setSelectedPrompt(prompt);
+                    }
+                  }} 
+                />
+              </div>
+            ))}
+        </div>
+
+        {!loading && data && data.totalPages > 1 && (
           <div style={{
-            display: "flex", alignItems: "center", gap: 10,
-            fontSize: 13, fontWeight: 700,
-            padding: "10px 20px", borderRadius: 100,
-            color: "#059669", background: "#ECFDF5", border: "1px solid #D1FAE5",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 12,
+            marginTop: 80,
+            paddingBottom: 60,
           }}>
-            <Loader2 style={{ width: 14, height: 14, animation: "spin 1s linear infinite" }} />
-            Live Update
+            <button
+              disabled={page <= 1}
+              onClick={() => goToPage(page - 1)}
+              style={{
+                display: "flex", alignItems: "center", gap: 8,
+                fontSize: 14, fontWeight: 800,
+                padding: "12px 24px", borderRadius: 18,
+                border: "1px solid rgba(0,0,0,0.08)",
+                background: "#fff", color: page <= 1 ? "#cbd5e1" : "#1e293b",
+                cursor: page <= 1 ? "not-allowed" : "pointer",
+                transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+              }}
+            >
+              <ChevronLeft size={18} /> Prev
+            </button>
+            
+            <div style={{ display: "flex", gap: 6 }}>
+              {getPages(page, data.totalPages).map((p, i) => (
+                <button
+                  key={i}
+                  disabled={p === "…"}
+                  onClick={() => typeof p === "number" && goToPage(p)}
+                  style={{
+                    width: 44, height: 44, borderRadius: 12, border: "none",
+                    background: p === page ? "#1e293b" : "transparent",
+                    color: p === page ? "#fff" : (p === "…" ? "#cbd5e1" : "#64748b"),
+                    fontSize: 14, fontWeight: 700, cursor: p === "…" ? "default" : "pointer",
+                    transition: "all 0.2s",
+                  }}
+                >
+                  {p}
+                </button>
+              ))}
+            </div>
+
+            <button
+              disabled={page >= data.totalPages}
+              onClick={() => goToPage(page + 1)}
+              style={{
+                display: "flex", alignItems: "center", gap: 8,
+                fontSize: 14, fontWeight: 800,
+                padding: "12px 24px", borderRadius: 18,
+                border: "1px solid rgba(0,0,0,0.08)",
+                background: "#fff", color: page >= data.totalPages ? "#cbd5e1" : "#1e293b",
+                cursor: page >= data.totalPages ? "not-allowed" : "pointer",
+                transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
+              }}
+            >
+              Next <ChevronRight size={18} />
+            </button>
           </div>
         )}
       </div>
+    );
+  }
 
-      {!loading && data && data.items.length === 0 && (
-        <div style={{
-          textAlign: "center",
-          padding: "120px 40px",
-          borderRadius: 40,
-          background: "#fff",
-          border: "1px solid rgba(0,0,0,0.04)",
-          color: "#64748B",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-          boxShadow: "0 20px 50px rgba(0,0,0,0.02)"
-        }}>
-          <div style={{ 
-            width: 80, height: 80, borderRadius: 24, background: "#F8FAFC", 
-            display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 32 
-          }}>
-            <SearchX style={{ width: 40, height: 40, color: "#94A3B8" }} />
-          </div>
-          <h3 style={{
-            fontWeight: 900, fontSize: 24,
-            color: "#0F172A", marginBottom: 12,
-            letterSpacing: "-0.04em"
-          }}>
-            Collection Not Found
-          </h3>
-          <p style={{
-            fontSize: 16,
-            maxWidth: 400,
-            lineHeight: 1.7,
-            margin: "0 auto",
-            color: "#64748B",
-            fontWeight: 500
-          }}>
-            Kami tidak dapat menemukan hasil untuk pencarian Anda. Coba hapus filter atau gunakan kata kunci yang berbeda.
-          </p>
-        </div>
-      )}
+  return (
+    <>
+      {mainContent}
 
-      <div
-        ref={gridRef}
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
-          gap: 32,
-        }}
-        className="prompt-grid"
-      >
-        {loading &&
-          Array.from({ length: 6 }).map((_, i) => (
-            <div key={`sk-${i}`} style={{
-              background: "#fff",
-              border: "1px solid rgba(0,0,0,0.04)",
-              borderRadius: 28,
-              padding: 14,
-              display: "flex",
-              flexDirection: "column",
-              gap: 18,
-              height: 420
-            }}>
-              <div className="skeleton" style={{ height: 180, borderRadius: 22, width: "100%" }} />
-              <div style={{ padding: "0 8px" }}>
-                <div className="skeleton" style={{ height: 28, width: "80%", marginBottom: 16 }} />
-                <div className="skeleton" style={{ height: 16, width: "95%", marginBottom: 10 }} />
-                <div className="skeleton" style={{ height: 16, width: "70%" }} />
-              </div>
-              <div style={{ marginTop: "auto", display: "flex", justifyContent: "space-between", padding: "16px 8px" }}>
-                <div className="skeleton" style={{ height: 14, width: 70 }} />
-                <div className="skeleton" style={{ height: 38, width: 90, borderRadius: 100 }} />
-              </div>
-            </div>
-          ))}
-
-        {!loading &&
-          data?.items.map((prompt, i) => (
-            <div
-              key={prompt.id}
-              className="animate-fadein-up"
-              style={{ animationDelay: `${(i % 12) * 40}ms` }}
-            >
-              <PromptCard 
-                {...prompt} 
-                isLocked={prompt.isLocked}
-                onSelect={() => {
-                  if (prompt.isLocked) {
-                    setShowPricingModal(true);
-                  } else {
-                    setSelectedPrompt(prompt);
-                  }
-                }} 
-              />
-            </div>
-          ))}
-      </div>
-
-      <PromptSidePanel prompt={selectedPrompt} onClose={() => setSelectedPrompt(null)} />
-      
+      <PromptSidePanel prompt={selectedPrompt} isPaid={isPaid} onClose={() => setSelectedPrompt(null)} />
       <PricingModal 
         isOpen={showPricingModal} 
         onClose={() => setShowPricingModal(false)} 
       />
-
-      {!loading && data && data.totalPages > 1 && (
-        <div style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          gap: 12,
-          marginTop: 80,
-          paddingBottom: 60,
-        }}>
-          <button
-            disabled={page <= 1}
-            onClick={() => goToPage(page - 1)}
-            style={{
-              display: "flex", alignItems: "center", gap: 8,
-              fontSize: 14, fontWeight: 800,
-              padding: "12px 24px", borderRadius: 18,
-              border: "1px solid rgba(0,0,0,0.08)",
-              background: "#fff", color: page <= 1 ? "#cbd5e1" : "#1e293b",
-              cursor: page <= 1 ? "not-allowed" : "pointer",
-              transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
-            }}
-            className="pg-btn"
-          >
-            <ChevronLeft style={{ width: 18, height: 18 }} /> Prev
-          </button>
-
-          <div style={{ display: "flex", gap: 8, background: "rgba(0,0,0,0.04)", padding: 8, borderRadius: 22 }}>
-            {getPages(page, data.totalPages).map((n, i) =>
-              n === "…" ? (
-                <span key={`ellipsis-${i}`} style={{
-                  width: 44, height: 44, display: "flex", alignItems: "center", justifyContent: "center",
-                  fontSize: 15, color: "#94A3B8", fontWeight: 800,
-                }}>…</span>
-              ) : (
-                <button
-                  key={n}
-                  onClick={() => goToPage(Number(n))}
-                  style={{
-                    width: 44, height: 44,
-                    borderRadius: 16,
-                    fontSize: 14,
-                    fontWeight: 900,
-                    border: "none",
-                    background: n === page ? "#0F172A" : "transparent",
-                    color: n === page ? "#fff" : "#64748B",
-                    cursor: "pointer",
-                    transition: "all 0.3s",
-                  }}
-                  className="pg-num"
-                >
-                  {n}
-                </button>
-              )
-            )}
-          </div>
-
-          <button
-            disabled={page >= data.totalPages}
-            onClick={() => goToPage(page + 1)}
-            style={{
-              display: "flex", alignItems: "center", gap: 8,
-              fontSize: 14, fontWeight: 800,
-              padding: "12px 24px", borderRadius: 18,
-              border: "1px solid rgba(0,0,0,0.08)",
-              background: "#fff", color: page >= data.totalPages ? "#cbd5e1" : "#1e293b",
-              cursor: page >= data.totalPages ? "not-allowed" : "pointer",
-              transition: "all 0.3s cubic-bezier(0.16, 1, 0.3, 1)",
-            }}
-            className="pg-btn"
-          >
-            Next <ChevronRight style={{ width: 18, height: 18 }} />
-          </button>
-        </div>
-      )}
 
       <style jsx global>{`
         @keyframes spin { to { transform: rotate(360deg); } }
@@ -435,6 +356,6 @@ export default function DashboardPage() {
           .prompt-grid { grid-template-columns: 1fr !important; gap: 24px !important; }
         }
       `}</style>
-    </div>
-  );
+      </>
+    );
 }

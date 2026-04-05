@@ -19,10 +19,14 @@ export async function GET() {
 
     if (!currentUser) return NextResponse.json({ error: "User not found" }, { status: 404 });
 
-    // 2. Define Scoring Formula Logic
+    // 2. Define High-Fidelity Scoring Formula Logic
     const calculatePoints = (refs: number, views: number) => {
-        const refPoints = refs * 100;
-        const viralPoints = Math.min(Math.floor(views / 1000) * 10, 1000);
+        const refPoints = refs * 100; // 1 Referral = 100 Points
+        
+        // Virality Scaling: 1 point per 100 views. 
+        // Max limit of 10,000 points from views (requires 1,000,000 views) to prevent bot inflation.
+        const viralPoints = Math.min(Math.floor(views / 100), 10000); 
+        
         return refPoints + viralPoints;
     };
 
@@ -56,8 +60,7 @@ export async function GET() {
     let userMaxViews = 0;
 
     try {
-        /*
-        // Hybrid Logic (Commented out for push)
+        // Hybrid Logic
         const topUsers: any[] = await (prisma as any).$queryRaw`
           SELECT 
             u.id, 
@@ -71,22 +74,13 @@ export async function GET() {
             ), 0) as "maxViews"
           FROM "User" u
         `;
-        */
-
-        // Basic Logic for Push
-        const topUsers: any[] = await (prisma as any).$queryRaw`
-          SELECT 
-            u.id, u.name, u.email,
-            (SELECT COUNT(*) FROM "User" r WHERE r."referredById" = u.id AND r."isPaid" = true) as "referralCount"
-          FROM "User" u
-        `;
 
         realUsers = topUsers.map(u => ({
             id: u.id,
             name: u.name || u.email.split("@")[0],
             referrals: Number(u.referralCount),
-            views: 0,
-            points: Number(u.referralCount),
+            views: Number(u.maxViews),
+            points: calculatePoints(Number(u.referralCount), Number(u.maxViews)),
             isMe: u.id === currentUser.id
         }));
 

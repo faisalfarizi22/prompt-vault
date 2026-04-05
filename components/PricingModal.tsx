@@ -25,6 +25,7 @@ export function PricingModal({ isOpen, onClose }: PricingModalProps) {
         <>
           {/* Backdrop */}
           <motion.div
+            key="pricing-modal-backdrop"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -39,7 +40,9 @@ export function PricingModal({ isOpen, onClose }: PricingModalProps) {
           />
 
           {/* Modal Container */}
-          <div style={{
+          <div 
+            key="pricing-modal-container"
+            style={{
             position: "fixed",
             inset: 0,
             display: "flex",

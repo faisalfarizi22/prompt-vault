@@ -1,6 +1,6 @@
 [
   {
-    "category": "Cyberpunk & Futuristic Concepts",
+    "category": "Image Generation",
     "title": "Cyberpunk City at Neon-Drenched Midnight",
     "content": "Ultra-sharp 8K cinematic shot of a [subject] in a sprawling cyberpunk metropolis at neon-drenched midnight. Rain-slicked streets reflecting holographic advertisements. Volumetric god rays, atmospheric fog rolling. Camera: Arri Alexa 65, 35mm lens. Lighting: Cyan and Magenta dual-tone. Style: Photorealistic Futurism v6.1.",
     "isPremium": false,
@@ -9,13 +9,14 @@
       "Urban",
       "Neon",
       "Futuristic",
-      "Photorealistic"
+      "Photorealistic",
+      "Cyberpunk & Futuristic Concepts"
     ],
     "detail": "### 🎨 Blueprint Prompt: Cyberpunk & Futuristic Concepts\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Kota cyberpunk yang luas saat tengah malam, gedung pencakar langit tertutup tanda neon bercahaya dalam warna magenta, cyan, dan emas, kendaraan terbang meninggalkan jejak cahaya, jalanan basah hujan memantulkan iklan holografik, kabut tebal mengalir di antara bangunan, arsitektur ultra-detail dengan pipa dan kabel terbuka, cinematic depth of field, atmospheric god rays, render fotorealistik. Negatif: buram, cacat, resolusi rendah, watermark, pencahayaan flat, kartun, oversaturated."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Ethereal Forest Spirit at Golden Hour",
     "content": "Candid 8K lifestyle photograph of [People/Scene] at golden hour. Warm, nostalgic film grain (Kodak Portra 400 aesthetic). Natural lighting, soft bokeh. 35mm lens, high-fidelity textures. Professional commercial photography quality.",
     "isPremium": false,
@@ -24,13 +25,14 @@
       "Spirit",
       "Forest",
       "Golden Hour",
-      "Digital Art"
+      "Digital Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Roh hutan yang bercahaya muncul dari pepohonan kuno, tubuh tembus pandang ditenun dari cahaya emas dan daun gugur, rambut panjang mengalir terbuat dari sulur dan bunga mekar, berdiri di hutan tua berkabut saat golden hour, sinar matahari volumetrik menyaring melalui kanopi, partikel bioluminesen melayang di udara, gaya digital art bergaya lukisan, detail ultra-tinggi, fantasy realism."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Macro Close-Up of Water Droplet Ecosystem",
     "content": "Extreme macro photograph of a single water droplet on a spider's silk thread, inside the droplet a miniature forest ecosystem is reflected in perfect detail, surrounded by dew drops on a spiderweb at dawn, bokeh background of soft purple and green hues, hyper-detailed, 8K resolution, National Geographic quality, natural light, award-winning macro photography. Negative: blurry droplet, deformed reflection, noisy, low detail, flat, artificial lighting artifacts.",
     "isPremium": true,
@@ -39,13 +41,14 @@
       "Photography",
       "Nature",
       "Water",
-      "Abstract"
+      "Abstract",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ekstrem dari setetes air di benang sutra laba-laba, di dalam tetesan air tercermin ekosistem hutan mini dalam detail sempurna, dikelilingi tetes embun di jaring laba-laba saat fajar, latar belakang bokeh bernuansa ungu dan hijau lembut, hyper-detailed, resolusi 8K, kualitas National Geographic, cahaya alami, foto makro pemenang penghargaan."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Afrofuturistic Warrior Queen Portrait",
     "content": "Editorial fashion portrait of a [Model Persona] for Vogue. Wearing avant-garde [Style/Material] couture. High-contrast studio lighting (Chiaroscuro). Extreme facial detail, skin pores visible. 8K, Hasselblad H6D quality. Background: Minimalist matte grey. Fashion editorial depth-of-field.",
     "isPremium": false,
@@ -54,13 +57,14 @@
       "Portrait",
       "Warrior",
       "Fashion",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret ratu pejuang Afrofuturistik yang agung, dihiasi baju zirah emas geometris yang menyatu dengan pola tribal, mata kuning bercahaya, hiasan kepala rumit yang menggabungkan motif Afrika tradisional dengan elemen futuristik kristalin, cat wajah dengan garis bioluminesen, latar belakang sabana alien dua matahari saat senja, detail wajah ultra-tajam, pencahayaan sinematik, fotografi fashion editorial bertemu seni konsep fiksi ilmiah."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Solarpunk Vertical Garden City",
     "content": "Hyper-realistic architectural photography of a [Building Type] designed by Zaha Hadid. Blending brutalist concrete with lush vertical gardens. Mid-day golden hour sun casting soft shadows. 8K, HDR, wide-angle lens. Atmosphere: Utopian Solarpunk. Minimalist interior decoration.",
     "isPremium": false,
@@ -69,13 +73,14 @@
       "Utopia",
       "Architecture",
       "Sustainability",
-      "Digital Painting"
+      "Digital Painting",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Kota solarpunk yang semarak di mana setiap bangunan adalah taman vertikal, menara kaca surya yang dihiasi tanaman gantung dan air terjun bertingkat, warga berpakaian fashion berkelanjutan berwarna-warni berjalan di jalan layang dari kayu hidup, drone surya mengantarkan barang, langit biru jernih dengan gedung pencakar langit berturbin angin, sinar matahari emas hangat, vegetasi lebat di setiap celah, atmosfer penuh harapan dan utopis, wide establishing shot, lukisan digital, ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Hyperrealistic Ocean Bioluminescence at Night",
     "content": "Night ocean scene with breathtaking bioluminescent waves crashing on a black sand beach, electric blue and turquoise glowing plankton illuminating the surf, Milky Way visible in the crystal-clear sky above, silhouette of a lone figure standing in the glowing shallows, long-exposure photography style, 8K, ultra-realistic, award-winning nature photography. Negative: overexposed, artificial glow, flat water, city light pollution visible, blurry stars.",
     "isPremium": true,
@@ -84,13 +89,14 @@
       "Ocean",
       "Night",
       "Nature",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Pemandangan laut malam dengan ombak bioluminesen yang memukau menghantam pantai berpasir hitam, plankton bercahaya biru elektrik dan toska menerangi ombak, Bima Sakti terlihat di langit jernih di atas, siluet sosok sendirian berdiri di perairan dangkal bercahaya, gaya fotografi long-exposure, 8K, ultra-realistis, fotografi alam pemenang penghargaan."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "AI-Generated Alien Coral Reef Landscape",
     "content": "Alien underwater landscape resembling a coral reef but entirely otherworldly, crystalline structures in deep violet and orange, translucent sea creatures with geometric bioluminescent patterns, massive archways of alien rock formations, shafts of filtered alien-sun light from above, photorealistic underwater render, extreme detail, 8K, concept art for a science fiction film. Negative: Earth-like coral, blurry, low resolution, cartoonish, washed-out colors.",
     "isPremium": true,
@@ -99,13 +105,14 @@
       "Underwater",
       "Sci-Fi",
       "Concept Art",
-      "Bioluminescence"
+      "Bioluminescence",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Lanskap bawah air alien yang menyerupai terumbu karang tetapi sepenuhnya asing, struktur kristal dalam warna violet dan oranye tua, makhluk laut tembus pandang dengan pola bioluminesen geometris, lengkungan besar formasi batu alien, berkas cahaya matahari alien tersaring dari atas, render bawah air fotorealistik, detail ekstrem, 8K, seni konsep untuk film fiksi ilmiah."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Floating Island Chain in Pastel Sky",
     "content": "A breathtaking chain of floating islands suspended in a pastel-colored sky at sunset, each island with its own micro-ecosystem — waterfalls pouring into the clouds below, ancient stone temples, lush tropical vegetation, tiny villages with warm glowing windows, connected by rope bridges and sky boats, dreamy atmospheric haze, Studio Ghibli-inspired digital art with photorealistic lighting, ultra-wide angle, beautiful color grading. Negative: blurry, deformed terrain, dark and gloomy, modern urban elements.",
     "isPremium": true,
@@ -114,13 +121,14 @@
       "Floating Islands",
       "Ghibli",
       "Landscape",
-      "Digital Art"
+      "Digital Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Rangkaian pulau terapung yang memukau tergantung di langit berpastel saat matahari terbenam, setiap pulau dengan ekosistem mikro sendiri — air terjun mengalir ke awan di bawah, kuil batu kuno, vegetasi tropis lebat, desa-desa kecil dengan jendela berpendar hangat, dihubungkan oleh jembatan tali dan perahu langit, kabut atmosferik yang indah, digital art terinspirasi Studio Ghibli dengan pencahayaan fotorealistik, sudut ultra-lebar, color grading yang indah."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Brutalist Architecture Meets Nature Overgrowth",
     "content": "Abandoned brutalist concrete megastructure completely overtaken by lush tropical jungle, vines and roots splitting massive concrete slabs, ferns and mosses covering every surface, dramatic shafts of sunlight cutting through gaps in the ceiling, crystal-clear pool formed in the flooded lower level, ultra-detailed architectural photography, HDR, cinematic atmosphere, documentary photography aesthetic. Negative: clean or maintained building, people, flat lighting, cartoonish, oversaturated.",
     "isPremium": true,
@@ -129,13 +137,14 @@
       "Brutalism",
       "Nature",
       "Abandoned",
-      "Photography"
+      "Photography",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Megastruktur beton brutalis terbengkalai yang sepenuhnya dikuasai hutan tropis yang lebat, sulur dan akar membelah lempengan beton besar, pakis dan lumut menutupi setiap permukaan, berkas sinar matahari dramatis memotong celah di langit-langit, kolam jernih terbentuk di lantai bawah yang terendam, fotografi arsitektur ultra-detail, HDR, atmosfer sinematik, estetika fotografi dokumenter."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Traditional Japanese Tea House in Winter",
     "content": "A serene traditional Japanese tea house in the midst of a snowy winter garden, bamboo grove dusted with snow, stone lanterns glowing with warm orange light, perfectly raked gravel garden now snow-covered, steam rising from the tea house interior visible through shoji screens, a single red maple leaf on the snow, twilight blue sky, film photography aesthetic, ultra-sharp, poetic minimalism, Hiroshi Sugimoto-inspired. Negative: modern elements, cluttered, oversaturated, lens flare, blurry.",
     "isPremium": true,
@@ -144,13 +153,14 @@
       "Winter",
       "Architecture",
       "Minimalism",
-      "Photography"
+      "Photography",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Rumah teh tradisional Jepang yang tenang di tengah taman musim dingin bersalju, kebun bambu tertaburi salju, lentera batu bersinar dengan cahaya oranye hangat, taman kerikil yang disapu dengan sempurna kini tertutup salju, uap yang naik dari interior rumah teh terlihat melalui layar shoji, sehelai daun maple merah di atas salju, langit biru senja, estetika fotografi film, ultra-tajam, minimalisme puitis, terinspirasi Hiroshi Sugimoto."
   },
   {
-    "category": "Cyberpunk & Futuristic Concepts",
+    "category": "Image Generation",
     "title": "Cybernetic Dragon Over Futuristic Tokyo",
     "content": "A colossal cybernetic dragon made of chrome and glowing circuit boards soaring above a futuristic Tokyo skyline at night, neon lights reflecting on its metallic scales, lightning crackling from its wings, crowded streets below illuminated by holographic projections, ultra-detailed creature design, dramatic low-angle perspective, cinematic lighting, concept art for a AAA game. Negative: blurry, deformed anatomy, low resolution, inconsistent lighting, generic dragon design.",
     "isPremium": true,
@@ -159,13 +169,14 @@
       "Cyberpunk",
       "Tokyo",
       "Creature Design",
-      "Concept Art"
+      "Concept Art",
+      "Cyberpunk & Futuristic Concepts"
     ],
     "detail": "### 🎨 Blueprint Prompt: Cyberpunk & Futuristic Concepts\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Naga sibernetik kolosal terbuat dari krom dan papan sirkuit bercahaya melayang di atas cakrawala Tokyo futuristik pada malam hari, cahaya neon memantul pada sisik metaliknya, kilat berderak dari sayapnya, jalanan padat di bawah diterangi proyeksi holografik, desain makhluk ultra-detail, perspektif sudut rendah yang dramatis, pencahayaan sinematik, seni konsep untuk game AAA."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Luxury Perfume Product Shot",
     "content": "Ultra-luxury perfume bottle product photography, dark obsidian bottle with gold filigree cap, sitting on a bed of dried roses and black velvet, surrounded by scattered pearls and gold dust particles, single dramatic spotlight creating deep moody shadows, macro details of glass texture, a few drops of liquid visible at the bottom, background is deep midnight blue gradient, commercial product photography, 8K, ultra-sharp. Negative: harsh reflections, blown-out highlights, blurry glass, cheap-looking, white background.",
     "isPremium": true,
@@ -174,13 +185,14 @@
       "Luxury",
       "Perfume",
       "Commercial",
-      "Dark Aesthetic"
+      "Dark Aesthetic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Fotografi produk parfum ultra-mewah, botol obsidian gelap dengan tutup filigree emas, duduk di atas hamparan mawar kering dan beludru hitam, dikelilingi mutiara berserakan dan partikel debu emas, satu sorotan dramatis menciptakan bayangan dramatis yang dalam, detail makro tekstur kaca, beberapa tetes cairan terlihat di bagian bawah, latar belakang gradien biru tengah malam dalam, fotografi produk komersial, 8K, ultra-tajam."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Ancient Egyptian Gods in Modern Dubai",
     "content": "Ancient Egyptian gods Anubis and Ra walking through modern Dubai's skyline, massive divine beings dressed in traditional regalia but carrying holographic staffs, the Burj Khalifa beside them, golden sunlight and sandstorm mixing with neon reflections, crowds of modern people watching in awe, photo-real cinematic scene, blending mythology and modernity seamlessly, dramatic epic scale. Negative: cartoonish, blurry, inconsistent scale, flat, cheap visual effects.",
     "isPremium": true,
@@ -189,13 +201,14 @@
       "Egypt",
       "Dubai",
       "Epic",
-      "Cinematic"
+      "Cinematic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Dewa-dewa Mesir kuno Anubis dan Ra berjalan melalui cakrawala Dubai modern, makhluk ilahi besar berpakaian regalia tradisional tetapi membawa tongkat holografik, Burj Khalifa di samping mereka, sinar matahari emas dan badai pasir bercampur dengan pantulan neon, kerumunan orang modern menonton dengan kagum, adegan sinematik foto-nyata, memadukan mitologi dan modernitas secara mulus, skala epik dramatis."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Deep Sea Anglerfish Bioluminescence Portrait",
     "content": "Close-up portrait of a deep sea anglerfish emerging from absolute darkness, its bioluminescent lure casting an eerie blue-green glow across its terrifying translucent teeth, skin textured with intricate bio-patterns, dozens of tiny glowing deep sea organisms floating around it, ink-black water background, hyper-detailed macro photography style, terrifying yet beautiful, 8K. Negative: cartoonish, low detail, bright background, cute representation, flat texture.",
     "isPremium": true,
@@ -204,13 +217,14 @@
       "Bioluminescence",
       "Macro",
       "Nature",
-      "Dark Beauty"
+      "Dark Beauty",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret close-up ikan angler laut dalam yang muncul dari kegelapan mutlak, umpan bioluminesennya memancarkan cahaya biru-hijau yang menyeramkan di seluruh giginya yang tembus pandang dan menakutkan, kulit bertekstur dengan pola bio yang rumit, lusinan organisme laut dalam bercahaya kecil mengambang di sekitarnya, latar belakang air hitam pekat, gaya fotografi makro hyper-detail, menakutkan namun indah, 8K."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Hyperrealistic Portrait of a Timelord Astronomer",
     "content": "Hyperrealistic portrait of an ancient timelord astronomer, aged face with deep wrinkles mapping centuries of knowledge, eyes glowing with nebula patterns — purple and gold swirling galaxies visible within irises, long silver hair flowing like starlight, wearing dark robes adorned with constellation embroidery, holding an antique orrery that projects actual holographic planets, dramatic side lighting from a single celestial source. Negative: blurry, deformed face, cartoonish, flat eyes, symmetric and perfect face.",
     "isPremium": true,
@@ -219,13 +233,14 @@
       "Fantasy",
       "Astronomy",
       "Character Design",
-      "Hyperrealistic"
+      "Hyperrealistic",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret hyperrealistik dari ahli astronomi timelord kuno, wajah tua dengan kerutan dalam memetakan pengetahuan berabad-abad, mata bercahaya dengan pola nebula — galaksi ungu dan emas berputar terlihat di dalam iris, rambut perak panjang mengalir seperti cahaya bintang, mengenakan jubah gelap dihiasi bordir rasi bintang, memegang orrery antik yang memproyeksikan planet holografik nyata, pencahayaan samping dramatis dari satu sumber langit."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Ice Cave with Aurora Borealis Reflection",
     "content": "Inside a stunning ice cave in Iceland, walls of translucent electric blue glacial ice with intricate fracture patterns, aurora borealis visible through the cave entrance casting green, purple, and pink reflections across all ice surfaces, a narrow path of dark ice leading toward the glowing exit, perfect mirror reflection in a shallow ice pool on the floor, ultra-wide angle, 8K, travel photography style, breathtaking natural wonder. Negative: artificial lighting, blurry ice texture, people in frame, oversaturated.",
     "isPremium": true,
@@ -234,13 +249,14 @@
       "Ice Cave",
       "Aurora",
       "Nature",
-      "Travel Photography"
+      "Travel Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Di dalam gua es yang menakjubkan di Islandia, dinding es glasial biru elektrik tembus pandang dengan pola retakan yang rumit, aurora borealis terlihat melalui pintu masuk gua melemparkan pantulan hijau, ungu, dan merah muda di semua permukaan es, jalan sempit es gelap menuju ke arah pintu keluar yang bercahaya, pantulan cermin sempurna di kolam es dangkal di lantai, sudut ultra-lebar, 8K, gaya fotografi perjalanan, keajaiban alam yang menakjubkan."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Steampunk Airship Fleet at Sunset",
     "content": "A grand fleet of steampunk airships sailing through a dramatic amber and crimson sunset sky, brass and copper hulls gleaming, massive propeller arrays spinning, steam venting from exhaust pipes, crew members visible on deck in Victorian-era attire, clouds lit from beneath in deep orange and purple, a whale-shaped flagship leading the fleet, ultra-detailed, painted digital art, epic wide shot, Jules Verne aesthetic. Negative: modern aircraft, blurry, inconsistent scale, washed-out colors, low detail.",
     "isPremium": true,
@@ -249,13 +265,14 @@
       "Airship",
       "Fantasy",
       "Sunset",
-      "Digital Art"
+      "Digital Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Armada kapal udara steampunk yang megah berlayar melalui langit matahari terbenam amber dan krimson yang dramatis, lambung kuningan dan tembaga berkilau, rangkaian baling-baling besar berputar, uap keluar dari pipa knalpot, awak kapal terlihat di geladak dengan pakaian era Victoria, awan diterangi dari bawah dalam oranye dan ungu tua, kapal unggulan berbentuk paus memimpin armada, ultra-detail, seni digital bergaya lukisan, wide shot epik, estetika Jules Verne."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Photorealistic Galaxy Inside a Glass Sphere",
     "content": "A photorealistic glass sphere sitting on a dark marble surface containing a full miniature galaxy inside — spiral arms of stars and nebulae swirling in deep blue, violet, and gold, glowing from within, casting starlight reflections on the marble surface below, background in perfect bokeh darkness, macro photography, hyper-detailed glass surface with micro-scratches and dust, 8K. Negative: CGI-obvious, flat glow, toy-like, low detail glass, plastic appearance.",
     "isPremium": true,
@@ -264,13 +281,14 @@
       "Glass",
       "Macro",
       "Space",
-      "Photorealistic"
+      "Photorealistic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Bola kaca fotorealistik duduk di permukaan marmer gelap yang berisi galaksi miniatur lengkap di dalamnya — lengan spiral bintang dan nebula berputar dalam biru tua, violet, dan emas, bercahaya dari dalam, memancarkan pantulan cahaya bintang pada permukaan marmer di bawahnya, latar belakang dalam bokeh kegelapan sempurna, fotografi makro, permukaan kaca hyper-detail dengan goresan mikro dan debu, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Mythical Kirin in a Bamboo Forest",
     "content": "A majestic mythical Kirin (Chinese unicorn) walking through a misty bamboo forest at dawn, its body shimmering with gold and jade scales, flame-like mane in soft pastel blue and white, antlers wrapped in glowing moss, ethereal golden light radiating from its hooves with each step, colorful clouds swirling gently around it, delicate cherry blossom petals falling, traditional East Asian painting style meets hyperrealistic detail. Negative: Western unicorn design, blurry, oversaturated, dark tone, cartoonish.",
     "isPremium": true,
@@ -279,13 +297,14 @@
       "Kirin",
       "East Asian",
       "Fantasy",
-      "Digital Art"
+      "Digital Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Kirin (unicorn Tiongkok) mitologis yang megah berjalan melalui hutan bambu berkabut saat fajar, tubuhnya berkilau dengan sisik emas dan giok, surai seperti api dalam biru pastel lembut dan putih, tanduk dibalut lumut bercahaya, cahaya emas ethereal memancar dari kukunya di setiap langkah, awan berwarna-warni berputar lembut di sekitarnya, kelopak bunga sakura lembut jatuh, gaya lukisan Asia Timur tradisional bertemu detail hyperrealistik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Abstract Neural Network Landscape",
     "content": "Abstract digital art depicting a neural network as a vast glowing landscape, nodes as luminous orbs connected by threads of electric light in cyan, gold, and white, infinite depth, fractal patterns branching endlessly into the horizon, a human silhouette standing at the center dwarfed by the network's scale, dark background with deep space blues, 3D render style, ultra-detailed, trending on ArtStation. Negative: messy composition, flat, low detail, random unconnected elements.",
     "isPremium": true,
@@ -294,13 +313,14 @@
       "AI",
       "Neural Network",
       "Digital Art",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Seni digital abstrak yang menggambarkan jaringan saraf sebagai lanskap bercahaya yang luas, node sebagai bola bercahaya terhubung oleh benang cahaya elektrik dalam cyan, emas, dan putih, kedalaman tak terbatas, pola fraktal bercabang tanpa henti ke cakrawala, siluet manusia berdiri di tengah dikerdilkan oleh skala jaringan, latar belakang gelap dengan biru ruang angkasa dalam, gaya render 3D, ultra-detail, trending di ArtStation."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Indonesian Batik Dress Fashion Editorial",
     "content": "High-fashion editorial photography of a model wearing an avant-garde interpretation of traditional Indonesian batik, intricate geometric patterns in deep indigo and gold on flowing silk, shot in a minimalist white studio with single dramatic overhead light, model in a powerful stance, hair styled into architectural form, accessories of carved gold and dark wood, ultra-sharp, Vogue-quality editorial, modern luxury meets heritage. Negative: busy background, blurry fabric texture, washed-out colors, amateur lighting.",
     "isPremium": true,
@@ -309,13 +329,14 @@
       "Batik",
       "Indonesia",
       "Editorial",
-      "Photography"
+      "Photography",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Fotografi editorial high-fashion dari model mengenakan interpretasi avant-garde batik tradisional Indonesia, pola geometris rumit dalam indigo dan emas pada sutra mengalir, diambil di studio putih minimalis dengan satu lampu overhead dramatis, model dalam posisi bertenaga, rambut ditata dalam bentuk arsitektural, aksesori emas ukiran dan kayu gelap, ultra-tajam, editorial berkualitas Vogue, kemewahan modern bertemu warisan budaya."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Post-Apocalyptic Lighthouse on Flooded City",
     "content": "A lone lighthouse standing on the rooftop of a partially submerged skyscraper in a flooded post-apocalyptic city, its beam cutting through heavy storm clouds, debris and abandoned boats floating in murky green water at street level, other skyscrapers in varying stages of submersion, lightning in the distance, desolate and melancholy atmosphere, cinematic wide shot, muted color palette with dramatic light contrast, 8K. Negative: bright cheerful colors, people visible, blurry, flat lighting.",
     "isPremium": true,
@@ -324,13 +345,14 @@
       "Flood",
       "Cinematic",
       "Sci-Fi",
-      "Landscape"
+      "Landscape",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Sebuah mercusuar sendirian berdiri di atap gedung pencakar langit yang terendam sebagian di kota kiamat yang tergenang banjir, sinarnya memotong awan badai yang tebal, puing-puing dan perahu terbengkalai mengambang di air hijau keruh di tingkat jalan, gedung pencakar langit lain dalam berbagai tahap perendaman, kilat di kejauhan, atmosfer sunyi dan melankolis, wide shot sinematik, palet warna redup dengan kontras cahaya dramatis, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Studio Ghibli-Style Village in Autumn",
     "content": "A charming hand-painted Studio Ghibli style village nestled in an autumn valley, thatched-roof cottages with smoke curling from chimneys, a winding cobblestone path leading through golden and crimson maple trees, a small stone bridge over a crystal stream, village market with colorful stalls, warm afternoon light, children playing, a sense of magic and wonder in the mundane, cinematic 2D animation quality. Negative: 3D rendered, dark, modern architecture, low detail.",
     "isPremium": true,
@@ -339,13 +361,14 @@
       "Autumn",
       "Village",
       "Animation",
-      "Cozy"
+      "Cozy",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Desa bergaya Studio Ghibli yang menawan dan dilukis tangan, bertempat di lembah musim gugur, pondok beratap jerami dengan asap melengkung dari cerobong, jalan berbatu yang berkelok-kelok melewati pohon maple emas dan krimson, jembatan batu kecil di atas sungai kristal, pasar desa dengan stan berwarna-warni, cahaya sore yang hangat, anak-anak bermain, nuansa keajaiban dan keheranan dalam hal-hal biasa, kualitas animasi 2D sinematik."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Baroque Oil Painting Style AI Portrait",
     "content": "A stunning Baroque-style oil painting portrait of a contemporary person, dramatic chiaroscuro lighting in the style of Rembrandt, rich jewel-toned background of deep burgundy and forest green, subject wearing 17th-century Dutch attire with a modern twist, pearl earring, lace collar, hand resting on an open leather-bound book, masterful brushwork texture visible, museum-quality painting. Negative: modern photography look, flat colors, cartoonish, digital-obvious, low detail.",
     "isPremium": true,
@@ -354,13 +377,14 @@
       "Portrait",
       "Oil Painting",
       "Classic Art",
-      "Rembrandt"
+      "Rembrandt",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret lukisan minyak gaya Baroque yang memukau dari seseorang kontemporer, pencahayaan chiaroscuro dramatis dalam gaya Rembrandt, latar belakang bernuansa perhiasan kaya dalam burgundy tua dan hijau hutan, subjek mengenakan pakaian Belanda abad ke-17 dengan sentuhan modern, anting mutiara, kerah renda, tangan bertumpu pada buku kulit terbuka, tekstur goresan kuas yang ahli terlihat, kualitas lukisan museum."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Rainy Tokyo Street Reflections",
     "content": "A narrow Tokyo alleyway at night in heavy rain, paper lanterns and neon shop signs reflecting in rain puddles on wet asphalt, a lone figure with a red umbrella walking away, steam rising from a street food stall, warmly lit interior of a tiny izakaya visible through its fogged window, ultra-detailed rain on every surface, cinematic composition, moody and atmospheric, 8K, photorealistic. Negative: dry surfaces, daytime, empty street, blurry rain, cartoonish.",
     "isPremium": true,
@@ -369,13 +393,14 @@
       "Rain",
       "Night",
       "Street Photography",
-      "Cinematic"
+      "Cinematic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Gang sempit Tokyo di malam hari saat hujan deras, lentera kertas dan tanda toko neon memantul di genangan air hujan di aspal basah, sosok sendirian dengan payung merah berjalan menjauh, uap naik dari warung makanan jalan, interior izakaya kecil yang diterangi hangat terlihat melalui jendelanya yang berkabut, hujan ultra-detail di setiap permukaan, komposisi sinematik, suasana muram dan atmosferik, 8K, fotorealistik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Glassware Abstract Color Explosion",
     "content": "High-speed studio photography of multiple glass vessels shattering and exploding simultaneously, fragments suspended in mid-air, vivid liquid in electric blue, neon yellow, and magenta splashing in all directions, frozen in time, pure white background, Hasselblad product photography quality, ultra-sharp shards catching studio light, abstract art meets science photography. Negative: blurry shards, dark background, slow motion look, low contrast, distorted colors.",
     "isPremium": true,
@@ -384,13 +409,14 @@
       "Photography",
       "Glass",
       "High Speed",
-      "Color Explosion"
+      "Color Explosion",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Fotografi studio kecepatan tinggi dari beberapa wadah kaca yang pecah dan meledak secara bersamaan, serpihan tergantung di udara, cairan cerah dalam biru elektrik, kuning neon, dan magenta memercik ke semua arah, beku dalam waktu, latar belakang putih bersih, kualitas fotografi produk Hasselblad, serpihan ultra-tajam menangkap cahaya studio, seni abstrak bertemu fotografi sains."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Ancient Temple Ruins Reclaimed by Jungle",
     "content": "Breathtaking ancient temple ruins deep in a dense jungle, massive stone blocks carved with intricate relief sculptures almost hidden by enormous tree roots that split and embrace them, shafts of morning light cutting through the jungle canopy, hanging vines, orchids blooming in crevices, mystical fog at ground level, photorealistic adventure photography, wide-angle establishing shot, Indiana Jones meets National Geographic. Negative: maintained/clean temple, modern visitors, bright even lighting, flat.",
     "isPremium": true,
@@ -399,13 +425,14 @@
       "Ruins",
       "Jungle",
       "Adventure",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Reruntuhan kuil kuno yang memukau di tengah hutan lebat, balok batu besar diukir dengan patung relief rumit yang hampir tersembunyi oleh akar pohon besar yang membelah dan merangkulnya, berkas cahaya pagi memotong kanopi hutan, sulur menggantung, anggrek mekar di celah-celah, kabut mistis di permukaan tanah, fotografi petualangan fotorealistik, wide-angle establishing shot, Indiana Jones bertemu National Geographic."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Neon-Lit Garage with Custom Supercar",
     "content": "A sleek custom supercar in matte midnight black with glowing underglow in electric purple, parked in a photographic garage with neon light strips, holographic decals reflecting off polished concrete floor, tools and custom car parts artfully arranged, wide-angle, automotive magazine quality photography, cinematic lighting emphasizing the car's aerodynamic curves, dramatic shadow play, 8K. Negative: messy garage, blurry car details, incorrect car proportions, low resolution.",
     "isPremium": true,
@@ -414,13 +441,14 @@
       "Supercar",
       "Neon",
       "Garage",
-      "Commercial Photography"
+      "Commercial Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Supercar kustom ramping berwarna hitam tengah malam matte dengan underglow bercahaya ungu elektrik, diparkir di garasi fotografis dengan strip lampu neon, decal holografik memantul dari lantai beton yang dipoles, alat dan suku cadang mobil kustom ditata dengan artistik, wide-angle, kualitas fotografi majalah otomotif, pencahayaan sinematik yang menekankan lekukan aerodinamis mobil, permainan bayangan dramatis, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Micro World Inside a Coffee Cup",
     "content": "A magical miniature world inside a steaming coffee cup viewed from above, tiny people living on islands made of coffee grounds, espresso rivers flowing between them, a foam latte art cloud overhead, a tiny wooden dock and small boats on the coffee surface, warm sepia and amber tones, whimsical and charming, macro photograph style, ultra-detailed miniature world, coffee shop interior visible as a blurred background. Negative: messy composition, low detail, flat colors, no sense of scale.",
     "isPremium": true,
@@ -429,13 +457,14 @@
       "Coffee",
       "Whimsical",
       "Macro",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Dunia miniatur ajaib di dalam cangkir kopi beruap dilihat dari atas, orang-orang kecil hidup di pulau-pulau yang terbuat dari ampas kopi, sungai espresso mengalir di antara mereka, awan seni busa latte di atas kepala, dermaga kayu kecil dan perahu kecil di permukaan kopi, nada sepia dan amber yang hangat, menggemaskan dan menawan, gaya foto makro, dunia miniatur ultra-detail, interior kedai kopi terlihat sebagai latar belakang kabur."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Celestial Jellyfish in Deep Space",
     "content": "Colossal cosmic jellyfish drifting through deep space, its translucent bell the size of a planet, tentacles stretching across light years and trailing nebula gases in pink, purple, and blue, stars and galaxies visible through its body, smaller space jellyfish clustering around it, cinematic space photography, Hubble Telescope aesthetic, ultra-detailed cosmic textures. Negative: Earth ocean background, cartoon, dark and muddy colors, low detail tentacles, small scale.",
     "isPremium": true,
@@ -444,13 +473,14 @@
       "Jellyfish",
       "Cosmic",
       "Sci-Fi",
-      "Surreal"
+      "Surreal",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Ubur-ubur kosmik kolosal melayang melalui ruang angkasa dalam, bel tembus pandangnya seukuran planet, tentakel membentang melintasi tahun cahaya dan meninggalkan gas nebula dalam warna merah muda, ungu, dan biru, bintang dan galaksi terlihat melalui tubuhnya, ubur-ubur ruang angkasa yang lebih kecil berkelompok di sekitarnya, fotografi ruang angkasa sinematik, estetika Teleskop Hubble, tekstur kosmik ultra-detail."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Yakuza Boss Portrait in Ink Wash Style",
     "content": "Dramatic portrait of an elderly Japanese yakuza boss, face deeply lined with a lifetime of hard choices, wearing a partially open silk kimono revealing elaborate traditional full-body tattoo in indigo ink, expression stoic and intense, single dramatic light source from below, ink wash painting (sumi-e) aesthetic with photorealistic rendering, heavy contrast, sparse composition with vast negative space, powerful and cinematic. Negative: colorful tattoos, smiling, western clothing, flat, symmetrical composition.",
     "isPremium": true,
@@ -459,13 +489,14 @@
       "Japan",
       "Yakuza",
       "Ink Wash",
-      "Dramatic"
+      "Dramatic",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret dramatis bos yakuza Jepang yang sudah tua, wajah sangat berkerut dengan seumur hidup pilihan sulit, mengenakan kimono sutra yang terbuka sebagian memperlihatkan tato seluruh tubuh tradisional yang rumit dalam tinta indigo, ekspresi stoik dan intens, satu sumber cahaya dramatis dari bawah, estetika lukisan cat air tinta (sumi-e) dengan rendering fotorealistik, kontras tinggi, komposisi jarang dengan ruang negatif yang luas, kuat dan sinematik."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Luminous Library of Babel",
     "content": "An infinite circular library stretching in all directions, inspired by Borges' Library of Babel, endless hexagonal rooms lined floor-to-ceiling with glowing books, warm golden light from candles and chandeliers, spiral staircases connecting levels that fade into infinity above and below, a single hooded librarian figure visible on a distant balcony, architectural impossibility made beautiful, painterly hyperrealistic style, ultra-wide angle, vertigo-inducing depth. Negative: modern library, bright fluorescent light, empty shelves, small scale.",
     "isPremium": true,
@@ -474,13 +505,14 @@
       "Surreal",
       "Architecture",
       "Fantasy",
-      "Literary"
+      "Literary",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Perpustakaan melingkar tak terbatas yang membentang ke segala arah, terinspirasi dari Perpustakaan Babel karya Borges, ruangan heksagonal tak berujung berjajar dari lantai hingga langit-langit dengan buku-buku bercahaya, cahaya emas hangat dari lilin dan lampu gantung, tangga spiral menghubungkan tingkat-tingkat yang memudar ke tak terhingga di atas dan di bawah, seorang sosok pustakawan berjubah terlihat di balkon yang jauh, kemustahilan arsitektur yang dibuat indah, gaya fotorealistik bergaya lukisan, sudut ultra-lebar, kedalaman yang memicu pusing."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Hyperrealistic Dew Drop on Spider Web",
     "content": "Ultra-macro photograph of a spider web at sunrise, each thread beaded with perfect spherical dew drops, each droplet acting as a lens reflecting a soft golden sunrise landscape, background bokeh of a misty meadow in warm greens, shallow depth of field revealing intricate web geometry, hyper-detailed, 8K, Nikon macro photography style, award-winning nature photo. Negative: dry web, synthetic material, dark background, blurry droplets, distorted reflections.",
     "isPremium": true,
@@ -489,13 +521,14 @@
       "Spider Web",
       "Dew",
       "Nature",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto ultra-makro dari jaring laba-laba saat matahari terbit, setiap benang dirangkai dengan tetes embun bulat sempurna, setiap tetesan berfungsi sebagai lensa memantulkan lanskap matahari terbit emas lembut, bokeh latar belakang padang rumput berkabut dalam hijau hangat, kedalaman bidang dangkal mengungkapkan geometri jaring yang rumit, hyper-detail, 8K, gaya fotografi makro Nikon, foto alam pemenang penghargaan."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Cyberpunk Fashion Model Close-Up",
     "content": "Ultra-sharp close-up portrait of a cyberpunk fashion model, face partially augmented with sleek chrome implants along jaw and temples, eyes fitted with glowing cyan iris augments, hair structured in geometric metallic silver spikes, face paint with circuit pattern in electric blue, background a blurred wall of cascading holographic data streams in green and white, high-fashion editorial quality, 8K. Negative: blurry face, symmetrical augments, bulky cyborg look, dark or murky tones.",
     "isPremium": true,
@@ -504,13 +537,14 @@
       "Fashion",
       "Portrait",
       "Augmented",
-      "Editorial"
+      "Editorial",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret close-up ultra-tajam dari model fashion cyberpunk, wajah sebagian ditambah dengan implan krom ramping di sepanjang rahang dan pelipis, mata dilengkapi augmen iris cyan bercahaya, rambut dibentuk dalam paku perak metalik geometris, cat wajah dengan pola sirkuit dalam biru elektrik, latar belakang dinding kabur dari aliran data holografik yang mengalir dalam warna hijau dan putih, kualitas editorial high-fashion, 8K."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Santorini Village at Blue Hour",
     "content": "Iconic Santorini village perched on volcanic cliffs at blue hour, whitewashed cube houses with bright cobalt blue domes glowing against the darkening sky, a winding path lit by warm lanterns, the Aegean Sea far below reflecting the last traces of pink and purple sunset, single sailboat on the horizon, ultra-sharp travel photography, medium format camera quality, balanced composition, no tourists. Negative: daytime, crowded with people, overcast sky, washed-out colors, blurry foreground.",
     "isPremium": true,
@@ -519,13 +553,14 @@
       "Greece",
       "Travel",
       "Blue Hour",
-      "Architecture"
+      "Architecture",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Desa Santorini ikonik bertengger di tebing vulkanik saat blue hour, rumah-rumah kubus bercat putih dengan kubah biru kobalt cerah bersinar di langit yang semakin gelap, jalan berkelok-kelok yang diterangi lentera hangat, Laut Aegea jauh di bawah memantulkan sisa-sisa matahari terbenam merah muda dan ungu, satu kapal layar di cakrawala, fotografi perjalanan ultra-tajam, kualitas kamera format sedang, komposisi seimbang, tanpa turis."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Glass Skull with Roses Inside",
     "content": "A crystal-clear glass skull with a fully bloomed garden of dark red and black roses growing inside it, illuminated from within by a soft warm glow, sitting on a dark marble surface with scattered rose petals, macro photography detail of glass surface imperfections and rose textures, dark and gothic yet romantic atmosphere, black background, studio lighting, 8K. Negative: plastic looking, cartoonish, dirty or foggy glass, low detail flowers, oversimplified.",
     "isPremium": true,
@@ -534,13 +569,14 @@
       "Dark Art",
       "Glass",
       "Roses",
-      "Still Life"
+      "Still Life",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Tengkorak kaca jernih dengan taman mawar merah tua dan hitam yang mekar penuh tumbuh di dalamnya, diterangi dari dalam oleh cahaya hangat lembut, duduk di permukaan marmer gelap dengan kelopak mawar berserakan, detail fotografi makro dari ketidaksempurnaan permukaan kaca dan tekstur mawar, atmosfer gelap dan gothic namun romantis, latar belakang hitam, pencahayaan studio, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Quantum Physics Visualized as Art",
     "content": "An abstract artistic visualization of quantum entanglement, two glowing particle streams in deep blue and warm gold spiraling around each other across infinite space, probability wave functions visible as translucent sheets of rippling light, dark space background with mathematical equations faintly visible in the deep background, a sense of cosmic scale and scientific wonder, 3D scientific visualization meets fine art, ultra-detailed. Negative: literal atoms drawing, cluttered, muddy colors, low contrast.",
     "isPremium": true,
@@ -549,13 +585,14 @@
       "Quantum",
       "Abstract",
       "Physics",
-      "Visualization"
+      "Visualization",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Visualisasi artistik abstrak dari quantum entanglement, dua aliran partikel bercahaya dalam biru tua dan emas hangat berputar satu sama lain melintasi ruang tak terbatas, fungsi gelombang probabilitas terlihat sebagai lembaran cahaya beriak tembus pandang, latar belakang ruang gelap dengan persamaan matematika yang samar terlihat di latar belakang dalam, rasa skala kosmik dan keajaiban ilmiah, visualisasi ilmiah 3D bertemu seni rupa, ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Warrior Woman in Tidal Wave Battle",
     "content": "An epic fantasy female warrior battling within a massive tidal wave, controlling and bending the water with both hands extended, water tendrils spiraling around her as weapons, lightning in the storm clouds above, ocean spray catching the light in thousands of micro-droplets, wet hair and clothing flying dynamically, dramatic action composition, ultra-detailed fantasy concept art, cinematic scale. Negative: static pose, dry background, cartoon proportions, flat colors, unclear action.",
     "isPremium": true,
@@ -564,13 +601,14 @@
       "Action",
       "Warrior",
       "Water Magic",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Pejuang wanita fantasi epik yang bertarung di dalam gelombang pasang yang besar, mengendalikan dan membengkokkan air dengan kedua tangan terentang, sulur air berputar di sekelilingnya sebagai senjata, petir di awan badai di atas, semburan laut menangkap cahaya dalam ribuan tetes mikro, rambut dan pakaian basah terbang secara dinamis, komposisi aksi dramatis, seni konsep fantasi ultra-detail, skala sinematik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Mossy Abandoned Greenhouse",
     "content": "An abandoned Victorian greenhouse completely consumed by the plants it once housed, iron and glass frame structure barely visible under cascading vines and sprawling ferns, shattered glass panes letting in beams of dusty sunlight, massive tropical plants growing unchecked in all directions, a rusted watering can half-buried in soil, atmospheric and melancholic, fine art photography style, soft diffused natural light, 8K. Negative: clean greenhouse, modern structure, artificial lighting, dark and scary.",
     "isPremium": true,
@@ -579,13 +617,14 @@
       "Greenhouse",
       "Nature",
       "Victorian",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Rumah kaca Victoria terbengkalai yang sepenuhnya dikuasai tanaman yang pernah ia tampung, struktur bingkai besi dan kaca hampir tidak terlihat di bawah sulur yang mengalir dan pakis yang merambat, panel kaca yang pecah membiarkan berkas sinar matahari berdebu masuk, tanaman tropis besar tumbuh tak terkendali ke segala arah, kaleng penyiram berkarat setengah terkubur di tanah, atmosferik dan melankolik, gaya fotografi seni rupa, cahaya alami yang lembut dan tersebar, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Samurai in Cherry Blossom Storm",
     "content": "A lone samurai standing in the middle of a fierce cherry blossom storm, petals swirling like a pink tornado around him, sword drawn and gleaming, armor in deep lacquered black with red silk details, a burning village visible in the background through the blossoms, emotional and powerful composition, ultra-detailed traditional Japanese armor, painting style mixing Ukiyo-e and cinematic realism, dramatic and poetic. Negative: Western warrior design, no cherry blossoms, low armor detail, digital-looking.",
     "isPremium": true,
@@ -594,13 +633,14 @@
       "Japan",
       "Cherry Blossom",
       "Epic",
-      "Digital Art"
+      "Digital Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Seorang samurai sendirian berdiri di tengah badai bunga sakura yang ganas, kelopak berputar seperti angin puyuh merah muda di sekelilingnya, pedang terhunus dan berkilau, baju besi berlapis hitam dalam dengan detail sutra merah, desa yang terbakar terlihat di latar belakang melalui bunga-bungaan, komposisi emosional dan kuat, baju besi Jepang tradisional ultra-detail, gaya lukisan memadukan Ukiyo-e dan realisme sinematik, dramatis dan puitis."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Futuristic Transparent Display Smart Home",
     "content": "Interior of a sleek near-future smart home, transparent OLED displays embedded in windows and walls showing information and art, minimal furniture in warm wood and matte white, a robot assistant gliding across the polished floor, city skyline visible through floor-to-ceiling smart glass windows, warm diffused ambient lighting adjusting to the morning hour, architectural visualization quality, ultra-clean and aspirational. Negative: cluttered, outdated tech, harsh lighting, low detail surfaces.",
     "isPremium": true,
@@ -609,13 +649,14 @@
       "Futuristic",
       "Smart Home",
       "Architecture",
-      "Visualization"
+      "Visualization",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Interior rumah pintar masa depan yang ramping, display OLED transparan tertanam di jendela dan dinding menampilkan informasi dan seni, furnitur minimal dalam kayu hangat dan putih matte, asisten robot meluncur di lantai yang dipoles, cakrawala kota terlihat melalui jendela kaca pintar dari lantai ke langit-langit, pencahayaan ambient tersebar hangat yang menyesuaikan dengan waktu pagi, kualitas visualisasi arsitektur, ultra-bersih dan aspirasional."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Nebula Viewed from Alien Planet Surface",
     "content": "View of a breathtaking nebula from the surface of an alien planet, twin moons visible in the sky, alien flora with silver leaves and blue flowers in the foreground, the nebula filling the sky in swirling columns of rose, violet, and gold, a small campfire and silhouetted figure in the middle distance, photorealistic space scene, cinematic ultra-wide shot, Terrence Malick meets NASA imagery. Negative: Earth plants, flat sky, small nebula, bright daytime, low detail.",
     "isPremium": true,
@@ -624,13 +665,14 @@
       "Alien Planet",
       "Nebula",
       "Landscape",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Pemandangan nebula yang menakjubkan dari permukaan planet alien, dua bulan terlihat di langit, flora alien dengan daun perak dan bunga biru di latar depan, nebula memenuhi langit dalam kolom berputar mawar, violet, dan emas, api unggun kecil dan sosok siluet di kejauhan sedang, adegan ruang angkasa fotorealistik, wide shot ultra sinematik, Terrence Malick bertemu citra NASA."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Photorealistic Honey Macro Shot",
     "content": "Extreme macro photograph of raw honey being drizzled from a wooden honey dipper, capturing the viscous flow in perfect suspension, warm amber and gold translucent color lit from behind, crystalline hexagonal texture visible in the honey pool below, sharp detail of the wood grain on the dipper, rich and appetizing food photography, dark background, commercial product photography quality, 8K. Negative: white background, runny liquid, dark honey, blurry drizzle, amateur lighting.",
     "isPremium": true,
@@ -639,13 +681,14 @@
       "Macro",
       "Honey",
       "Commercial",
-      "Product"
+      "Product",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ekstrem dari madu mentah yang diteteskan dari penciduk madu kayu, menangkap aliran kental dalam suspensi sempurna, warna amber dan emas hangat yang tembus pandang diterangi dari belakang, tekstur heksagonal kristal terlihat di kolam madu di bawahnya, detail tajam dari serat kayu pada penciduk, fotografi makanan yang kaya dan menggugah selera, latar belakang gelap, kualitas fotografi produk komersial, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Geisha in Neon Shinjuku Alley",
     "content": "A traditional geisha in full kimono and white face paint standing in a narrow neon-lit Shinjuku alley at night, pastel pink cherry blossom pattern kimono contrasting with the electric purple and cyan neon signs around her, reflections in puddles on the wet ground, out-of-focus businessmen in suits passing behind her, film grain, night street photography aesthetic, cinematic beauty, the tension between tradition and modernity. Negative: cartoonish geisha, daytime, dry street, tourist area, Western facial features.",
     "isPremium": true,
@@ -654,13 +697,14 @@
       "Geisha",
       "Neon",
       "Night",
-      "Street Photography"
+      "Street Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Geisha tradisional dalam kimono penuh dan cat wajah putih berdiri di gang Shinjuku sempit yang diterangi neon di malam hari, kimono bermotif bunga sakura merah muda pastel kontras dengan tanda neon ungu elektrik dan cyan di sekitarnya, pantulan di genangan di tanah yang basah, pebisnis berjas yang tidak fokus melintas di belakangnya, butiran film, estetika fotografi jalanan malam, kecantikan sinematik, ketegangan antara tradisi dan modernitas."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Crystal Cave with Thermal Pool",
     "content": "A stunning natural crystal cave with massive selenite crystal formations in white and pale gold rising from the floor to the ceiling, a naturally heated thermal pool glowing electric blue from minerals at the center, steam rising gently, a single tiny human figure for scale, bioluminescent algae on the cave walls, a crack in the cave ceiling letting in a ray of daylight, photorealistic cave photography, ultra-wide angle, National Geographic quality. Negative: artificial cave, bright even lighting, crowds of people, low detail crystals.",
     "isPremium": true,
@@ -669,13 +713,14 @@
       "Crystal",
       "Nature",
       "Geological",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Gua kristal alami yang menakjubkan dengan formasi kristal selenite besar berwarna putih dan emas pucat naik dari lantai ke langit-langit, kolam termal yang dipanaskan secara alami bercahaya biru elektrik dari mineral di tengah, uap naik dengan lembut, satu sosok manusia kecil untuk skala, alga bioluminesen di dinding gua, celah di langit-langit gua membiarkan satu berkas cahaya siang masuk, fotografi gua fotorealistik, sudut ultra-lebar, kualitas National Geographic."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Deep Forest Cottage at Night with Fireflies",
     "content": "A small, warmly-lit cozy cottage deep in an ancient forest on a summer night, its windows glowing amber light onto moss-covered ground, thousands of fireflies creating a magical constellation of floating lights through the trees, a stone path leading to the door covered in lichens, a rocking chair on the porch with a forgotten book, Milky Way visible through the treetops, ultra-detailed forest atmosphere, painterly with photorealistic lighting. Negative: modern house, bright artificial lighting, no fireflies, clear-cut forest.",
     "isPremium": true,
@@ -684,13 +729,14 @@
       "Forest",
       "Fireflies",
       "Night",
-      "Cozy"
+      "Cozy",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Gubuk kecil yang nyaman dan diterangi hangat di tengah hutan kuno pada malam musim panas, jendelanya memancarkan cahaya amber ke tanah berlumut, ribuan kunang-kunang menciptakan konstelasi ajaib dari cahaya mengambang di antara pepohonan, jalan batu menuju pintu yang tertutup lumut kerak, kursi goyang di beranda dengan buku yang terlupakan, Bima Sakti terlihat melalui puncak pohon, atmosfer hutan ultra-detail, bergaya lukisan dengan pencahayaan fotorealistik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Viking Longship in Arctic Storm",
     "content": "A Viking longship crashing through massive arctic storm waves, crew members in furs and chain mail battling the elements, lightning illuminating the carved dragon prow, the Northern Lights visible between storm clouds overhead, icebergs in the dark churning water, foam and sea spray caught in dramatic lighting, epic historical painting style with photorealistic detail, ultra-wide angle from water level perspective. Negative: calm water, tropical setting, anachronistic elements, low crew detail, blurry waves.",
     "isPremium": true,
@@ -699,13 +745,14 @@
       "Historical",
       "Epic",
       "Storm",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Kapal panjang Viking menabrak gelombang badai arktik yang besar, anggota awak berbulu dan baju besi rantai melawan elemen alam, kilat menerangi haluan naga ukiran, Aurora Borealis terlihat di antara awan badai di atas, gunung es di air gelap yang bergejolak, busa dan semburan laut tertangkap dalam pencahayaan dramatis, gaya lukisan sejarah epik dengan detail fotorealistik, sudut ultra-lebar dari perspektif permukaan air."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Typographic Surreal Landscape",
     "content": "A surreal landscape made entirely from giant three-dimensional letters and typography, letters forming mountains, valleys, bridges, and waterfalls, some letters filled with live ecosystems — tiny forests in the hollow of an 'O', waterfalls tumbling through a 'W', all rendered in warm stone and metal textures, golden hour light casting long shadows across the letter landscape, aerial view, ultra-detailed 3D concept art. Negative: flat design, digital minimalism, poor letter integration with environment.",
     "isPremium": true,
@@ -714,13 +761,14 @@
       "Surreal",
       "3D Art",
       "Landscape",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Lanskap surealis yang seluruhnya terbuat dari huruf dan tipografi tiga dimensi raksasa, huruf-huruf membentuk pegunungan, lembah, jembatan, dan air terjun, beberapa huruf diisi dengan ekosistem hidup — hutan kecil di lubang 'O', air terjun jatuh melalui 'W', semua dirender dalam tekstur batu dan logam hangat, cahaya golden hour melemparkan bayangan panjang melintasi lanskap huruf, tampilan aerial, seni konsep 3D ultra-detail."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Liquid Mercury Fashion Portrait",
     "content": "Avant-garde fashion portrait with a model whose entire upper body is coated in liquid mercury-like chrome, flowing and reflecting the studio environment perfectly, face emerging from the chrome material with dramatic high-fashion makeup, rest of the look in structured black with sharp geometric shoulders, studio white background, dramatic single top light, fashion editorial quality, 8K, inspired by Alexander McQueen. Negative: matte skin, colored material, messy reflections, amateur lighting, blurry.",
     "isPremium": true,
@@ -729,13 +777,14 @@
       "Portrait",
       "Avant-Garde",
       "Chrome",
-      "Editorial"
+      "Editorial",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret fashion avant-garde dengan model yang seluruh tubuh bagian atasnya dilapisi krom seperti merkuri cair, mengalir dan memantulkan lingkungan studio dengan sempurna, wajah muncul dari bahan krom dengan makeup high-fashion yang dramatis, tampilan lainnya dalam hitam berstruktur dengan bahu geometris tajam, latar belakang putih studio, satu lampu atas yang dramatis, kualitas editorial fashion, 8K, terinspirasi Alexander McQueen."
   },
   {
-    "category": "Interior & Architectural Designs",
+    "category": "Image Generation",
     "title": "Futuristic Mosque Architecture",
     "content": "A breathtaking futuristic mosque blending traditional Islamic geometric architecture with cutting-edge design, soaring minarets made of carbon fiber lattice glowing from within, a massive central dome of smart glass that displays different colors of the sky, surrounding reflecting pool with ultra-clear water, intricate laser-cut geometric screens for walls, interior filled with natural diffused light, golden hour, ultra-detailed architectural visualization, inspirational and sacred. Negative: generic building, no Islamic motifs, dark interior, cluttered composition.",
     "isPremium": true,
@@ -744,13 +793,14 @@
       "Mosque",
       "Islamic Art",
       "Futuristic",
-      "Visualization"
+      "Visualization",
+      "Interior & Architectural Designs"
     ],
     "detail": "### 🎨 Blueprint Prompt: Interior & Architectural Designs\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Masjid futuristik yang memukau memadukan arsitektur geometris Islam tradisional dengan desain mutakhir, menara menjulang tinggi terbuat dari kisi serat karbon bercahaya dari dalam, kubah pusat besar dari kaca pintar yang menampilkan berbagai warna langit, kolam refleksi sekitar dengan air ultra-jernih, layar geometris yang dipotong laser untuk dinding, interior dipenuhi cahaya alami tersebar, golden hour, visualisasi arsitektur ultra-detail, menginspirasi dan sakral."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Abandoned Space Station Interior",
     "content": "Interior of an abandoned deep space station, long corridors with damaged hull panels letting in pinpricks of starlight, emergency red lighting casting eerie shadows, weightless debris floating — papers, tools, a child's toy — dust motes in the air, a cracked observation window showing a distant gas giant, atmosphere of mystery and isolation, sci-fi horror aesthetic, photorealistic, cinematic. Negative: clean station, people present, bright clean lighting, no damage, cartoonish.",
     "isPremium": true,
@@ -759,13 +809,14 @@
       "Abandoned",
       "Sci-Fi",
       "Horror",
-      "Cinematic"
+      "Cinematic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Interior stasiun ruang angkasa dalam yang terbengkalai, koridor panjang dengan panel lambung yang rusak membiarkan bintik-bintik cahaya bintang masuk, pencahayaan merah darurat melemparkan bayangan menyeramkan, puing melayang tanpa bobot — kertas, alat, mainan anak-anak — debu di udara, jendela observasi retak menampilkan raksasa gas yang jauh, atmosfer misteri dan isolasi, estetika horor fiksi ilmiah, fotorealistik, sinematik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Extreme Close-Up of Human Eye with Galaxy",
     "content": "Extreme macro close-up of a human eye with iris replaced by a swirling galaxy — spiral arms of stars visible in deep space blue and gold, light reflecting off the iris as if it were cosmic glass, individual eyelashes in sharp detail, skin pores and texture visible around the eye, a single tear at the corner catching the galactic light, dark background, emotional and surreal, 8K, hyperrealistic. Negative: flat iris, cartoonish eye, no texture, unrealistic proportions, low detail.",
     "isPremium": true,
@@ -774,13 +825,14 @@
       "Eye",
       "Galaxy",
       "Surreal",
-      "Hyperrealistic"
+      "Hyperrealistic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Close-up makro ekstrem dari mata manusia dengan iris digantikan oleh galaksi berputar — lengan spiral bintang terlihat dalam biru ruang angkasa dalam dan emas, cahaya memantul dari iris seolah-olah kaca kosmik, bulu mata individu dalam detail tajam, pori-pori dan tekstur kulit terlihat di sekitar mata, satu air mata di sudut menangkap cahaya galaksi, latar belakang gelap, emosional dan surealis, 8K, hyperrealistik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Underwater Ballet in Sunlit Pool",
     "content": "Breathtaking underwater photography of a ballet dancer performing a graceful arabesque in a crystal-clear pool, silk dress flowing upward like wings, streams of bubbles rising around her, shafts of golden sunlight refracting through the water creating light caustics on the pool floor, long hair spread in a halo, motion blur on the dress only, surreal and serene, ultra-clear water, professional underwater photography, 8K. Negative: murky water, harsh pool lighting, blurry dancer, chlorine-blue coloring.",
     "isPremium": true,
@@ -789,13 +841,14 @@
       "Dance",
       "Photography",
       "Surreal",
-      "Fine Art"
+      "Fine Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Fotografi bawah air yang memukau dari seorang penari balet yang melakukan arabesque anggun di kolam air jernih, gaun sutra mengalir ke atas seperti sayap, aliran gelembung naik di sekitarnya, berkas sinar matahari emas dibiaskan melalui air menciptakan kausatik cahaya di lantai kolam, rambut panjang tersebar dalam lingkaran cahaya, motion blur hanya pada gaun, surealis dan tenang, air ultra-jernih, fotografi bawah air profesional, 8K."
   },
   {
-    "category": "Logo & Branding Assets",
+    "category": "Image Generation",
     "title": "Neon Gradient Minimal Brand Identity Mock",
     "content": "Professional minimalist vector logo for [Company Name]. Concept: [Metaphor/Symbol]. High-end branding aesthetic, balanced geometry, centered composition. 8K, flat design, clean lines. Trending on Behance/Dribbble. Colors: [Color Palette] with gold leaf accents.",
     "isPremium": false,
@@ -804,13 +857,14 @@
       "Mockup",
       "Minimal",
       "Tech",
-      "Commercial"
+      "Commercial",
+      "Logo & Branding Assets"
     ],
     "detail": "### 🎨 Blueprint Prompt: Logo & Branding Assets\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Mockup identitas merek minimal yang bersih untuk perusahaan teknologi mewah, kartu nama, ponsel, dan buku catatan disusun dalam komposisi flat lay di permukaan hitam matte, skema warna hitam tengah malam dalam dengan aksen gradien dari violet elektrik ke cyan neon, logo emboss dalam emas metalik, foto produk tajam dan presisi, pencahayaan studio lembut dengan edge glow halus, fotografi komersial 8K, nuansa gaya hidup aspirasional."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Fire and Ice Elemental Duality Portrait",
     "content": "Dramatic split portrait of a person, left half wreathed in living blue-white ice crystals forming from the skin, right half erupting in living orange-red flames, the two elements colliding and creating dramatic steam at the center of the face, intense focused gaze, dark neutral background, cinematic symmetrical composition, high contrast, ultra-detailed elemental textures, epic fantasy concept art quality. Negative: obvious compositing, flat elements, cartoonish, low contrast background, inconsistent lighting direction.",
     "isPremium": true,
@@ -819,13 +873,14 @@
       "Fantasy",
       "Elements",
       "Fire and Ice",
-      "Concept Art"
+      "Concept Art",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret split dramatis dari seseorang, setengah kiri dililit kristal es biru-putih hidup yang terbentuk dari kulit, setengah kanan meledak dalam api oranye-merah hidup, dua elemen bertabrakan dan menciptakan uap dramatis di tengah wajah, tatapan terarah intens, latar belakang netral gelap, komposisi simetris sinematik, kontras tinggi, tekstur elemen ultra-detail, kualitas seni konsep fantasi epik."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Glowing Mushroom Forest at Night",
     "content": "A magical forest at night where enormous bioluminescent mushrooms glow in electric blue and soft purple light, mushrooms ranging from knee-height to towering 10-meter structures, tiny fairy lights embedded in the mushroom gills, ground covered in luminous moss, a narrow stream of glowing water winding between mushroom stems, the forest canopy too high to see, atmospheric volumetric light, ultra-detailed mycology meets fantasy art. Negative: daytime, brown or dull mushrooms, no glow, realistic proportions, dark without glow.",
     "isPremium": true,
@@ -834,13 +889,14 @@
       "Mushroom",
       "Bioluminescence",
       "Forest",
-      "Night"
+      "Night",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Hutan ajaib di malam hari di mana jamur bioluminesen besar bercahaya dalam cahaya biru elektrik dan ungu lembut, jamur mulai dari setinggi lutut hingga struktur 10 meter yang menjulang, lampu peri kecil tertanam di insang jamur, tanah tertutup lumut bercahaya, aliran sempit air bercahaya berkelok di antara batang jamur, kanopi hutan terlalu tinggi untuk dilihat, cahaya volumetrik atmosferik, mikologi ultra-detail bertemu seni fantasi."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Ink Drop in Water High Speed",
     "content": "Ultra high-speed macro photography of a drop of midnight blue ink falling into crystal-clear water, capturing the exact moment of impact — a crown of water droplets suspended at the peak, ink tendrils spreading in slow-motion fractal patterns, white background, studio lighting, symmetrical composition, ultra-sharp, 8K, the mathematical beauty of fluid dynamics made visible. Negative: blurry drop, mixed colors, dark background, non-symmetrical splash, low detail.",
     "isPremium": true,
@@ -849,13 +905,14 @@
       "Macro",
       "Ink",
       "Photography",
-      "Abstract"
+      "Abstract",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro kecepatan ultra-tinggi dari tetes tinta biru tengah malam jatuh ke dalam air jernih, menangkap momen tepat benturan — mahkota tetes air tergantung di puncak, sulur tinta menyebar dalam pola fraktal gerak lambat, latar belakang putih, pencahayaan studio, komposisi simetris, ultra-tajam, 8K, keindahan matematis dinamika fluida yang dibuat terlihat."
   },
   {
-    "category": "Cyberpunk & Futuristic Concepts",
+    "category": "Image Generation",
     "title": "Futuristic Indonesian Wayang Shadow Puppet Art",
     "content": "Futuristic reimagining of Indonesian wayang kulit shadow puppetry, traditional Javanese puppet characters redesigned as sleek cyberpunk warriors with neon circuit patterns in place of traditional ornamental details, shadow projection in electric blue and gold on a glowing digital screen instead of white cloth, intricate geometric details preserved and enhanced, cultural heritage meets sci-fi design, ultra-detailed digital art. Negative: generic robot, Western character design, loss of traditional form, low detail.",
     "isPremium": true,
@@ -864,13 +921,14 @@
       "Indonesia",
       "Cyberpunk",
       "Cultural Art",
-      "Digital Art"
+      "Digital Art",
+      "Cyberpunk & Futuristic Concepts"
     ],
     "detail": "### 🎨 Blueprint Prompt: Cyberpunk & Futuristic Concepts\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Reimajinasi futuristik dari pertunjukan wayang kulit Indonesia, karakter wayang Jawa tradisional didesain ulang sebagai pejuang cyberpunk ramping dengan pola sirkuit neon menggantikan detail ornamental tradisional, proyeksi bayangan dalam biru elektrik dan emas pada layar digital bercahaya sebagai pengganti kain putih, detail geometris rumit dipertahankan dan ditingkatkan, warisan budaya bertemu desain fiksi ilmiah, seni digital ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Macro Butterfly Wing Scale Texture",
     "content": "Ultra-extreme macro photograph of a Morpho butterfly wing, revealing the impossible microscopic architecture of individual wing scales — each scale a perfect geometric tile of iridescent electric blue and violet, arranged in overlapping rows, the scales casting microscopic shadows on each other, ultra-sharp at 8K, background fading to abstract bokeh, scientific precision meets abstract fine art photography. Negative: full butterfly visible, blurry scales, dark, low magnification, artificial colors.",
     "isPremium": true,
@@ -879,13 +937,14 @@
       "Butterfly",
       "Nature",
       "Texture",
-      "Scientific Art"
+      "Scientific Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ultra-ekstrem dari sayap kupu-kupu Morpho, mengungkapkan arsitektur mikroskopis yang tidak mungkin dari sisik sayap individual — setiap sisik adalah ubin geometris sempurna dari biru elektrik dan violet iridesen, tersusun dalam baris yang tumpang tindih, sisik-sisik melemparkan bayangan mikroskopis satu sama lain, ultra-tajam pada 8K, latar belakang memudar menjadi bokeh abstrak, presisi ilmiah bertemu fotografi seni rupa abstrak."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Cloud City Floating in Jupiter's Atmosphere",
     "content": "A stunning human colony floating in the upper atmosphere of Jupiter, massive disc-shaped platforms connected by transparent tubes, the swirling amber and white gas storms of Jupiter visible above and below, colonists visible in glass observation pods, small atmospheric ships launching and landing, a sense of vertigo and infinite scale, cinematic wide shot, hard sci-fi aesthetic, NASA concept art quality. Negative: Earth environment, generic space station look, cartoony, small scale, low Jupiter detail.",
     "isPremium": true,
@@ -894,13 +953,14 @@
       "Sci-Fi",
       "Jupiter",
       "Colony",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Koloni manusia yang menakjubkan mengambang di atmosfer atas Jupiter, platform berbentuk cakram besar dihubungkan oleh tabung transparan, badai gas amber dan putih berputar dari Jupiter terlihat di atas dan di bawah, kolonialis terlihat di pod observasi kaca, kapal atmosferik kecil meluncur dan mendarat, rasa pusing dan skala tak terbatas, wide shot sinematik, estetika fiksi ilmiah keras, kualitas seni konsep NASA."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Midnight Desert Stargazer",
     "content": "A lone astronomer lying on the warm desert sand in the Sahara, face upward staring at the Milky Way which fills the entire sky from horizon to horizon, a vintage telescope beside them, lantern providing warm orange light on the red sand, infinite stars reflected in tiny sand particles, long-exposure photography, warm desert tones contrasting with cool blue starlight, poetic and contemplative, 8K. Negative: city light pollution, cloudy sky, daytime, cold color palette, people disturbing solitude.",
     "isPremium": true,
@@ -909,13 +969,14 @@
       "Desert",
       "Night",
       "Stars",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Seorang astronom sendirian berbaring di pasir gurun Sahara yang hangat, wajah ke atas menatap Bima Sakti yang memenuhi seluruh langit dari cakrawala ke cakrawala, teleskop vintage di samping mereka, lentera memberikan cahaya oranye hangat pada pasir merah, bintang-bintang tak terbatas terpantul di partikel pasir kecil, fotografi long-exposure, nada gurun hangat kontras dengan cahaya bintang biru sejuk, puitis dan kontemplatif, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Biomechanical Tree of Life",
     "content": "A surreal biomechanical tree of life, trunk made of intertwined metallic cables, pipes, and organic muscle tissue, branches splitting into fine circuit-board patterns that bloom into flowers made of crystals and LEDs, roots burrowing into dark earth and circuit boards simultaneously, glowing with inner amber light, set against a dark cosmic background with faint nebula colors, H.R. Giger meets botanical art, ultra-detailed, 8K. Negative: plain tree, only mechanical or only organic, cartoonish, low detail.",
     "isPremium": true,
@@ -924,13 +985,14 @@
       "Surreal",
       "Tree",
       "Art",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Pohon kehidupan biomekanikal yang surealis, batang terbuat dari kabel metalik, pipa, dan jaringan otot organik yang saling terjalin, cabang terpecah menjadi pola papan sirkuit halus yang mekar menjadi bunga dari kristal dan LED, akar menembus tanah gelap dan papan sirkuit secara bersamaan, bercahaya dengan cahaya amber dari dalam, berlatar belakang kosmik gelap dengan warna nebula samar, H.R. Giger bertemu seni botani, ultra-detail, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Latte Art Competition Shot Overhead",
     "content": "Perfect overhead flat lay photograph of a world-class latte art in a pristine white ceramic cup, the foam surface painted with an impossibly detailed tulip pattern, micro-foam texture visible at ultra-close range, steam rising softly, single coffee drip on the side of the cup, placed on weathered oak table with a few scattered coffee beans, warm morning window light from the side, commercial coffee photography quality, 8K. Negative: poor latte art, cold coffee, plastic cup, dark table, harsh lighting.",
     "isPremium": true,
@@ -939,13 +1001,14 @@
       "Food Photography",
       "Overhead",
       "Commercial",
-      "Latte Art"
+      "Latte Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto flat lay overhead sempurna dari latte art berkelas dunia dalam cangkir keramik putih bersih, permukaan busa dilukis dengan pola tulip yang detail luar biasa, tekstur micro-foam terlihat pada jarak ultra-dekat, uap naik dengan lembut, satu tetes kopi di sisi cangkir, diletakkan di meja kayu ek yang lapuk dengan beberapa biji kopi yang berserakan, cahaya jendela pagi yang hangat dari samping, kualitas fotografi kopi komersial, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Quantum Realm Nanotech Abstract",
     "content": "Abstract visualization of the quantum realm, depicting subatomic particles as luminous geometric shapes in electric blue, gold, and crimson, superposition shown as overlapping translucent forms, quantum tunneling visualized as particles phasing through crystalline barriers, wave-particle duality shown simultaneously, set against pure black void, highly mathematical and geometric, scientific visualization meets abstract art, trending on Behance and ArtStation. Negative: obvious atoms, low contrast, muddy colors, random chaos.",
     "isPremium": true,
@@ -954,13 +1017,14 @@
       "Abstract",
       "Nanotech",
       "Scientific Art",
-      "Visualization"
+      "Visualization",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Visualisasi abstrak dari alam kuantum, menggambarkan partikel subatomik sebagai bentuk geometris bercahaya dalam biru elektrik, emas, dan krimson, superposisi ditampilkan sebagai bentuk tembus pandang yang tumpang tindih, quantum tunneling divisualisasikan sebagai partikel yang menembus penghalang kristal, dualitas gelombang-partikel ditampilkan secara bersamaan, berlatar belakang kekosongan hitam murni, sangat matematis dan geometris, visualisasi ilmiah bertemu seni abstrak, trending di Behance dan ArtStation."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Weathered Lighthouse on Rocky Coast",
     "content": "A weathered old lighthouse perched on dramatic rocky cliffs at the edge of a turbulent North Atlantic sea, storm clouds gathering with patches of golden light breaking through, waves crashing at the cliff base with massive spray, the lighthouse keeper's house beside it with a single lit window, a narrow winding path down the cliff, seabirds wheeling in the wind, cinematic photography, timeless and powerful, 8K. Negative: tropical setting, calm sea, modern design, flat light, clean white lighthouse.",
     "isPremium": true,
@@ -969,13 +1033,14 @@
       "Coast",
       "Storm",
       "Photography",
-      "Landscape"
+      "Landscape",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Mercusuar tua yang lapuk bertengger di tebing berbatu yang dramatis di tepi laut Atlantik Utara yang bergejolak, awan badai berkumpul dengan bercak cahaya emas yang menerobos, ombak menghantam kaki tebing dengan semburan besar, rumah penjaga mercusuar di sampingnya dengan satu jendela menyala, jalan sempit berkelok-kelok di tebing, burung camar berputar di angin, fotografi sinematik, abadi dan kuat, 8K."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Art Deco Robot Fashion Illustration",
     "content": "An elegant Art Deco illustration of a humanoid robot in a glamorous 1920s fashion pose, geometric chrome body with intricate gold and black inlaid patterns, wearing a flowing metallic flapper dress with angular beaded fringe, holding a cocktail glass with glowing liquid, dramatic Tamara de Lempicka style background in deep teal and black, ultra-detailed, luxury editorial illustration style, fashion meets Metropolis. Negative: generic robot, low detail, modern aesthetic, cartoonish, pale colors.",
     "isPremium": true,
@@ -984,13 +1049,14 @@
       "Robot",
       "Illustration",
       "Fashion",
-      "Retro-Futurism"
+      "Retro-Futurism",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Ilustrasi Art Deco elegan dari robot humanoid dalam pose fashion glamor tahun 1920-an, tubuh krom geometris dengan pola tatahan emas dan hitam yang rumit, mengenakan gaun flapper metalik mengalir dengan jumbai beads angular, memegang gelas koktail dengan cairan bercahaya, gaya latar belakang Tamara de Lempicka yang dramatis dalam teal dan hitam tua, ultra-detail, gaya ilustrasi editorial mewah, fashion bertemu Metropolis."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Hyperdetailed Clock Mechanism Macro",
     "content": "Extreme macro photograph of the interior of a luxury Swiss mechanical watch movement, hundreds of polished brass gears in various sizes perfectly tessellated, ruby jewel bearings glowing deep red, oscillating balance wheel mid-swing, hairspring coiled delicately, engravings on the main plate visible, lit dramatically from a single source catching every chamfered edge, dark background, horological perfection, 8K. Negative: digital watch, plastic parts, blurry gears, dirty movement, low light.",
     "isPremium": true,
@@ -999,13 +1065,14 @@
       "Watch",
       "Mechanical",
       "Photography",
-      "Luxury"
+      "Luxury",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ekstrem dari interior gerakan jam tangan mekanik mewah Swiss, ratusan gigi kuning kilau dalam berbagai ukuran yang ditesselasi dengan sempurna, bearing batu rubi bercahaya merah tua, roda keseimbangan yang berosilasi di tengah ayunan, pegas rambut tergulung dengan lembut, ukiran pada pelat utama terlihat, diterangi secara dramatis dari satu sumber yang menangkap setiap tepi yang dimiringkan, latar belakang gelap, kesempurnaan horologi, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Mermaid in Sunlit Shallow Reef",
     "content": "A photorealistic mermaid with iridescent blue-green scales resting in a sunlit shallow tropical reef, tail curled around a large coral head, long copper-red hair fanning in the current, surrounding by colorful reef fish and sea anemones, shafts of tropical sunlight creating caustic light patterns on the sandy floor, clear turquoise water, ultra-detailed marine biology accuracy, dreamy and magical, documentary underwater photography quality. Negative: dark ocean, cartoonish, no reef life, poor scale detail, European painting clichés.",
     "isPremium": true,
@@ -1014,13 +1081,14 @@
       "Mermaid",
       "Underwater",
       "Reef",
-      "Photorealistic"
+      "Photorealistic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Putri duyung fotorealistik dengan sisik hijau-biru iridesen beristirahat di terumbu tropis dangkal yang diterangi matahari, ekor melingkar di sekitar kepala karang besar, rambut tembaga-merah panjang mengembang dalam arus, dikelilingi oleh ikan terumbu berwarna-warni dan anemon laut, berkas sinar matahari tropis menciptakan pola cahaya kausatik di lantai berpasir, air toska jernih, akurasi biologi kelautan ultra-detail, indah dan magis, kualitas fotografi bawah air dokumenter."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Indonesian Rainforest Canopy at Dawn",
     "content": "Breathtaking aerial view of a Bornean rainforest canopy at first light, an endless sea of green treetops mist-kissed at dawn, a river of fog filling the valleys between hills, a lone orangutan visible at the treetop, hornbill birds in flight, the first rays of golden sun hitting the highest leaves, photojournalistic quality, 8K, conservation photography. Negative: deforested area, plantation, artificial lighting, no wildlife, flat canopy.",
     "isPremium": true,
@@ -1029,13 +1097,14 @@
       "Indonesia",
       "Nature",
       "Aerial",
-      "Conservation"
+      "Conservation",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Tampilan aerial yang memukau dari kanopi hutan hujan Kalimantan saat fajar pertama, lautan puncak pohon hijau yang tak berujung yang diselimuti kabut saat fajar, sungai kabut memenuhi lembah di antara bukit-bukit, seekor orangutan sendirian terlihat di puncak pohon, burung rangkong dalam penerbangan, sinar pertama matahari emas mengenai daun-daun tertinggi, kualitas fotojurnalistik, 8K, fotografi konservasi."
   },
   {
-    "category": "Cyberpunk & Futuristic Concepts",
+    "category": "Image Generation",
     "title": "Dystopian Megacity Aerial View",
     "content": "Aerial view of a dystopian megacity stretching to the horizon in every direction, dense packed towers in varying states of decay and neon-lit wealth, a stark divide between gleaming upper levels and polluted lower streets, massive corporate hologram ads projected on skyscrapers, smog layer visible at mid-height, elevated highways carrying flying vehicles, ultra-dense and oppressive scale, blade runner meets real-world cyberpunk, 8K cinematic. Negative: utopian, clean, green areas, small scale, simple layout.",
     "isPremium": true,
@@ -1044,13 +1113,14 @@
       "Megacity",
       "Aerial",
       "Cyberpunk",
-      "Sci-Fi"
+      "Sci-Fi",
+      "Cyberpunk & Futuristic Concepts"
     ],
     "detail": "### 🎨 Blueprint Prompt: Cyberpunk & Futuristic Concepts\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Tampilan aerial dari megakota distopian yang membentang ke cakrawala di setiap arah, menara-menara yang padat dalam berbagai keadaan kerusakan dan kekayaan yang diterangi neon, perbedaan mencolok antara tingkat atas yang berkilau dan jalan bawah yang tercemar, iklan hologram korporasi besar yang diproyeksikan pada gedung pencakar langit, lapisan kabut asap terlihat di ketinggian tengah, jalan layang yang membawa kendaraan terbang, skala yang sangat padat dan menekan, Blade Runner bertemu cyberpunk dunia nyata, sinematik 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Translucent Jellyfish Forest Meditation",
     "content": "A serene scene of hundreds of large translucent jellyfish drifting in an open ocean lit from above by diffused tropical sunlight, each jellyfish glowing softly in warm gold and pale blue, long trailing tentacles creating flowing curtains of delicate lines through the water, a free-diver visible at the center in silhouette, absolute serenity, beauty, and meditative quality, fine art underwater photography, 8K. Negative: dark water, jellyfish stinging, sharks, blurry tentacles, overly saturated.",
     "isPremium": true,
@@ -1059,13 +1129,14 @@
       "Underwater",
       "Meditation",
       "Fine Art",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Pemandangan tenang dari ratusan ubur-ubur tembus pandang besar yang melayang di laut terbuka yang diterangi dari atas oleh sinar matahari tropis yang tersebar, setiap ubur-ubur bercahaya lembut dalam emas hangat dan biru pucat, tentakel panjang yang mengalir menciptakan tirai garis halus yang mengalir melalui air, penyelam bebas terlihat di tengah dalam siluet, ketenangan mutlak, keindahan, dan kualitas meditatif, fotografi bawah air seni rupa, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Geometric Islamic Art Kaleidoscope",
     "content": "A breathtaking digital recreation of a traditional Islamic geometric art pattern as a deeply symmetrical kaleidoscopic composition, intricate interlocking star polygons in deep lapis lazuli blue, emerald green, and burnished gold, each shape bordered in fine white line, perfect mathematical symmetry, infinite pattern tile, printed on a dark background, museum-quality digital art, ultra-precise vector art aesthetic. Negative: imperfect symmetry, random pattern, Western art style, low detail, clashing colors.",
     "isPremium": true,
@@ -1074,13 +1145,14 @@
       "Geometric",
       "Pattern",
       "Digital Art",
-      "Cultural"
+      "Cultural",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Rekreasi digital yang memukau dari pola seni geometris Islam tradisional sebagai komposisi kaleidoskopik yang sangat simetris, poligon bintang saling terkait yang rumit dalam biru lapis lazuli tua, hijau zamrud, dan emas dipoles, setiap bentuk berbatas garis putih tipis, simetri matematis sempurna, ubin pola tak terbatas, dicetak pada latar belakang gelap, seni digital berkualitas museum, estetika seni vektor ultra-presisi."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Snow Leopard in Himalayan Blizzard",
     "content": "A powerful snow leopard standing in a fierce Himalayan blizzard, its thick spotted fur dusted with snow, eyes locked directly at the camera with extraordinary intensity, blurred snowy mountain peak in the background, the cat emerging from a wall of white snowfall, ultra-detailed fur texture, each whisker visible, motion blur on snowflakes around the still predator, wildlife documentary photography quality, 8K. Negative: studio background, calm environment, low fur detail, domestic cat resemblance.",
     "isPremium": true,
@@ -1089,13 +1161,14 @@
       "Snow Leopard",
       "Himalaya",
       "Photography",
-      "Nature"
+      "Nature",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Macan tutul salju yang kuat berdiri dalam blizzard Himalaya yang ganas, bulu berbintik tebalnya ditaburi salju, mata terkunci langsung pada kamera dengan intensitas luar biasa, puncak gunung bersalju yang kabur di latar belakang, kucing muncul dari dinding hujan salju putih, tekstur bulu ultra-detail, setiap kumis terlihat, motion blur pada kepingan salju di sekitar predator yang diam, kualitas fotografi dokumenter satwa liar, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Retro-Futuristic Space Age Interior",
     "content": "An interior design scene from an alternate 1960s Space Age retro-futurism, curved white fiberglass pod furniture in burnt orange and avocado green, circular window looking out on a moonscape, starburst clock on the wall, shag carpet in deep teal, atomic era decorative elements, warm tungsten lighting, vinyl record player in the corner, the utopian optimism of the Space Race era, architectural photography style, ultra-detailed. Negative: modern minimalism, dark, digital screens, messy.",
     "isPremium": true,
@@ -1104,13 +1177,14 @@
       "Space Age",
       "Interior Design",
       "1960s",
-      "Vintage"
+      "Vintage",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Adegan desain interior dari masa depan alternatif retro-futurisme Space Age tahun 1960-an, furnitur pod fiberglass putih melengkung dalam oranye terbakar dan hijau alpukat, jendela melingkar yang memandang pemandangan bulan, jam starburst di dinding, karpet bulu dalam teal tua, elemen dekoratif era atom, pencahayaan tungsten hangat, pemutar piringan hitam di sudut, optimisme utopis era Space Race, gaya fotografi arsitektur, ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Ancient Deity Emerging from Ocean",
     "content": "A colossal ancient sea deity rising from the ocean at sunset, body made entirely of living ocean — coral, waves, and sea creatures forming its limbs, seaweed hair cascading down, barnacled face with glowing amber eyes, standing several kilometers tall against the horizon, a small fishing village at water's edge with tiny terrified fishermen, scale contrast emphasizing the deity's impossible size, cinematic epic composition, photo-real mythological scene. Negative: generic monster design, murky image, inconsistent scale, cartoon.",
     "isPremium": true,
@@ -1119,13 +1193,14 @@
       "Ocean",
       "Epic",
       "Scale",
-      "Cinematic"
+      "Cinematic",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Dewa laut kuno yang kolosal muncul dari lautan saat matahari terbenam, tubuh seluruhnya terbuat dari lautan hidup — karang, ombak, dan makhluk laut membentuk anggota tubuhnya, rambut rumput laut mengalir ke bawah, wajah berbarnakle dengan mata amber bercahaya, berdiri beberapa kilometer tinggi di cakrawala, sebuah desa nelayan kecil di tepian air dengan nelayan-nelayan kecil yang ketakutan, kontras skala menekankan ukuran dewa yang mustahil, komposisi epik sinematik, adegan mitologis foto-nyata."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Miniature World in a Terrarium",
     "content": "A stunning hyperrealistic miniature world inside a large glass terrarium, a functioning miniature waterfall cascading over tiny moss-covered rocks, a tiny Japanese garden with a miniature pagoda, a curved bridge over a small koi pond, bonsai-sized trees in full autumn color, tiny lanterns glowing at dusk, everything impossibly detailed at macro scale, warm light spilling from within, on a wooden table with books around it, fine art photography. Negative: cheap toy plants, flat, low detail, artificial-looking, dark.",
     "isPremium": true,
@@ -1134,13 +1209,14 @@
       "Terrarium",
       "Japanese Garden",
       "Macro",
-      "Fine Art"
+      "Fine Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Dunia miniatur hyperrealistik yang menakjubkan di dalam terrarium kaca besar, air terjun miniatur yang berfungsi mengalir di atas batu-batu kecil berlumut, taman Jepang miniatur dengan pagoda miniatur, jembatan melengkung di atas kolam koi kecil, pohon berukuran bonsai dalam warna musim gugur penuh, lentera kecil bercahaya saat senja, semuanya detail luar biasa pada skala makro, cahaya hangat tumpah dari dalam, di atas meja kayu dengan buku-buku di sekitarnya, fotografi seni rupa."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Glowing Neon Flowers Abstract",
     "content": "A stunning abstract composition of tropical flowers rendered in neon light — hibiscus, plumeria, and lotus flowers glowing in electric pink, cyan, and violet against pure black background, each petal made of luminous tubing that fades from warm core to cool edges, long-exposure light painting effect, multiple layers of depth with some flowers sharp and others softly glowing out of focus, gallery-worthy fine art photography. Negative: natural colors, daytime, green leaves dominant, blurry overall, white background.",
     "isPremium": true,
@@ -1149,13 +1225,14 @@
       "Flowers",
       "Neon",
       "Fine Art",
-      "Light Painting"
+      "Light Painting",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Komposisi abstrak yang memukau dari bunga tropis yang dirender dalam cahaya neon — bunga kembang sepatu, kamboja, dan teratai bercahaya dalam merah muda elektrik, cyan, dan violet di latar belakang hitam murni, setiap kelopak terbuat dari tabung bercahaya yang memudar dari inti hangat ke tepi sejuk, efek light painting long-exposure, beberapa lapisan kedalaman dengan beberapa bunga tajam dan lainnya bercahaya lembut di luar fokus, fotografi seni rupa yang layak dipajang di galeri."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Cryogenic Sleep Chamber Sci-Fi",
     "content": "A row of glass cryogenic sleep pods inside a deep space vessel, each pod containing a sleeping human in a white suit, frost on the glass surfaces catching pale blue ambient light, holographic status readouts floating above each pod, the long corridor curving away into infinite distance suggesting a massive ship, eerie and beautiful in equal measure, cinematic sci-fi set design, ultra-detailed. Negative: bright cheerful light, empty pods, fantasy design, retro-aesthetic, cartoony.",
     "isPremium": true,
@@ -1164,13 +1241,14 @@
       "Space",
       "Cryogenic",
       "Cinematic",
-      "Set Design"
+      "Set Design",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Deretan pod tidur kriogenik kaca di dalam kapal ruang angkasa dalam, setiap pod berisi manusia tidur dalam setelan putih, es beku di permukaan kaca menangkap cahaya ambient biru pucat, readout status holografik mengambang di atas setiap pod, koridor panjang yang melengkung ke jarak tak terbatas menunjukkan kapal yang sangat besar, menyeramkan dan indah dalam ukuran yang sama, desain set fiksi ilmiah sinematik, ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Indonesian Street Food Night Market",
     "content": "A vibrant Indonesian night market (pasar malam) scene, colorful stalls with hand-painted signs selling satay, martabak, boba, and local delicacies, warm smoky light from charcoal grills, motorcycle and bajaj creating movement in background, smiling vendors and families eating together, fairy lights strung between stalls, hand-painted batik banners, the authentic chaos and warmth of Indonesian street life, documentary street photography quality, 8K. Negative: empty market, Western food, sterile, cold lighting, posed.",
     "isPremium": true,
@@ -1179,13 +1257,14 @@
       "Street Food",
       "Night Market",
       "Culture",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Adegan pasar malam Indonesia yang semarak, kios-kios berwarna-warni dengan tanda bertulisan tangan menjual satay, martabak, boba, dan makanan lokal, cahaya asap hangat dari panggangan arang, sepeda motor dan bajaj menciptakan gerakan di latar belakang, penjual tersenyum dan keluarga makan bersama, lampu peri terentang di antara kios, spanduk batik yang dilukis dengan tangan, kekacauan dan kehangatan otentik kehidupan jalanan Indonesia, kualitas fotografi jalanan dokumenter, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "AI Dreams: Data Center Becomes Forest",
     "content": "A surreal transformation scene — a massive server room where the servers are slowly turning into trees, metal becoming wood grain mid-transformation, cooling fans morphing into fern fronds, network cables into hanging vines, LED indicator lights becoming fireflies, soft forest light replacing harsh fluorescent, moss growing over motherboards, a single server still fully digital at the center, concept art for an AI consciousness awakening story, painterly hyperrealism. Negative: generic server room, generic forest, abrupt transition, dark.",
     "isPremium": true,
@@ -1194,13 +1273,14 @@
       "Surreal",
       "Data Center",
       "Nature",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Adegan transformasi surealis — ruang server besar di mana server-server perlahan berubah menjadi pohon, logam berubah menjadi serat kayu di tengah transformasi, kipas pendingin berubah menjadi rombung pakis, kabel jaringan menjadi sulur gantung, lampu indikator LED menjadi kunang-kunang, cahaya hutan lembut menggantikan neon yang keras, lumut tumbuh di atas motherboard, satu server masih sepenuhnya digital di tengah, seni konsep untuk cerita kebangkitan kesadaran AI, hyperrealisme bergaya lukisan."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Borobudur at Sunrise Golden Fog",
     "content": "The ancient Buddhist temple of Borobudur rising above a sea of white morning fog at sunrise, the top stupas piercing through the mist and catching the first golden rays of sun, volcanoes Merapi and Merbabu silhouetted in the blue distance, multiple Buddhist monks in saffron robes in meditation at the top, the fog rolling through the surrounding Kedu Valley like a river, photorealistic, award-winning travel photography, 8K. Negative: cloudy overcast, no fog, crowded with tourists, midday harsh light.",
     "isPremium": true,
@@ -1209,13 +1289,14 @@
       "Indonesia",
       "Sunrise",
       "Temple",
-      "Travel Photography"
+      "Travel Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Candi Buddha kuno Borobudur muncul di atas lautan kabut pagi putih saat matahari terbit, stupa-stupa atas menembus kabut dan menangkap sinar matahari emas pertama, gunung berapi Merapi dan Merbabu bersiluet di kejauhan biru, beberapa biksu Buddha berpakaian saffron dalam meditasi di puncak, kabut mengalir melalui Lembah Kedu sekitarnya seperti sungai, fotorealistik, fotografi perjalanan pemenang penghargaan, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Hyper-Detailed Chess Pieces Macro",
     "content": "Extreme macro photograph of a match between an obsidian black king piece and a marble white queen piece on a polished walnut chessboard, the board tiles stretching to a blurred horizon in bokeh, each chess piece carved with microscopic medieval figures, dramatic side lighting creating deep shadow, dust particles in the air catching the light, chess pieces treated as monumental sculptures, fine art still life photography, ultra-sharp, 8K. Negative: plastic pieces, flat lighting, cluttered board, no bokeh.",
     "isPremium": true,
@@ -1224,13 +1305,14 @@
       "Macro",
       "Still Life",
       "Photography",
-      "Fine Art"
+      "Fine Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ekstrem dari sebuah pertandingan antara bidak raja hitam obsidian dan ratu putih marmer di papan catur kenari yang dipoles, petak papan yang membentang ke cakrawala kabur dalam bokeh, setiap bidak catur diukir dengan figur abad pertengahan mikroskopis, pencahayaan samping dramatis menciptakan bayangan dalam, partikel debu di udara menangkap cahaya, bidak catur diperlakukan sebagai patung monumental, fotografi still life seni rupa, ultra-tajam, 8K."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Glitch Art Portrait",
     "content": "A stunning glitch art portrait of a woman's face, photorealistic base with deliberate digital corruption artifacts creating abstract beauty — RGB channel splits revealing layers beneath, sharp geometric data blocks in electric cyan and magenta, scan line distortions revealing skeleton wireframe beneath the skin in some areas, the eyes perfectly intact and staring, a fusion of human beauty and digital decay, trending digital art aesthetic 2026, ultra-high resolution. Negative: random messy glitch, unrecognizable face, low resolution, dark.",
     "isPremium": true,
@@ -1239,13 +1321,14 @@
       "Portrait",
       "Digital Art",
       "Abstract",
-      "2026 Aesthetic"
+      "2026 Aesthetic",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret glitch art yang memukau dari wajah wanita, dasar fotorealistik dengan artefak korupsi digital yang disengaja menciptakan keindahan abstrak — pemisahan saluran RGB mengungkapkan lapisan di bawahnya, blok data geometris tajam dalam cyan elektrik dan magenta, distorsi scan line mengungkapkan kerangka wireframe di bawah kulit di beberapa area, mata yang sempurna utuh dan menatap, fusi kecantikan manusia dan kerusakan digital, estetika seni digital yang trending 2026, resolusi ultra-tinggi."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Raindrops on Window with City Bokeh",
     "content": "Close-up of rain droplets on a window glass, each droplet acting as a tiny lens capturing an upside-down image of the blurred city street lights and neon signs below, warm orange and cyan bokeh circles in the background, foreground water trails running down the glass, shallow depth of field, film photography grain, moody and contemplative urban atmosphere, Japanese cinema aesthetic, 8K. Negative: dry window, sharp background, no bokeh, overlit, modern digital-clean look.",
     "isPremium": true,
@@ -1254,13 +1337,14 @@
       "Window",
       "Bokeh",
       "Urban",
-      "Film Photography"
+      "Film Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Close-up tetes hujan di kaca jendela, setiap tetes bertindak sebagai lensa kecil yang menangkap gambar terbalik dari lampu jalan kota yang kabur dan tanda neon di bawah, lingkaran bokeh oranye hangat dan cyan di latar belakang, jejak air latar depan mengalir di kaca, kedalaman bidang dangkal, butiran fotografi film, atmosfer urban yang suram dan kontemplatif, estetika sinema Jepang, 8K."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Warrior Monk with Dragon Tattoo Illuminated",
     "content": "Close-up portrait of a young East Asian warrior monk, shaved head with small tattoos, face intense and serene simultaneously, bare shoulder showing a large traditional dragon tattoo that appears to be glowing from within with deep amber and gold light, background of a dark rainy monastery, single candle light source illuminating the face from below, cinematic chiaroscuro, muscle tone and skin texture ultra-detailed, 8K portrait. Negative: Western features, bright background, garish tattoo colors, flat lighting.",
     "isPremium": true,
@@ -1269,13 +1353,14 @@
       "Warrior",
       "Monk",
       "Tattoo",
-      "Cinematic"
+      "Cinematic",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret close-up seorang biksu pejuang Asia Timur yang muda, kepala botak dengan tato kecil, wajah intens dan tenang secara bersamaan, bahu telanjang memperlihatkan tato naga tradisional besar yang tampak bercahaya dari dalam dengan cahaya amber dan emas tua, latar belakang biara hujan yang gelap, satu sumber lilin menerangi wajah dari bawah, chiaroscuro sinematik, tonus otot dan tekstur kulit ultra-detail, potret 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Impressionist Oil Painting: Rainy Paris",
     "content": "A masterful impressionist oil painting style image of a rainy Parisian boulevard, couples under umbrellas reflected in the wet cobblestones, a flower seller at the corner, cafe lights glowing warm through fogged windows, Notre Dame visible in the misty distance, painterly brushwork visible in every surface, the city impressionistically rendered with confident loose strokes in the style of Gustave Caillebotte but more painterly, gallery quality fine art. Negative: photographic, sharp details, dark atmosphere, incorrect Paris architecture.",
     "isPremium": true,
@@ -1284,13 +1369,14 @@
       "Paris",
       "Painting",
       "Rainy",
-      "Fine Art"
+      "Fine Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Gambar bergaya lukisan minyak impresionis yang ahli dari boulevard Paris yang hujan, pasangan di bawah payung tercermin di bebatuan basah, penjual bunga di sudut, cahaya kafe bercahaya hangat melalui jendela berkabut, Notre Dame terlihat di kejauhan berkabut, goresan kuas bergaya lukisan terlihat di setiap permukaan, kota yang dirender secara impresionis dengan goresan longgar yang percaya diri dalam gaya Gustave Caillebotte tetapi lebih bergaya lukisan, seni rupa berkualitas galeri."
   },
   {
-    "category": "Cyberpunk & Futuristic Concepts",
+    "category": "Image Generation",
     "title": "Quantum Computer in Sacred Geometry Room",
     "content": "A futuristic quantum computer at the center of a circular room whose walls, floor, and ceiling are covered in glowing sacred geometry patterns in gold and silver, the quantum processor visible behind a cryogenic cooling shield of gleaming polished steel, geometric patterns animated and rotating slowly, an otherworldly blue-white glow emanating from the core, the blending of ancient spiritual imagery and cutting-edge technology, concept art, ultra-detailed. Negative: plain lab environment, generic computer, dark, cluttered, low detail patterns.",
     "isPremium": true,
@@ -1299,13 +1385,14 @@
       "Sacred Geometry",
       "Sci-Fi",
       "Concept Art",
-      "Futuristic"
+      "Futuristic",
+      "Cyberpunk & Futuristic Concepts"
     ],
     "detail": "### 🎨 Blueprint Prompt: Cyberpunk & Futuristic Concepts\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Komputer kuantum futuristik di tengah ruangan melingkar yang dinding, lantai, dan langit-langitnya ditutupi pola geometri sakral yang bercahaya dalam emas dan perak, prosesor kuantum terlihat di balik pelindung pendinginan kriogenik dari baja dipoles yang berkilau, pola geometris beranimasi dan berputar perlahan, cahaya biru-putih yang asing memancar dari inti, perpaduan antara citra spiritual kuno dan teknologi mutakhir, seni konsep, ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Autumn Leaves Macro Water Reflection",
     "content": "Ultra-macro photograph of a single perfect maple leaf in peak scarlet autumn color, floating face-up in still dark water, its colors and veins reflecting in perfect mirror detail on the water surface below, with a few extra leaves blurred in the bokeh background, minimal composition, calm contemplative Japanese aesthetic, mist in the upper background, 8K, award-winning nature photography. Negative: multiple sharp leaves, busy composition, bright overall light, non-reflective water.",
     "isPremium": true,
@@ -1314,13 +1401,14 @@
       "Macro",
       "Leaf",
       "Reflection",
-      "Nature"
+      "Nature",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ultra dari satu daun maple sempurna dalam warna merah puncak musim gugur, mengambang menghadap atas di air gelap yang tenang, warna dan venanya memantul dalam detail cermin sempurna di permukaan air di bawahnya, dengan beberapa daun tambahan yang kabur di latar belakang bokeh, komposisi minimal, estetika Jepang yang tenang dan kontemplatif, kabut di latar belakang atas, 8K, fotografi alam pemenang penghargaan."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Futuristic Bali Rice Terrace at Dawn",
     "content": "Breathtaking aerial view of Bali's famous Tegalalang rice terraces transformed in the year 2050, the ancient terracing system preserved but integrated with sustainable technology — solar micro-grids hidden in the berms, farmers using anti-gravity tools, traditional Balinese offerings and umbrellas beside high-tech equipment, sunrise mist filling the valleys in gold and pink, photorealistic future documentary photography, 8K. Negative: pure traditional, no tech integration, flat light, overcast, urban sprawl visible.",
     "isPremium": true,
@@ -1329,13 +1417,14 @@
       "Indonesia",
       "Futurism",
       "Rice Terrace",
-      "Photography"
+      "Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Tampilan aerial yang memukau dari terasering sawah Tegalalang Bali yang terkenal yang bertransformasi di tahun 2050, sistem terasering kuno dipertahankan tetapi terintegrasi dengan teknologi berkelanjutan — micro-grid surya tersembunyi di tanggul, petani menggunakan alat anti-gravitasi, persembahan Bali tradisional dan payung di samping peralatan berteknologi tinggi, kabut matahari terbit mengisi lembah dalam emas dan merah muda, fotografi dokumenter masa depan fotorealistik, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Desert Rose Crystal Formation Macro",
     "content": "Hyper-detailed macro photograph of natural desert rose crystal formations in deep terracotta orange and dusty pink, multiple rosette clusters emerging from sandy substrate, each petal made of crystalline gypsum with micro-texture visible at extreme magnification, warm side lighting creating dramatic depth in the crystal layers, a grain of sand for scale beside the formation, black background, scientific beauty, award-winning mineral photography, 8K. Negative: flower, glass, artificial crystal, dark background, low detail.",
     "isPremium": true,
@@ -1344,13 +1433,14 @@
       "Crystal",
       "Geology",
       "Nature",
-      "Scientific Photography"
+      "Scientific Photography",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro hyper-detail dari formasi kristal mawar gurun alami dalam oranye terracotta tua dan merah muda berdebu, beberapa kluster roset muncul dari substrat berpasir, setiap kelopak terbuat dari gipsum kristal dengan mikro-tekstur yang terlihat pada perbesaran ekstrem, pencahayaan samping hangat menciptakan kedalaman dramatis di lapisan kristal, sebutir pasir untuk skala di samping formasi, latar belakang hitam, keindahan ilmiah, fotografi mineral pemenang penghargaan, 8K."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Biomimetic Fashion: Mantis Shrimp Dress",
     "content": "High fashion editorial concept: a stunning ballgown inspired by the mantis shrimp's iridescent exoskeleton, fabric shimmering with 16-color spectrum bands only visible at certain angles, structural design mimicking the shrimp's segmented armor, the model in a powerful stance, studio white background with single overhead light creating the full iridescent effect, the dress radiating different colors depending on viewing angle, futuristic nature-inspired haute couture, ultra-detailed. Negative: literal shrimp costume, dull colors, amateur design, dark background.",
     "isPremium": true,
@@ -1359,13 +1449,14 @@
       "Biomimicry",
       "Haute Couture",
       "Iridescent",
-      "Concept Design"
+      "Concept Design",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Konsep editorial high fashion: gaun bola yang memukau terinspirasi dari eksoskeleton iridesen udang mantis, kain berkilau dengan pita spektrum 16 warna yang hanya terlihat pada sudut tertentu, desain struktural meniru baju zirah tersegmentasi udang, model dalam posisi bertenaga, latar belakang putih studio dengan satu lampu overhead menciptakan efek iridesen penuh, gaun memancarkan berbagai warna tergantung sudut pandang, haute couture terinspirasi alam yang futuristik, ultra-detail."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Neon Jungles: Bioluminescent Tropics",
     "content": "A tropical rainforest at night where every living thing glows — bioluminescent fungi on tree roots casting blue light, flowers with bright pink luminescent petals, a jaguar with glowing amber eyes padding silently through the undergrowth, a stream of glowing cyan water, the canopy above filled with softly lit bioluminescent insects, a world that looks entirely alien yet is Earth, cinematic nature documentary photography, ultra-wide angle, 8K. Negative: dark and murky, dull glowing, human presence, realistic non-glowing.",
     "isPremium": true,
@@ -1374,13 +1465,14 @@
       "Rainforest",
       "Night",
       "Wildlife",
-      "Fantasy Nature"
+      "Fantasy Nature",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Hutan hujan tropis di malam hari di mana setiap makhluk hidup bercahaya — jamur bioluminesen pada akar pohon memancarkan cahaya biru, bunga dengan kelopak bercahaya merah muda cerah, jaguar dengan mata amber bercahaya mengendap diam-diam melalui semak belukar, aliran air cyan bercahaya, kanopi di atas dipenuhi serangga bioluminesen yang bercahaya lembut, dunia yang tampak sepenuhnya alien namun adalah Bumi, fotografi dokumenter alam sinematik, sudut ultra-lebar, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Cosmic Horror Lovecraftian Ocean",
     "content": "A terrifying and beautiful Lovecraftian scene — a massive ancient being of impossible geometry slowly rising from the night ocean, partially visible through churning black waves, its form defying comprehension with fractal tentacles extending into the star-filled sky, a small sailing ship in the foreground dwarfed to insignificance, dark eldritch atmosphere, cyan and green phosphorescent sea glow, horror and awe in perfect balance, fine art concept illustration. Negative: silly monster design, cartoonish, daylight, inconsistent scale, standard sea monster.",
     "isPremium": true,
@@ -1389,13 +1481,14 @@
       "Horror",
       "Ocean",
       "Eldritch",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Adegan Lovecraftian yang mengerikan sekaligus indah — makhluk kuno besar dengan geometri yang mustahil perlahan bangkit dari lautan malam, sebagian terlihat melalui ombak hitam yang bergejolak, bentuknya menentang pemahaman dengan tentakel fraktal yang memanjang ke langit penuh bintang, kapal layar kecil di latar depan yang dikerdilkan menjadi tidak berarti, atmosfer eldritsch yang gelap, cahaya fosforesen laut cyan dan hijau, horor dan kekaguman dalam keseimbangan sempurna, ilustrasi konsep seni rupa."
   },
   {
-    "category": "Photorealistic Portraits & Fashion",
+    "category": "Image Generation",
     "title": "Golden Hour Portrait in Poppy Field",
     "content": "A breathtaking environmental portrait of a woman with wild dark hair standing in a vast field of red poppies at golden hour, warm amber light from the low sun creating a rim-light halo around her silhouette, hundreds of poppies in foreground bokeh, she faces away looking into the vast distance, long flowing dress in ivory, the field seeming to stretch forever, cinematic editorial photography, 8K. Negative: artificial flowers, harsh midday light, posed look-at-camera, small field, blurry subject.",
     "isPremium": true,
@@ -1404,13 +1497,14 @@
       "Nature",
       "Golden Hour",
       "Editorial",
-      "Cinematic"
+      "Cinematic",
+      "Photorealistic Portraits & Fashion"
     ],
     "detail": "### 🎨 Blueprint Prompt: Photorealistic Portraits & Fashion\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Potret lingkungan yang memukau dari seorang wanita berambut gelap liar berdiri di ladang bunga poppy merah yang luas saat golden hour, cahaya amber hangat dari matahari rendah menciptakan halo rim-light di sekitar siluetnya, ratusan bunga poppy dalam bokeh latar depan, ia membelakangi kamera menatap kejauhan yang luas, gaun mengalir panjang berwarna gading, ladang tampak membentang selamanya, fotografi editorial sinematik, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Neon Samurai Tattoo Flash Art",
     "content": "A stunning neon tattoo flash art illustration of a samurai warrior in Japanese irezumi style but executed entirely in neon tubing colors — warrior in electric blue line work with pink cherry blossom accents, background wave patterns in cyan, Japanese calligraphy panels in yellow neon, framed like vintage tattoo flash on black background, bold and graphic, high contrast. Negative: soft painterly, photographic, low contrast, Western tattoo style.",
     "isPremium": true,
@@ -1419,13 +1513,14 @@
       "Irezumi",
       "Neon",
       "Japan",
-      "Graphic Art"
+      "Graphic Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Ilustrasi tattoo flash art bertanda neon yang memukau dari pejuang samurai dalam gaya irezumi Jepang tetapi dieksekusi sepenuhnya dalam warna tabung neon — pejuang dalam karya garis biru elektrik dengan aksen bunga sakura merah muda, pola gelombang latar belakang dalam cyan, panel kaligrafi Jepang dalam neon kuning, dibingkai seperti tattoo flash vintage pada latar belakang hitam, berani dan grafis, kontras tinggi."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Hyperrealistic Fractal Coral Architecture",
     "content": "Extreme macro photograph of a brain coral surface, the intricate maze-like channels photographed as if an architectural aerial map, every ridge casting deep shadows, colors from warm cream to deep ochre and terracotta, perfectly symmetrical fractal patterns, scientific and artistic simultaneously, shallow depth of field, 8K award-winning macro. Negative: full coral visible, ocean background, dark or gloomy, dull colors.",
     "isPremium": true,
@@ -1434,13 +1529,14 @@
       "Coral",
       "Fractal",
       "Nature",
-      "Scientific Art"
+      "Scientific Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Foto makro ekstrem dari permukaan brain coral, saluran seperti labirin difoto seperti peta udara arsitektur, setiap punggung bukit melemparkan bayangan dalam, warna dari krem hangat hingga oker tua dan terracotta, pola fraktal simetris sempurna, ilmiah dan artistik secara bersamaan, kedalaman bidang dangkal, 8K pemenang penghargaan."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Chrome Ball Levitating in Zen Garden",
     "content": "A perfect mirror-chrome sphere levitating above a meticulously raked Japanese Zen garden, reflecting the entire surrounding landscape in its convex surface — concentric sand circles, distant bonsai, and clear sky all curved into the reflection, a single pebble at center of its shadow, late afternoon side light, minimalist and meditative, fine art photography meets product visualization, 8K. Negative: matte ball, messy garden, multiple objects, harsh lighting.",
     "isPremium": true,
@@ -1449,13 +1545,14 @@
       "Chrome",
       "Minimalism",
       "Reflection",
-      "Fine Art"
+      "Fine Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Bola krom cermin sempurna yang melayang di atas taman Zen Jepang yang disapu teliti, memantulkan seluruh lanskap sekitarnya — lingkaran pasir konsentris, bonsai jauh, dan langit cerah semuanya melengkung menjadi pantulan, sebuah kerikil di tengah bayangannya, cahaya samping sore, komposisi minimalis dan meditatif, fotografi seni rupa bertemu visualisasi produk, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Epic Fantasy Colosseum Battle at Sunset",
     "content": "Aerial view of a massive ancient fantasy colosseum packed at golden sunset, two giant elemental creatures battling — one of living stone, one of swirling water — sand flying, crowd roaring, gladiators at edges for scale, architecture decorated with mythological friezes, torch fire on every parapet, Blizzard Entertainment quality concept art. Negative: Roman setting, humans only, empty arena, flat light, cartoonish.",
     "isPremium": true,
@@ -1464,13 +1561,14 @@
       "Battle",
       "Colosseum",
       "Epic",
-      "Concept Art"
+      "Concept Art",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Tampilan aerial dari koloseum fantasi kuno yang besar saat matahari terbenam emas, dua makhluk elemen raksasa bertarung — satu dari batu hidup, satu dari air berputar — pasir beterbangan, kerumunan bersorak, gladiator di tepi untuk skala, arsitektur didekorasi freze mitologis, api obor di setiap dinding, kualitas seni konsep Blizzard Entertainment."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "Polaroid Collection Aesthetic Flatlay",
     "content": "Curated aesthetic flat lay of polaroid photographs scattered on weathered wood, each showing a different beautiful travel destination, yellowed edges, handwritten captions in blue ink, interspersed with dried flowers, a vintage film camera, coffee cup, and worn travel journal, soft diffused natural window light, warm and nostalgic, lifestyle photography quality, 8K. Negative: digital photos, plastic surface, dark, cluttered mess, modern sleek aesthetic.",
     "isPremium": true,
@@ -1479,13 +1577,14 @@
       "Flat Lay",
       "Photography",
       "Nostalgic",
-      "Travel"
+      "Travel",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Flat lay estetik yang dikurasi dari foto polaroid berserakan di kayu lapuk, setiap foto menampilkan destinasi indah berbeda, tepi menguning, keterangan tulisan tangan dalam tinta biru, diselingi bunga kering, kamera film vintage, cangkir kopi, dan jurnal perjalanan lusuh, cahaya jendela alami tersebar lembut, suasana hangat dan nostalgis, kualitas fotografi lifestyle, 8K."
   },
   {
-    "category": "Stock Photography & Lifestyle",
+    "category": "Image Generation",
     "title": "AI Consciousness Awakening Abstract",
     "content": "Abstract visualization of artificial consciousness awakening — a vast dark neural network slowly lighting up node by node in electric blue and gold, accelerating from a single point until the frame fills with light, at center light condenses into a recognizable human face shape made entirely of photons, a sense of emergence and transcendence, 2026 AI art aesthetic, ultra-detailed, deeply symbolic. Negative: robotic cliché, dark and scary, random light show, low detail.",
     "isPremium": true,
@@ -1494,7 +1593,8 @@
       "Abstract",
       "Consciousness",
       "Neural Network",
-      "Philosophical"
+      "Philosophical",
+      "Stock Photography & Lifestyle"
     ],
     "detail": "### 🎨 Blueprint Prompt: Stock Photography & Lifestyle\n\nKonfigurasi Teknis — Model: Midjourney v6.1 / Flux.1 Dev | Arsitektur: High-Fidelity Photorealism | Lighting: Volumetric Cinematic | Negative: low quality, blurry, deformed.",
     "contentId": "Visualisasi abstrak dari kesadaran buatan yang bangkit — jaringan saraf gelap yang luas perlahan menyala node demi node dalam biru elektrik dan emas, semakin cepat dari satu titik hingga frame dipenuhi cahaya, di tengahnya cahaya memadat menjadi bentuk wajah manusia dari foton, rasa kemunculan dan transendensi, estetika seni AI 2026, ultra-detail, sangat simbolis."

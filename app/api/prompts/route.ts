@@ -38,6 +38,9 @@ function loadPrompts(): Prompt[] {
 }
 
 
+import { auth } from "@clerk/nextjs/server";
+import { prisma } from "@/lib/prisma";
+
 export async function GET(req: NextRequest) {
   try {
     const { searchParams } = new URL(req.url);
@@ -45,6 +48,21 @@ export async function GET(req: NextRequest) {
     const q = searchParams.get('q') ?? '';
     const page = parseInt(searchParams.get('page') ?? '1', 10);
     const limit = parseInt(searchParams.get('limit') ?? '24', 10);
+
+    // 1. Determine User Paid Status
+    let isPaid = false;
+    try {
+      const authObj = await auth();
+      if (authObj?.userId) {
+        const user = await prisma.user.findUnique({
+          where: { clerkId: authObj.userId },
+          select: { isPaid: true }
+        });
+        isPaid = !!user?.isPaid;
+      }
+    } catch (authError) {
+      console.error("Auth check failed:", authError);
+    }
 
     let prompts = loadPrompts();
 
@@ -59,7 +77,6 @@ export async function GET(req: NextRequest) {
       prompts = prompts.filter(
         (p) =>
           p.title.toLowerCase().includes(lower) ||
-          p.content.toLowerCase().includes(lower) ||
           p.category.toLowerCase().includes(lower) ||
           (p.tags && p.tags.some(tag => tag.toLowerCase().includes(lower)))
       );
@@ -68,7 +85,18 @@ export async function GET(req: NextRequest) {
     const total = prompts.length;
     const totalPages = Math.ceil(total / limit);
     const start = (page - 1) * limit;
-    const items = prompts.slice(start, start + limit);
+    const items = prompts.slice(start, start + limit).map(p => {
+      // 2. Apply Security Masking
+      if (p.isPremium && !isPaid) {
+        return {
+          ...p,
+          content: "PROTECTED_CONTENT",
+          contentId: "PROTECTED_CONTENT",
+          isLocked: true
+        };
+      }
+      return { ...p, isLocked: false };
+    });
 
     // Extract unique categories for sidebar
     const allPrompts = loadPrompts();
