@@ -80,7 +80,8 @@ export async function POST(req: Request) {
       where: { clerkId } as any,
       update: {
         referralCode, // Update or keep existing
-        isPaid // Sync payment state if changed externally before sync
+        isPaid, // Sync payment state if changed externally before sync
+        ...(actualReferredById ? { referredById: actualReferredById } : {})
       } as any,
       create: {
         clerkId,
