@@ -1027,29 +1027,36 @@ export const CampaignSubmissionForm = ({ onComplete }: { onComplete: () => void 
     const { timeLeft, phase } = useCampaignTimer();
     const [loading, setLoading] = useState(false);
     const [status, setStatus] = useState<"idle" | "success" | "error">("idle");
-    const [formData, setFormData] = useState({ platform: "tiktok", link: "", username: "" });
+    const [errorMsg, setErrorMsg] = useState("");
+    const [formData, setFormData] = useState({ platform: "tiktok", videoUrl: "", username: "" });
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setLoading(true);
         setStatus("idle");
+        setErrorMsg("");
 
         try {
             const res = await fetch("/api/campaign/submit", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData)
+                body: JSON.stringify({ 
+                    platform: formData.platform, 
+                    videoUrl: formData.videoUrl,  // Fixed: was 'link', API expects 'videoUrl'
+                    username: formData.username 
+                })
             });
 
             if (res.ok) {
                 setStatus("success");
             } else {
                 const err = await res.json();
-                alert(err.error || "Gagal mengirim pendaftaran.");
+                setErrorMsg(err.error || "Gagal mengirim pendaftaran. Coba lagi.");
                 setStatus("error");
             }
         } catch (error) {
             console.error(error);
+            setErrorMsg("Terjadi kesalahan jaringan. Periksa koneksi Anda.");
             setStatus("error");
         } finally {
             setLoading(false);
@@ -1105,8 +1112,8 @@ export const CampaignSubmissionForm = ({ onComplete }: { onComplete: () => void 
                     <label style={{ display: "block", fontSize: 13, fontWeight: 700, color: "#1E293B", marginBottom: 8 }}>Link Video (URL)</label>
                     <input 
                         required type="url" placeholder="https://..."
-                        value={formData.link} onChange={e => setFormData({ ...formData, link: e.target.value })}
-                        style={{ width: "100%", padding: "14px 18px", borderRadius: 12, border: "1px solid #E2E8F0", outline: "none", fontSize: 14 }}
+                        value={formData.videoUrl} onChange={e => setFormData({ ...formData, videoUrl: e.target.value })}
+                        style={{ width: "100%", padding: "14px 18px", borderRadius: 12, border: "1px solid #E2E8F0", outline: "none", fontSize: 14, boxSizing: "border-box" }}
                     />
                 </div>
 
@@ -1119,22 +1126,47 @@ export const CampaignSubmissionForm = ({ onComplete }: { onComplete: () => void 
                     />
                 </div>
 
+                {/* Error notification - replaces alert() */}
+                {status === "error" && errorMsg && (
+                    <div style={{
+                        padding: "14px 18px",
+                        borderRadius: 12,
+                        background: "#FEF2F2",
+                        border: "1px solid #FCA5A5",
+                        color: "#DC2626",
+                        fontSize: 13, fontWeight: 600,
+                        display: "flex", alignItems: "flex-start", gap: 10,
+                    }}>
+                        <span style={{ fontSize: 16, lineHeight: 1 }}>⚠️</span>
+                        <span>{errorMsg}</span>
+                    </div>
+                )}
+
                 <button 
                     disabled={loading}
                     type="submit"
                     style={{ 
                         marginTop: 12, padding: "18px", borderRadius: 100, border: "none",
-                        background: "linear-gradient(90deg, #10B981, #3B82F6)", color: "#fff",
+                        background: loading ? "#94A3B8" : "linear-gradient(90deg, #10B981, #3B82F6)",
+                        color: "#fff",
                         fontSize: 16, fontWeight: 800, cursor: loading ? "wait" : "pointer",
-                        boxShadow: "0 10px 25px -5px rgba(16,185,129,0.4)"
+                        boxShadow: loading ? "none" : "0 10px 25px -5px rgba(16,185,129,0.4)",
+                        display: "flex", alignItems: "center", justifyContent: "center", gap: 10,
+                        width: "100%", transition: "all 0.2s",
                     }}
                 >
-                    {loading ? "Sedang Mengirim..." : "Kirim Sekarang"}
+                    {loading ? (
+                        <>
+                            <span style={{ display: "inline-block", width: 16, height: 16, border: "2px solid rgba(255,255,255,0.4)", borderTopColor: "#fff", borderRadius: "50%", animation: "spin 0.7s linear infinite" }} />
+                            Sedang Mengirim...
+                        </>
+                    ) : "Kirim Sekarang"}
                 </button>
             </form>
         </div>
     );
 };
+
 
 export const CampaignRulesDetail = ({ 
     isPaid, 
