@@ -20,18 +20,35 @@ function loadPrompts(): Prompt[] {
   if (cachedPrompts && process.env.NODE_ENV === 'production') return cachedPrompts;
   
   const dataDir = path.join(process.cwd(), 'data');
-  const files = ['prompts.json', 'image-prompts.json'];
-  
   let allData: Omit<Prompt, 'id'>[] = [];
   
-  files.forEach(file => {
-    const filePath = path.join(dataDir, file);
-    if (fs.existsSync(filePath)) {
-      const raw = fs.readFileSync(filePath, 'utf-8');
+  // Load Prompts from categories folder
+  const categoriesDir = path.join(dataDir, 'categories');
+  if (fs.existsSync(categoriesDir)) {
+    const files = fs.readdirSync(categoriesDir).filter(f => f.endsWith('.json'));
+    files.forEach(file => {
+      const filePath = path.join(categoriesDir, file);
+      try {
+        const raw = fs.readFileSync(filePath, 'utf-8');
+        const data = JSON.parse(raw);
+        allData = [...allData, ...data];
+      } catch (e) {
+        console.error(`Error loading category file ${file}:`, e);
+      }
+    });
+  }
+  
+  // Load image prompts independently
+  const imagePromptsPath = path.join(dataDir, 'image-prompts.json');
+  if (fs.existsSync(imagePromptsPath)) {
+    try {
+      const raw = fs.readFileSync(imagePromptsPath, 'utf-8');
       const data = JSON.parse(raw);
       allData = [...allData, ...data];
+    } catch (e) {
+      console.error('Error loading image-prompts.json:', e);
     }
-  });
+  }
 
   cachedPrompts = allData.map((p, i) => ({ ...p, id: i + 1 }));
   return cachedPrompts;

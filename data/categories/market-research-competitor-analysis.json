@@ -1,0 +1,1112 @@
+[
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Conduct a comprehensive competitive landscape analysis for [...",
+    "content": "Conduct a 'Blue Ocean' competitor audit for [Industry/Niche]. Identify 3 'Unmet Psychological Needs' in [Competitor A, B, and C]'s reviews. Suggest a 'Unique Value Proposition' (UVP) that exploits these gaps. Output format: SWOT-X Analysis (SWOT + Execution Priority).",
+    "isPremium": false,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Conduct sebuah comprehensive competitive landscape analysis untuk [brand/product] in [niche] market, identifying top 5 competitors, their core value propositions, pricing models, target audiences, dan unique differentiators versus kamu offer."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Voice of Customer' research framework for [brand] i...",
+    "content": "Write a 'Voice of Customer' research framework for [brand] in [niche] that defines the 10 most important questions to ask customers about their buying decision, pain points, alternatives considered, and post-purchase experience.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Voice of Customer' research framework untuk [brand] in [niche] yang mendefinisikan 10 most important questions to ask customers tentang their buying decision, pain points, alternatives considered, dan post-purchase experience."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a competitor content audit for [niche] analyzing th...",
+    "content": "Generate a competitor content audit for [niche] analyzing the top 3 competitors': posting frequency, content formats, top-performing posts by engagement, content gaps, and the topics they are NOT covering that represent your opportunity.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah competitor content audit untuk [niche] analyzing top 3 competitors': posting frequency, content formats, top-performing posts by engagement, content gaps, dan topics they are NOT covering that represent kamu opportunity."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a customer avatar (buyer persona) document for [produ...",
+    "content": "Create a customer avatar (buyer persona) document for [product/service] in [niche] that defines: demographics, psychographics, daily challenges, online behavior, content consumption habits, buying triggers, and primary objections.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah customer avatar (buyer persona) document untuk [product/service] in [niche] yang mendefinisikan: demographics, psychographics, daily challenges, online behavior, content consumption habits, buying triggers, dan primary objections."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Jobs To Be Done' analysis for [product/service], id...",
+    "content": "Write a 'Jobs To Be Done' analysis for [product/service], identifying the 5 functional, emotional, and social 'jobs' customers are hiring your product to do — and how competitors are currently failing to complete those jobs.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Jobs To Be Done' analysis untuk [product/service], identifying 5 functional, emotional, dan social 'jobs' customers are hiring kamu product to do — dan how competitors are currently failing to complete those jobs."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a blue ocean strategy analysis for [brand] in [nich...",
+    "content": "Generate a blue ocean strategy analysis for [brand] in [niche] identifying 3 market spaces that competitors have completely ignored, with a brief opportunity assessment for each untapped segment.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah blue ocean strategy analysis untuk [brand] in [niche] identifying 3 market spaces that competitors have completely ignored, with sebuah brief opportunity assessment untuk each untapped segment."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a pricing strategy benchmarking report for [product/s...",
+    "content": "Create a pricing strategy benchmarking report for [product/service] in [niche], analyzing competitor pricing tiers, bundling strategies, freemium models, discount patterns, and positioning relative to perceived quality.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat pricing strategy benchmarking report untuk [product/service] in [niche], analyzing competitor pricing tiers, bundling strategies, freemium models, discount patterns, dan positioning relative to perceived quality."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Customer Pain Point Mining' report for [niche] usin...",
+    "content": "Write a 'Customer Pain Point Mining' report for [niche] using hypothetical data from Amazon reviews, Reddit threads, and Facebook groups, identifying the top 10 unresolved frustrations that your product could address.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Customer Pain Point Mining' report untuk [niche] using hypothetical data from Amazon reviews, Reddit threads, dan Facebook groups, identifying top 10 unresolved frustrations that kamu product could address."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a market segmentation analysis for [niche] that div...",
+    "content": "Generate a market segmentation analysis for [niche] that divides the total addressable market into 5 distinct buyer segments, describing the unique characteristics, needs, and content consumption habits of each.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah market segmentation analysis untuk [niche] that divides total addressable market into 5 distinct buyer segments, describing unique characteristics, needs, dan content consumption habits of each."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a SWOT analysis template for [brand] in [niche] that...",
+    "content": "Create a SWOT analysis template for [brand] in [niche] that goes beyond surface-level observations, requiring specific evidence for each strength, weakness, opportunity, and threat with actionable strategic implications.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah SWOT analysis template untuk [brand] in [niche] that goes beyond surface-level observations, requiring specific evidence untuk each strength, weakness, opportunity, dan threat with actionable strategic implications."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Review Mining Report' for [competitor product] by a...",
+    "content": "Write a 'Review Mining Report' for [competitor product] by analyzing patterns in their 1-star and 2-star customer reviews to identify the top 5 product weaknesses your brand can directly address as competitive advantages.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Review Mining Report' untuk [competitor product] by analyzing patterns in their 1-star dan 2-star customer reviews to identify top 5 product weaknesses kamu brand can directly address as competitive advantages."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a keyword gap analysis for [brand] versus [top comp...",
+    "content": "Generate a keyword gap analysis for [brand] versus [top competitor] in [niche], identifying the search terms and topics that competitors rank for but your brand does not, representing content and SEO opportunities.",
+    "isPremium": true,
+    "tags": [
+      "SEO",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah keyword gap analysis untuk [brand] versus [top competitor] in [niche], identifying search terms dan topics that competitors rank untuk but kamu brand does not, representing content dan SEO opportunities."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Share of Voice' analysis for [brand] versus [compe...",
+    "content": "Create a 'Share of Voice' analysis for [brand] versus [competitors] in [niche] across Instagram, TikTok, YouTube, and Google Search, measuring brand mention frequency and sentiment relative to market size.",
+    "isPremium": true,
+    "tags": [
+      "Short Video",
+      "YouTube",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Share of Voice' analysis untuk [brand] versus [competitors] in [niche] across Instagram, TikTok, YouTube, dan Google Search, measuring brand mention frequency dan sentiment relative to market size."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a consumer trend report for [niche] covering the top 5...",
+    "content": "Write a consumer trend report for [niche] covering the top 5 emerging trends for [current year], with evidence from search volume data, social media conversations, and early adopter behavior — and strategic implications for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis consumer trend report untuk [niche] covering top 5 emerging trends untuk [current year], with evidence from search volume data, social media conversations, dan early adopter behavior — dan strategic implications untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a competitive pricing elasticity analysis for [prod...",
+    "content": "Generate a competitive pricing elasticity analysis for [product/service], modeling how price changes would likely affect demand based on competitor positioning and customer price sensitivity in [niche].",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah competitive pricing elasticity analysis untuk [product/service], modeling how price changes would likely affect demand based on competitor positioning dan customer price sensitivity in [niche]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Market Opportunity Scorecard' for [niche] evaluati...",
+    "content": "Create a 'Market Opportunity Scorecard' for [niche] evaluating 5 potential product or service ideas across dimensions: market size, competition level, customer willingness to pay, differentiation potential, and resource requirements.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Market Opportunity Scorecard' untuk [niche] evaluating 5 potential product or service ideas across dimensions: market size, competition level, customer willingness to pay, differentiation potential, dan resource requirements."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a customer churn analysis framework for [brand] that i...",
+    "content": "Write a customer churn analysis framework for [brand] that identifies the top 5 reasons customers in [niche] stop buying, cross-references them with competitor offerings, and suggests retention strategies for each churn reason.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer churn analysis framework untuk [brand] yang mengidentifikasi top 5 reasons customers in [niche] stop buying, cross-references them with competitor offerings, dan suggests retention strategies untuk each churn reason."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a competitive messaging matrix for [niche] that map...",
+    "content": "Generate a competitive messaging matrix for [niche] that maps each competitor's primary message, supporting claims, proof elements, and target audience — revealing the messaging white space your brand can own.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah competitive messaging matrix untuk [niche] yang memetakan each competitor's primary message, supporting claims, proof elements, dan target audience — revealing messaging white space kamu brand can own."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a social media listening report for [niche] analyzing...",
+    "content": "Create a social media listening report for [niche] analyzing conversations on Instagram, TikTok, Reddit, and Twitter over the past [timeframe] to surface the top 10 trending topics, questions, and sentiments.",
+    "isPremium": true,
+    "tags": [
+      "Short Video",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah social media listening report untuk [niche] analyzing conversations on Instagram, TikTok, Reddit, dan Twitter over past [timeframe] to surface top 10 trending topics, questions, dan sentiments."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Competitor Ad Spy' analysis for [niche], describing...",
+    "content": "Write a 'Competitor Ad Spy' analysis for [niche], describing how to systematically review competitor Facebook/Instagram ad libraries to identify: ad formats, offer types, targeting signals, seasonal patterns, and creative approaches.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Competitor Ad Spy' analysis untuk [niche], describing how to systematically review competitor Facebook/Instagram ad libraries to identify: ad formats, offer types, targeting signals, seasonal patterns, dan creative approaches."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a product-market fit assessment survey for [product...",
+    "content": "Generate a product-market fit assessment survey for [product] in [niche] with 10 targeted questions that measure how essential customers find the product, what they would miss most, and how they would describe it to a friend.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah product-market fit assessment survey untuk [product] in [niche] with 10 targeted questions that measure how essential customers find product, what they would miss most, dan how they would describe it to sebuah friend."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a market sizing model for [niche] that estimates the...",
+    "content": "Create a market sizing model for [niche] that estimates the Total Addressable Market (TAM), Serviceable Addressable Market (SAM), and Serviceable Obtainable Market (SOM) with clear assumptions and calculation methodology.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah market sizing model untuk [niche] that estimates Total Addressable Market (TAM), Serviceable Addressable Market (SAM), dan Serviceable Obtainable Market (SOM) with clear assumptions dan calculation methodology."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Customer Decision Journey' map for a typical buyer...",
+    "content": "Write a 'Customer Decision Journey' map for a typical buyer in [niche], detailing every touchpoint from first awareness to post-purchase advocacy — identifying where competitors win customers and where [brand] can intercept.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Customer Decision Journey' map untuk sebuah typical buyer in [niche], detailing every touchpoint from first awareness to post-purchase advocacy — identifying where competitors win customers dan where [brand] can intercept."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a geographic market expansion analysis for [brand]...",
+    "content": "Generate a geographic market expansion analysis for [brand] considering entering [new market/country], covering market size, local competition, cultural considerations, pricing norms, and distribution channel options.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah geographic market expansion analysis untuk [brand] considering entering [new market/country], covering market size, local competition, cultural considerations, pricing norms, dan distribution channel options."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a competitive differentiation strategy for [product/s...",
+    "content": "Create a competitive differentiation strategy for [product/service] in a crowded [niche] market, identifying 3 defensible positions that are both meaningfully different from competitors and highly valued by the target customer.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah competitive differentiation strategy untuk [product/service] in sebuah crowded [niche] market, identifying 3 defensible positions that are both meaningfully different from competitors dan highly valued by target customer."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Price-Quality Positioning Map' for [niche] that plo...",
+    "content": "Write a 'Price-Quality Positioning Map' for [niche] that plots all major competitors on a 2x2 grid (price vs. quality), identifies the underserved quadrants, and recommends the optimal positioning for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Price-Quality Positioning Map' untuk [niche] that plots all major competitors on sebuah 2x2 grid (price vs. quality), identifies underserved quadrants, dan recommends optimal positioning untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a customer LTV (Lifetime Value) benchmarking analys...",
+    "content": "Generate a customer LTV (Lifetime Value) benchmarking analysis for [niche] that estimates average customer lifetime value across competitor business models and identifies the pricing, retention, and upsell levers that maximize LTV.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer LTV (Lifetime Value) benchmarking analysis untuk [niche] that estimates average customer lifetime value across competitor business models dan identifies pricing, retention, dan upsell levers that maximize LTV."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Whitespace Content Strategy' for [brand] in [niche...",
+    "content": "Create a 'Whitespace Content Strategy' for [brand] in [niche] by analyzing competitor content libraries and identifying 10 high-value topics that no competitor is covering well, representing SEO and authority-building opportunities.",
+    "isPremium": true,
+    "tags": [
+      "SEO",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Whitespace Content Strategy' untuk [brand] in [niche] by analyzing competitor content libraries dan identifying 10 high-value topics that no competitor is covering well, representing SEO dan authority-building opportunities."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a demand generation channel analysis for [product/serv...",
+    "content": "Write a demand generation channel analysis for [product/service] in [niche], ranking the top 8 customer acquisition channels by: cost per lead, conversion rate, audience quality, and scalability — with competitive benchmark data.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah demand generation channel analysis untuk [product/service] in [niche], ranking top 8 customer acquisition channels by: cost per lead, conversion rate, audience quality, dan scalability — with competitive benchmark data."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'First Mover vs...",
+    "content": "Generate a 'First Mover vs. Fast Follower' competitive strategy analysis for [brand] in [niche], evaluating whether to pioneer a new market position or rapidly enter an already-validated one with a superior execution strategy.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'First Mover vs. Fast Follower' competitive strategy analysis untuk [brand] in [niche], evaluating whether to pioneer sebuah new market position or rapidly enter an already-validated one with sebuah superior execution strategy."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a competitive feature comparison table for [product]...",
+    "content": "Create a competitive feature comparison table for [product] versus the top 3 competitors in [niche], organized by the features customers care most about, and annotated with your brand's relative strengths and gaps.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah competitive feature comparison table untuk [product] versus top 3 competitors in [niche], organized by features customers care most tentang, dan annotated with kamu brand's relative strengths dan gaps."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a search intent analysis for [niche] that maps the top...",
+    "content": "Write a search intent analysis for [niche] that maps the top 20 search queries to buyer intent stages (awareness, consideration, decision), identifies which competitors own each stage, and recommends content strategies for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah search intent analysis untuk [niche] yang memetakan top 20 search queries to buyer intent stages (awareness, consideration, decision), identifies which competitors own each stage, dan recommends content strategies untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Customer Lifetime Value vs...",
+    "content": "Generate a 'Customer Lifetime Value vs. Customer Acquisition Cost' benchmarking report for [niche], comparing [brand]'s LTV:CAC ratio against industry averages and identifying strategies to improve the ratio.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Customer Lifetime Value vs. Customer Acquisition Cost' benchmarking report untuk [niche], comparing [brand]'s LTV:CAC ratio against industry averages dan identifying strategies to improve ratio."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Disruptive Innovation Opportunity' analysis for [n...",
+    "content": "Create a 'Disruptive Innovation Opportunity' analysis for [niche] inspired by Clayton Christensen's framework, identifying overserved customer segments where a simpler, cheaper, or more accessible offering could disrupt incumbents.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Disruptive Innovation Opportunity' analysis untuk [niche] inspired by Clayton Christensen's framework, identifying overserved customer segments where sebuah simpler, cheaper, or more accessible offering could disrupt incumbents."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a brand perception audit for [brand] versus competitor...",
+    "content": "Write a brand perception audit for [brand] versus competitors in [niche], using social media sentiment analysis, review site patterns, and customer language to understand how each brand is perceived on key attributes.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah brand perception audit untuk [brand] versus competitors in [niche], using social media sentiment analysis, review site patterns, dan customer language to understand how each brand is perceived on key attributes."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Category Entry Points' (CEP) analysis for [produ...",
+    "content": "Generate a 'Category Entry Points' (CEP) analysis for [product/service] in [niche], identifying the specific moments, moods, and contexts when potential customers first think of buying in this category — and how to be mentally available at each.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Category Entry Points' (CEP) analysis untuk [product/service] in [niche], identifying specific moments, moods, dan contexts when potential customers first think of buying in this category — dan how to be mentally available at each."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create an influencer landscape map for [niche] categorizing...",
+    "content": "Create an influencer landscape map for [niche] categorizing 20 key influencers by tier (nano, micro, mid, macro), content focus, engagement rate, audience demographics, and competitive brand partnerships — identifying the best fit for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat an influencer landscape map untuk [niche] categorizing 20 key influencers by tier (nano, micro, mid, macro), content focus, engagement rate, audience demographics, dan competitive brand partnerships — identifying best fit untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Second Mover Advantage' strategy for [brand] enteri...",
+    "content": "Write a 'Second Mover Advantage' strategy for [brand] entering a niche where [competitor] is established, identifying how learning from the competitor's mistakes and customer feedback can create a superior second-generation product or service.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Second Mover Advantage' strategy untuk [brand] entering sebuah niche where [competitor] is established, identifying how learning from competitor's mistakes dan customer feedback can buat sebuah superior second-generation product or service."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a customer survey analysis framework for [niche] th...",
+    "content": "Generate a customer survey analysis framework for [niche] that shows how to design, distribute, and analyze a 10-question customer research survey to produce actionable insights about product-market fit, pricing, and messaging.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer survey analysis framework untuk [niche] yang menunjukkan how to design, distribute, dan analyze sebuah 10-question customer research survey to produce actionable insights tentang product-market fit, pricing, dan messaging."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Win/Loss Interview' guide for [brand]'s sales or c...",
+    "content": "Create a 'Win/Loss Interview' guide for [brand]'s sales or customer success team to use when conducting post-sale interviews with both new customers and lost prospects in [niche], uncovering competitive strengths and weaknesses.",
+    "isPremium": true,
+    "tags": [
+      "Copywriting",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Win/Loss Interview' guide untuk [brand]'s sales or customer success team to use when conducting post-sale interviews with both new customers dan lost prospects in [niche], uncovering competitive strengths dan weaknesses."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Market Conversation Analysis' report for [niche] ex...",
+    "content": "Write a 'Market Conversation Analysis' report for [niche] examining the language customers use naturally in reviews, forum posts, and social comments to describe their problems and desired outcomes — for use in copywriting and messaging.",
+    "isPremium": true,
+    "tags": [
+      "Copywriting",
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Market Conversation Analysis' report untuk [niche] examining language customers use naturally in reviews, forum posts, dan social comments to describe their problems dan desired outcomes — untuk use in copywriting dan messaging."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a competitive retention strategy analysis for [nich...",
+    "content": "Generate a competitive retention strategy analysis for [niche] subscription or repeat-purchase business, examining how competitors reduce churn through product updates, loyalty programs, community building, and personalized communication.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah competitive retention strategy analysis untuk [niche] subscription or repeat-purchase business, examining how competitors reduce churn through product updates, loyalty programs, community building, dan personalized communication."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Product Adjacent Opportunity' map for [brand] in [...",
+    "content": "Create a 'Product Adjacent Opportunity' map for [brand] in [niche] that identifies 5 complementary product or service categories that your existing customer base also buys, representing cross-sell or diversification opportunities.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Product Adjacent Opportunity' map untuk [brand] in [niche] yang mengidentifikasi 5 complementary product or service categories that kamu existing customer base also buys, representing cross-sell or diversification opportunities."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a channel mix benchmarking report for [niche] analyzin...",
+    "content": "Write a channel mix benchmarking report for [niche] analyzing where competitors allocate their marketing investment (paid social, SEO, email, influencer, events, etc.) and what the optimal channel mix is for [brand] at its current stage.",
+    "isPremium": true,
+    "tags": [
+      "SEO",
+      "Business",
+      "Email",
+      "Creative"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah channel mix benchmarking report untuk [niche] analyzing where competitors allocate their marketing investment (paid social, SEO, email, influencer, events, etc.) dan what optimal channel mix is untuk [brand] at its current stage."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Jobs Hierarchy' mapping for [niche] customers th...",
+    "content": "Generate a 'Jobs Hierarchy' mapping for [niche] customers that goes beyond surface-level purchase motivations to uncover the deeper functional, emotional, and social outcomes they are ultimately seeking — for product and messaging strategy.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Jobs Hierarchy' mapping untuk [niche] customers that goes beyond surface-level purchase motivations to uncover deeper functional, emotional, dan social outcomes they are ultimately seeking — untuk product dan messaging strategy."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a competitive intelligence system design for [brand]...",
+    "content": "Create a competitive intelligence system design for [brand] that defines what competitor data to track, which tools to use, who owns the monitoring, how frequently to update, and how to translate insights into strategic decisions.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah competitive intelligence system design untuk [brand] yang mendefinisikan what competitor data to track, which tools to use, who owns monitoring, how frequently to update, dan how to translate insights into strategic decisions."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write an 'Innovation Opportunity Canvas' for [brand] in [nic...",
+    "content": "Write an 'Innovation Opportunity Canvas' for [brand] in [niche] inspired by competitor weaknesses and unmet customer needs, generating 10 specific product, service, or experience innovation ideas with a one-sentence rationale for each.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis an 'Innovation Opportunity Canvas' untuk [brand] in [niche] inspired by competitor weaknesses dan unmet customer needs, generating 10 specific product, service, or experience innovation ideas with sebuah one-sentence rationale untuk each."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Market Timing Analysis' for [product/service] la...",
+    "content": "Generate a 'Market Timing Analysis' for [product/service] launch in [niche], evaluating market readiness signals: search volume trends, competitor funding activity, consumer behavior shifts, and technology enablers.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Market Timing Analysis' untuk [product/service] launch in [niche], evaluating market readiness signals: search volume trends, competitor funding activity, consumer behavior shifts, dan technology enablers."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Customer Migration Strategy' for [brand] to conver...",
+    "content": "Create a 'Customer Migration Strategy' for [brand] to convert customers who are currently using [competitor product], identifying the key switching triggers, risk-reversal offers, and comparison messaging most likely to drive migration.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Customer Migration Strategy' untuk [brand] to convert customers yang currently using [competitor product], identifying key switching triggers, risk-reversal offers, dan comparison messaging most likely untuk mendorong migration."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a '10-Year Trend Forecast' for [niche] market, identif...",
+    "content": "Write a '10-Year Trend Forecast' for [niche] market, identifying the macro forces (technology, regulation, demographics, consumer values) that will reshape the competitive landscape and recommending how [brand] should position now.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah '10-Year Trend Forecast' untuk [niche] market, identifying macro forces (technology, regulation, demographics, consumer values) that will reshape competitive landscape dan recommending how [brand] should position now."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Niche Audience Psychographic Profile' for [produ...",
+    "content": "Generate a 'Niche Audience Psychographic Profile' for [product/service] in [niche] that goes beyond demographics to capture: values, aspirations, fears, self-identity, peer influence dynamics, and the emotional story they tell themselves about buying.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Niche Audience Psychographic Profile' untuk [product/service] in [niche] that goes beyond demographics to capture: values, aspirations, fears, self-identity, peer influence dynamics, dan emotional story they tell themselves tentang buying."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a geographic competitor density map analysis for [nic...",
+    "content": "Create a geographic competitor density map analysis for [niche] local business, identifying underserved neighborhoods, cities, or regions where competitive intensity is low and customer demand signals are high.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah geographic competitor density map analysis untuk [niche] local business, identifying underserved neighborhoods, cities, or regions where competitive intensity is low dan customer demand signals are high."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Customer Acquisition Cost Benchmark' for [niche], e...",
+    "content": "Write a 'Customer Acquisition Cost Benchmark' for [niche], estimating the average CAC by channel (paid social, SEO, referral, email, influencer) and identifying which channels offer the best CAC efficiency for [brand]'s current scale.",
+    "isPremium": true,
+    "tags": [
+      "SEO",
+      "Email",
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Customer Acquisition Cost Benchmark' untuk [niche], estimating average CAC by channel (paid social, SEO, referral, email, influencer) dan identifying which channels offer best CAC efficiency untuk [brand]'s current scale."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Review Platform Strategy' for [brand] in [niche]...",
+    "content": "Generate a 'Review Platform Strategy' for [brand] in [niche] that analyzes which review platforms (Google, Tokopedia, Shopee, Trustpilot, Facebook) competitors are winning on, and recommends a platform-specific review generation strategy.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Review Platform Strategy' untuk [brand] in [niche] yang menganalisis which review platforms (Google, Tokopedia, Shopee, Trustpilot, Facebook) competitors are winning on, dan recommends sebuah platform-specific review generation strategy."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Segment Profitability Analysis' for [brand] in [ni...",
+    "content": "Create a 'Segment Profitability Analysis' for [brand] in [niche], ranking customer segments by: revenue contribution, LTV, CAC, churn rate, and NPS — to identify which segments to prioritize and which to deprioritize.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Segment Profitability Analysis' untuk [brand] in [niche], ranking customer segments by: revenue contribution, LTV, CAC, churn rate, dan NPS — to identify which segments to prioritize dan which to deprioritize."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Competitor Launch Post-Mortem' analysis for a recen...",
+    "content": "Write a 'Competitor Launch Post-Mortem' analysis for a recent [competitor] product launch in [niche], evaluating their pre-launch buzz, launch execution, customer reception, pricing, and what [brand] can learn from both their wins and mistakes.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Competitor Launch Post-Mortem' analysis untuk sebuah recent [competitor] product launch in [niche], evaluating their pre-launch buzz, launch execution, customer reception, pricing, dan what [brand] can learn from both their wins dan mistakes."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Content Gap Audit' comparing [brand]'s blog, You...",
+    "content": "Generate a 'Content Gap Audit' comparing [brand]'s blog, YouTube, and social media content library against the top 3 competitors in [niche], identifying 10 high-priority content topics [brand] is missing that competitors are dominating.",
+    "isPremium": true,
+    "tags": [
+      "SEO",
+      "YouTube",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Content Gap Audit' comparing [brand]'s blog, YouTube, dan social media content library against top 3 competitors in [niche], identifying 10 high-priority content topics [brand] is missing that competitors are dominating."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Founder Market Fit' analysis for [brand] in [niche...",
+    "content": "Create a 'Founder Market Fit' analysis for [brand] in [niche] evaluating the alignment between the founding team's unique expertise, network, and passion and the specific demands, relationships, and domain knowledge the market requires to win.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Founder Market Fit' analysis untuk [brand] in [niche] evaluating alignment between founding team's unique expertise, network, dan passion dan specific demands, relationships, dan domain knowledge market requires to win."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Customer Acquisition Funnel Benchmarking' report fo...",
+    "content": "Write a 'Customer Acquisition Funnel Benchmarking' report for [niche] measuring competitor conversion rates at each funnel stage (impression → click → lead → trial → purchase → repeat) and identifying where [brand] has the biggest optimization opportunity.",
+    "isPremium": true,
+    "tags": [
+      "Funnel",
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Customer Acquisition Funnel Benchmarking' report untuk [niche] measuring competitor conversion rates at each funnel stage (impression → click → lead → trial → purchase → repeat) dan identifying where [brand] has biggest optimization opportunity."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Market Maturity Assessment' for [niche] determin...",
+    "content": "Generate a 'Market Maturity Assessment' for [niche] determining whether the category is in an emerging, growth, maturity, or decline stage — and recommending the appropriate competitive strategy for [brand] at each stage.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Market Maturity Assessment' untuk [niche] determining whether category is in an emerging, growth, maturity, or decline stage — dan recommending appropriate competitive strategy untuk [brand] at each stage."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Competitive Moat Assessment' for [brand] in [niche...",
+    "content": "Create a 'Competitive Moat Assessment' for [brand] in [niche] evaluating the strength of its defensible advantages across: brand loyalty, switching costs, network effects, cost advantages, proprietary data, and unique product IP.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Competitive Moat Assessment' untuk [brand] in [niche] evaluating strength of its defensible advantages across: brand loyalty, switching costs, network effects, cost advantages, proprietary data, dan unique product IP."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Social Proof Gap Analysis' for [brand] versus compe...",
+    "content": "Write a 'Social Proof Gap Analysis' for [brand] versus competitors in [niche], comparing the quantity, quality, platform diversity, and recency of testimonials, reviews, case studies, and media mentions — with a social proof acquisition plan.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Social Proof Gap Analysis' untuk [brand] versus competitors in [niche], comparing quantity, quality, platform diversity, dan recency of testimonials, reviews, case studies, dan media mentions — with sebuah social proof acquisition plan."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Channel Penetration Strategy' for [brand] enteri...",
+    "content": "Generate a 'Channel Penetration Strategy' for [brand] entering a new marketing channel in [niche] (e.g., TikTok, YouTube, podcast sponsorships), with a competitive benchmarking analysis of how the top 3 competitors use that channel.",
+    "isPremium": true,
+    "tags": [
+      "Short Video",
+      "Business",
+      "YouTube",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Channel Penetration Strategy' untuk [brand] entering sebuah new marketing channel in [niche] (e.g., TikTok, YouTube, podcast sponsorships), with sebuah competitive benchmarking analysis of how top 3 competitors use that channel."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Niche Within a Niche' opportunity analysis for [br...",
+    "content": "Create a 'Niche Within a Niche' opportunity analysis for [brand] in [niche], identifying 5 highly specific sub-niches or audience micro-segments that are currently underserved by broad-market competitors and represent a beachhead strategy.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Niche Within sebuah Niche' opportunity analysis untuk [brand] in [niche], identifying 5 highly specific sub-niches or audience micro-segments that are currently underserved by broad-market competitors dan represent beachhead strategy."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Technology Adoption Curve' analysis for [niche], ma...",
+    "content": "Write a 'Technology Adoption Curve' analysis for [niche], mapping where the majority of competitors and customers currently sit (innovators, early adopters, early majority, late majority, laggards) and how [brand] should adjust its market approach.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Technology Adoption Curve' analysis untuk [niche], mapping where majority of competitors dan customers currently sit (innovators, early adopters, early majority, late majority, laggards) dan how [brand] should adjust its market approach."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Partner Ecosystem Map' for [brand] in [niche] id...",
+    "content": "Generate a 'Partner Ecosystem Map' for [brand] in [niche] identifying strategic partnership opportunities with complementary brands, distributors, platforms, and communities that competitors have not yet secured.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Partner Ecosystem Map' untuk [brand] in [niche] identifying strategic partnership opportunities with complementary brands, distributors, platforms, dan communities that competitors have not yet secured."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Market Sentiment Tracker' template for [niche] tha...",
+    "content": "Create a 'Market Sentiment Tracker' template for [niche] that monitors weekly shifts in customer sentiment, competitor news, regulatory changes, and macro trends — and translates them into weekly strategic recommendations for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Market Sentiment Tracker' template untuk [niche] yang memantau weekly shifts in customer sentiment, competitor news, regulatory changes, dan macro trends — dan translates them into weekly strategic recommendations untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Competitive Win Rate Analysis' for [brand]'s sales...",
+    "content": "Write a 'Competitive Win Rate Analysis' for [brand]'s sales team in [niche] tracking win/loss rates against each major competitor, identifying patterns in lost deals, and recommending competitive sales scripts and positioning adjustments.",
+    "isPremium": true,
+    "tags": [
+      "Copywriting",
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Competitive Win Rate Analysis' untuk [brand]'s sales team in [niche] tracking win/loss rates against each major competitor, identifying patterns in lost deals, dan recommending competitive sales scripts dan positioning adjustments."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Demand Cliff Analysis' for [product/service] in...",
+    "content": "Generate a 'Demand Cliff Analysis' for [product/service] in [niche] examining the risk factors (technological disruption, regulatory change, demographic shift, substitute products) that could cause sudden market demand decline and building a contingency strategy.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Demand Cliff Analysis' untuk [product/service] in [niche] examining risk factors (technological disruption, regulatory change, demographic shift, substitute products) that could cause sudden market demand decline dan building contingency strategy."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Customer Loyalty Driver' analysis for [niche] bran...",
+    "content": "Create a 'Customer Loyalty Driver' analysis for [niche] brand, identifying through survey data or review analysis the top 5 factors that drive customer retention and repeat purchase — and benchmarking [brand]'s performance on each driver versus competitors.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Customer Loyalty Driver' analysis untuk [niche] brand, identifying through survey data or review analysis top 5 factors that drive customer retention dan repeat purchase — dan benchmarking [brand]'s performance on each driver versus competitors."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Total Experience Gap' analysis for [brand] versus t...",
+    "content": "Write a 'Total Experience Gap' analysis for [brand] versus the category leader in [niche], mapping every customer interaction from first ad impression to post-purchase support and grading each touchpoint on quality relative to the leader.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Total Experience Gap' analysis untuk [brand] versus category leader in [niche], mapping every customer interaction from first ad impression to post-purchase support dan grading each touchpoint on quality relative to leader."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Zero-Party Data Collection Strategy' for [brand]...",
+    "content": "Generate a 'Zero-Party Data Collection Strategy' for [brand] in [niche] that designs quizzes, surveys, preference centers, and interactive tools to collect direct customer data that competitors relying on third-party data cannot access.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Zero-Party Data Collection Strategy' untuk [brand] in [niche] that designs quizzes, surveys, preference centers, dan interactive tools to collect direct customer data that competitors relying on third-party data cannot access."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Community Intelligence' mining framework for [bran...",
+    "content": "Create a 'Community Intelligence' mining framework for [brand] in [niche] that systematically extracts insights from Facebook Groups, Reddit communities, Discord servers, and Telegram channels where the target customer discusses their needs.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Community Intelligence' mining framework untuk [brand] in [niche] that systematically extracts insights from Facebook Groups, Reddit communities, Discord servers, dan Telegram channels where target customer discusses their needs."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Job Title-Based Segmentation Analysis' for a [B2B b...",
+    "content": "Write a 'Job Title-Based Segmentation Analysis' for a [B2B brand] in [niche], profiling 5 key buyer roles by their specific purchase motivations, risk tolerances, success metrics, and preferred communication channels — for ABM strategy.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Job Title-Based Segmentation Analysis' untuk sebuah [B2B brand] in [niche], profiling 5 key buyer roles by their specific purchase motivations, risk tolerances, success metrics, dan preferred communication channels — untuk ABM strategy."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Competitor Vulnerability Window Analysis' for [b...",
+    "content": "Generate a 'Competitor Vulnerability Window Analysis' for [brand] in [niche], identifying periods when top competitors are distracted (funding rounds, leadership changes, product issues, seasonal gaps) that represent optimal times for [brand] to launch an aggressive campaign.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Competitor Vulnerability Window Analysis' untuk [brand] in [niche], identifying periods when top competitors are distracted (funding rounds, leadership changes, product issues, seasonal gaps) that represent optimal times untuk [brand] to launch an aggressive campaign."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Customer Language Glossary' for [niche] brand comp...",
+    "content": "Create a 'Customer Language Glossary' for [niche] brand compiled from customer interviews, reviews, and community posts — mapping the exact words, phrases, and metaphors customers use to describe their problems and goals for use in copy, ads, and product naming.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Customer Language Glossary' untuk [niche] brand compiled from customer interviews, reviews, dan community posts — mapping exact words, phrases, dan metaphors customers use to describe their problems dan goals untuk use in copy, ads, dan product naming."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Price Sensitivity Model' for [product/service] in [...",
+    "content": "Write a 'Price Sensitivity Model' for [product/service] in [niche] using Van Westendorp's Price Sensitivity Meter framework, identifying the optimal price point, acceptable price range, and price thresholds that trigger 'too cheap' and 'too expensive' perceptions.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Price Sensitivity Model' untuk [product/service] in [niche] using Van Westendorp's Price Sensitivity Meter framework, identifying optimal price point, acceptable price range, dan price thresholds that trigger 'too cheap' dan 'too expensive' perceptions."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Competitor Backlink Profile Analysis' for [brand...",
+    "content": "Generate a 'Competitor Backlink Profile Analysis' for [brand] in [niche] identifying the types of websites, media outlets, and directories that are linking to top competitors but not to [brand] — creating a prioritized link acquisition opportunity list.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Competitor Backlink Profile Analysis' untuk [brand] in [niche] identifying types of websites, media outlets, dan directories that are linking to top competitors but not to [brand] — creating sebuah prioritized link acquisition opportunity list."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Loyalty Program Benchmarking Analysis' for [brand]...",
+    "content": "Create a 'Loyalty Program Benchmarking Analysis' for [brand] in [niche] comparing competitor loyalty program structures, point systems, tier benefits, redemption mechanisms, and engagement rates — and designing a superior loyalty program concept for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Loyalty Program Benchmarking Analysis' untuk [brand] in [niche] comparing competitor loyalty program structures, point systems, tier benefits, redemption mechanisms, dan engagement rates — dan designing sebuah superior loyalty program concept untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Micro-Moment Strategy' for [brand] in [niche] based...",
+    "content": "Write a 'Micro-Moment Strategy' for [brand] in [niche] based on Google's micro-moments framework, identifying the 5 key 'I want to know / go / do / buy' moments in the customer journey and designing content assets that win each moment.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Micro-Moment Strategy' untuk [brand] in [niche] based on Google's micro-moments framework, identifying 5 key 'I want to know / go / do / buy' moments in customer journey dan designing content assets that win each moment."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Content Engagement Benchmark' report for [brand]...",
+    "content": "Generate a 'Content Engagement Benchmark' report for [brand] in [niche] analyzing average engagement rates (likes, comments, shares, saves) by content type across platforms, benchmarked against industry averages and top competitor performance.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Content Engagement Benchmark' report untuk [brand] in [niche] analyzing average engagement rates (likes, comments, shares, saves) by content type across platforms, benchmarked against industry averages dan top competitor performance."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Strategic Partnership Opportunity Assessment' for...",
+    "content": "Create a 'Strategic Partnership Opportunity Assessment' for [brand] in [niche] evaluating 5 potential co-marketing or co-selling partnerships, rating each on: audience overlap, brand alignment, resource requirements, and potential revenue impact.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Strategic Partnership Opportunity Assessment' untuk [brand] in [niche] evaluating 5 potential co-marketing or co-selling partnerships, rating each on: audience overlap, brand alignment, resource requirements, dan potential revenue impact."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Consumer Confidence Index' for [niche] that measure...",
+    "content": "Write a 'Consumer Confidence Index' for [niche] that measures how confident the target audience feels about purchasing in the current economic climate, and recommends pricing, messaging, and offer structures that align with current confidence levels.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Consumer Confidence Index' untuk [niche] yang mengukur how confident target audience feels tentang purchasing in current economic climate, dan recommends pricing, messaging, dan offer structures that align with current confidence levels."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Omnichannel Presence Audit' for [brand] in [nich...",
+    "content": "Generate a 'Omnichannel Presence Audit' for [brand] in [niche] evaluating the consistency, quality, and completeness of the brand's presence across: website, social media, email, marketplace listings, physical retail, and third-party review sites.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Omnichannel Presence Audit' untuk [brand] in [niche] evaluating consistency, quality, dan completeness of brand's presence across: website, social media, email, marketplace listings, physical retail, dan third-party review sites."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Market Entry Barrier Analysis' for a new entrant i...",
+    "content": "Create a 'Market Entry Barrier Analysis' for a new entrant into [niche], identifying the 7 key barriers (capital, relationships, brand awareness, distribution, regulation, technology, talent) and recommending the most efficient sequence to overcome each.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Market Entry Barrier Analysis' untuk sebuah new entrant into [niche], identifying 7 key barriers (capital, relationships, brand awareness, distribution, regulation, technology, talent) dan recommending most efficient sequence to overcome each."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Demographic Shift Impact Analysis' for [brand] in [...",
+    "content": "Write a 'Demographic Shift Impact Analysis' for [brand] in [niche], examining how the aging of [demographic] and the rise of [younger demographic] will change product preferences, channel behavior, and value expectations over the next 5 years.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Demographic Shift Impact Analysis' untuk [brand] in [niche], examining how aging of [demographic] dan rise of [younger demographic] will change product preferences, channel behavior, dan value expectations over next 5 years."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Share of Search' analysis for [brand] versus com...",
+    "content": "Generate a 'Share of Search' analysis for [brand] versus competitors in [niche], using search volume data to estimate relative brand awareness and predict market share trajectory — and recommending search-based brand-building strategies.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Share of Search' analysis untuk [brand] versus competitors in [niche], using search volume data to estimate relative brand awareness dan predict market share trajectory — dan recommending search-based brand-building strategies."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Value Chain Analysis' for [brand] in [niche] mappi...",
+    "content": "Create a 'Value Chain Analysis' for [brand] in [niche] mapping every step from raw inputs to customer delivery, identifying where [brand] has cost or differentiation advantages versus competitors, and where strategic investment would most improve competitive position.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Value Chain Analysis' untuk [brand] in [niche] mapping every step from raw inputs to customer delivery, identifying where [brand] has cost or differentiation advantages versus competitors, dan where strategic investment would most improve competitive position."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Cross-Sell & Upsell Market Map' for [brand] in [nic...",
+    "content": "Write a 'Cross-Sell & Upsell Market Map' for [brand] in [niche] identifying the 5 most natural product or service adjacencies that existing customers also buy — cross-referencing with competitor offerings to find expansion opportunities.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Cross-Sell & Upsell Market Map' untuk [brand] in [niche] identifying 5 most natural product or service adjacencies that existing customers also buy — cross-referencing with competitor offerings to find expansion opportunities."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Cultural Trend Alignment Report' for [brand] in...",
+    "content": "Generate a 'Cultural Trend Alignment Report' for [brand] in [niche] analyzing how major cultural movements (sustainability, mental health, financial independence, community, identity) are reshaping customer values and recommending how [brand] can authentically align.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Cultural Trend Alignment Report' untuk [brand] in [niche] analyzing how major cultural movements (sustainability, mental health, financial independence, community, identity) are reshaping customer values dan recommending how [brand] can authentically align."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a '90-Day Competitive Intelligence Sprint Plan' for [...",
+    "content": "Create a '90-Day Competitive Intelligence Sprint Plan' for [brand] in [niche] that defines a structured 90-day process for building a comprehensive competitor knowledge base, with weekly research tasks, tools, deliverables, and a final strategic output.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah '90-Day Competitive Intelligence Sprint Plan' untuk [brand] in [niche] yang mendefinisikan sebuah structured 90-day process untuk building sebuah comprehensive competitor knowledge base, with weekly research tasks, tools, deliverables, dan sebuah final strategic output."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a 'Product Innovation Pipeline' for [brand] in [niche]...",
+    "content": "Write a 'Product Innovation Pipeline' for [brand] in [niche] inspired by customer pain points and competitor gaps, generating 20 specific product feature, service enhancement, or new product ideas with a one-sentence customer benefit statement for each.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'Product Innovation Pipeline' untuk [brand] in [niche] inspired by customer pain points dan competitor gaps, generating 20 specific product feature, service enhancement, or new product ideas with sebuah one-sentence customer benefit statement untuk each."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Generate a 'Seasonal Demand Pattern Analysis' for [product/s...",
+    "content": "Generate a 'Seasonal Demand Pattern Analysis' for [product/service] in [niche], mapping demand peaks and troughs across the year based on search trends, industry reports, and competitor promotional calendars — with a recommended promotional calendar for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Seasonal Demand Pattern Analysis' untuk [product/service] in [niche], mapping demand peaks dan troughs across year based on search trends, industry reports, dan competitor promotional calendars — with sebuah recommended promotional calendar untuk [brand]."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Create a 'Digital Shelf Analytics' report for [brand]'s mark...",
+    "content": "Create a 'Digital Shelf Analytics' report for [brand]'s marketplace presence (Tokopedia, Shopee, Lazada, Amazon) in [niche], auditing product listing quality, keyword coverage, review volume, and sponsored placement strategy versus top competitors.",
+    "isPremium": true,
+    "tags": [
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'Digital Shelf Analytics' report untuk [brand]'s marketplace presence (Tokopedia, Shopee, Lazada, Amazon) in [niche], auditing product listing quality, keyword coverage, review volume, dan sponsored placement strategy versus top competitors."
+  },
+  {
+    "category": "Market Research & Competitor Analysis",
+    "title": "Write a '5-Year Strategic Forecast' for [brand] in [niche] s...",
+    "content": "Write a '5-Year Strategic Forecast' for [brand] in [niche] synthesizing market growth projections, technology disruption scenarios, competitive dynamics, and consumer behavior evolution into a structured long-range plan with annual milestones.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Market"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Market Research & Competitor Analysis\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah '5-Year Strategic Forecast' untuk [brand] in [niche] synthesizing market growth projections, technology disruption scenarios, competitive dynamics, dan consumer behavior evolution into sebuah structured long-range plan with annual milestones."
+  }
+]

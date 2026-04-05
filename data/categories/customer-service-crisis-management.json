@@ -1,0 +1,1176 @@
+[
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a professional and empathetic response to an angry cus...",
+    "content": "Act as a PR Crisis Response Specialist. Draft a 'Recovery-Focused' response to [Customer Complain/Crisis]. Use the 'Acknowledge, Empathize, Resolve' (AER) protocol. Ensure the tone is sincere but legally sound. Provide 3 options for resolution based on the severity of [Incident].",
+    "isPremium": false,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah professional dan empathetic response to an angry customer who left sebuah 1-star review on [platform] complaining tentang [specific issue], yang mengakui their frustration, offers sebuah concrete resolution, dan invites them to return."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a customer service script for handling the most commo...",
+    "content": "Create a customer service script for handling the most common complaint in [your niche/business]: '[complaint]' — including an opening empathy statement, a clear explanation, a solution offer, and a closing that rebuilds trust.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah customer service script untuk handling most common complaint in [kamu niche/business]: '[complaint]' — including an opening empathy statement, sebuah clear explanation, sebuah solution offer, dan sebuah closing that rebuilds trust."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a crisis communication statement for [brand name] addr...",
+    "content": "Write a crisis communication statement for [brand name] addressing a viral negative post about [incident], that is transparent, takes appropriate responsibility, outlines corrective action, and avoids defensive language.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah crisis communication statement untuk [brand name] addressing sebuah viral negative post tentang [incident], that is transparent, takes appropriate responsibility, outlines corrective action, dan avoids defensive language."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a template for responding to customers who demand a...",
+    "content": "Generate a template for responding to customers who demand a refund outside the refund policy for [product/service], that is firm, empathetic, and offers an alternative resolution that preserves the relationship.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah template untuk responding to customers who demand sebuah refund outside refund policy untuk [product/service], that is firm, empathetic, dan offers an alternative resolution that preserves relationship."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a proactive customer service email to send to buyers o...",
+    "content": "Write a proactive customer service email to send to buyers of [product] before a known issue affects them (e.g., delay, temporary outage), using transparent language that builds trust rather than eroding it.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah proactive customer service email to send to buyers of [product] before sebuah known issue affects them (e.g., delay, temporary outage), using transparent language yang membangun trust rather than eroding it."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a script for a customer service team member handling...",
+    "content": "Create a script for a customer service team member handling a frustrated customer on WhatsApp who received a damaged product, covering empathy, evidence collection, replacement process, and a loyalty gesture.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah script untuk sebuah customer service team member handling sebuah frustrated customer on WhatsApp who received sebuah damaged product, covering empathy, evidence collection, replacement process, dan sebuah loyalty gesture."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a brand response template for accusations of false adv...",
+    "content": "Write a brand response template for accusations of false advertising or misleading claims about [product/service] on social media, that is calm, fact-based, and de-escalates the situation publicly.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah brand response template untuk accusations of false advertising or misleading claims tentang [product/service] on social media, that is calm, fact-based, dan de-escalates situation publicly."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a customer win-back email sequence (3 emails) for c...",
+    "content": "Generate a customer win-back email sequence (3 emails) for customers who have not purchased from [brand] in [X months], using personal tone, genuine value, and a reactivation incentive.",
+    "isPremium": true,
+    "tags": [
+      "Coding",
+      "Email",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer win-back email sequence (3 emails) untuk customers yang memiliki not purchased from [brand] in [X months], using personal tone, genuine value, dan sebuah reactivation incentive."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for handling a customer who is threatening to...",
+    "content": "Write a script for handling a customer who is threatening to escalate to a consumer protection agency over a dispute with [brand], using de-escalation techniques and offering a final resolution pathway.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk handling sebuah customer yang threatening to escalate to sebuah consumer protection agency over sebuah dispute with [brand], using de-escalation techniques dan offering sebuah final resolution pathway."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'thank you for your feedback' email template for cu...",
+    "content": "Create a 'thank you for your feedback' email template for customers who submitted a negative survey score for [business], that converts dissatisfied customers into advocates through personalized acknowledgment.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Email",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'thank you untuk kamu feedback' email template untuk customers who submitted sebuah negative survey score untuk [business], yang mengkonversi dissatisfied customers into advocates through personalized acknowledgment."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a response template for when a celebrity or influencer...",
+    "content": "Write a response template for when a celebrity or influencer publicly criticizes [brand name] on social media, balancing brand defense with diplomacy and an invitation for private resolution.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis response template untuk when sebuah celebrity or influencer publicly criticizes [brand name] on social media, balancing brand defense with diplomacy dan an invitation untuk private resolution."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a step-by-step crisis management playbook for [busi...",
+    "content": "Generate a step-by-step crisis management playbook for [business type] facing a viral social media attack, covering the first 24 hours: monitoring, internal alignment, public statement, and follow-up actions.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah step-by-step crisis management playbook untuk [business type] facing sebuah viral social media attack, covering first 24 hours: monitoring, internal alignment, public statement, dan follow-up actions."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer onboarding message for new buyers of [produ...",
+    "content": "Write a customer onboarding message for new buyers of [product/service] that proactively answers the 5 most common post-purchase questions and sets expectations for results and support.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer onboarding message untuk new buyers of [product/service] that proactively answers 5 most common post-purchase questions dan sets expectations untuk results dan support."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a script for upselling/cross-selling to a satisfied c...",
+    "content": "Create a script for upselling/cross-selling to a satisfied customer during a support interaction for [product/service], using a natural, value-driven transition that doesn't feel pushy.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah script untuk upselling/cross-selling to sebuah satisfied customer during sebuah support interaction untuk [product/service], using sebuah natural, value-driven transition that doesn't feel pushy."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write an internal customer service training guide for [busin...",
+    "content": "Write an internal customer service training guide for [business] on handling escalated calls from VIP customers, covering tone, language, authority levels, compensation protocols, and documentation.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis an internal customer service training guide untuk [business] on handling escalated calls from VIP customers, covering tone, language, authority levels, compensation protocols, dan documentation."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a response for a customer who publicly accuses [bra...",
+    "content": "Generate a response for a customer who publicly accuses [brand] of discrimination or unfair treatment on social media, that is immediate, sincere, and demonstrates commitment to investigation and fairness.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah response untuk sebuah customer who publicly accuses [brand] of discrimination or unfair treatment on social media, that is immediate, sincere, dan demonstrates commitment to investigation dan fairness."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service FAQ page for [product/service] that...",
+    "content": "Write a customer service FAQ page for [product/service] that proactively addresses the top 10 questions, using clear language and a friendly tone that reduces inbound support volume.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service FAQ page untuk [product/service] that proactively addresses top 10 questions, using clear language dan sebuah friendly tone yang mengurangi inbound support volume."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create an automated chatbot script for the first-contact cus...",
+    "content": "Create an automated chatbot script for the first-contact customer service flow of [business], covering greetings, intent detection, common resolutions, and seamless handoff to a human agent.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat an automated chatbot script untuk first-contact customer service flow of [business], covering greetings, intent detection, common resolutions, dan seamless handoff to sebuah human agent."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a follow-up message to send 3 days after a customer su...",
+    "content": "Write a follow-up message to send 3 days after a customer support interaction was resolved, checking satisfaction, offering additional help, and subtly encouraging a positive review for [brand].",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah follow-up message to send 3 days after sebuah customer support interaction was resolved, checking satisfaction, offering additional help, dan subtly encouraging sebuah positive review untuk [brand]."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'we made a mistake' public apology post for [bran...",
+    "content": "Generate a 'we made a mistake' public apology post for [brand's] social media after a shipping error affected [X] customers, that is genuine, specific, and includes a tangible make-good offer.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'we made sebuah mistake' public apology post untuk [brand's] social media after sebuah shipping error affected [X] customers, that is genuine, specific, dan includes sebuah tangible make-good offer."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service response template for a customer wh...",
+    "content": "Write a customer service response template for a customer who is using abusive or inappropriate language during a support interaction, that maintains professionalism while setting firm boundaries.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service response template untuk sebuah customer yang using abusive or inappropriate language during sebuah support interaction, yang mempertahankan professionalism while setting firm boundaries."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a compensation decision framework for [business] cust...",
+    "content": "Create a compensation decision framework for [business] customer service team: defining what level of issue warrants what type of compensation (discount, refund, replacement, bonus gift, personal call).",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah compensation decision framework untuk [business] customer service team: defining what level of issue warrants what type of compensation (discount, refund, replacement, bonus gift, personal call)."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for proactively informing a customer that the...",
+    "content": "Write a script for proactively informing a customer that their order will be delayed beyond the promised date, using honest language, a revised timeline, and a goodwill gesture that preserves their loyalty.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk proactively informing sebuah customer that their order will be delayed beyond promised date, using honest language, sebuah revised timeline, dan sebuah goodwill gesture that preserves their loyalty."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a review response template for [business] to reply...",
+    "content": "Generate a review response template for [business] to reply to 5-star positive reviews that thanks the customer, highlights a specific detail they mentioned, and subtly reinforces the brand's key value promise.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah review response template untuk [business] to reply to 5-star positive reviews that thanks customer, highlights sebuah specific detail they mentioned, dan subtly reinforces brand's key value promise."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service template for handling requests to n...",
+    "content": "Write a customer service template for handling requests to negotiate price or discount after purchase for [product/service], that holds the price firmly while making the customer feel valued and respected.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service template untuk handling requests to negotiate price or discount after purchase untuk [product/service], that holds price firmly while making customer feel valued dan respected."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a crisis PR brief for [brand]'s leadership team to us...",
+    "content": "Create a crisis PR brief for [brand]'s leadership team to use when responding to investigative media coverage about [issue], covering key messages, spokesperson guidelines, and media dos/don'ts.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah crisis PR brief untuk [brand]'s leadership team to use when responding to investigative media coverage tentang [issue], covering key messages, spokesperson guidelines, dan media dos/don'ts."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write an empathy-first script for a customer service agent h...",
+    "content": "Write an empathy-first script for a customer service agent handling a customer who experienced financial loss related to [product/service issue], focusing on human connection before moving to resolution.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis an empathy-first script untuk sebuah customer service agent handling sebuah customer who experienced financial loss related to [product/service issue], focusing on human connection before moving to resolution."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'customer loyalty recovery' offer message for hig...",
+    "content": "Generate a 'customer loyalty recovery' offer message for high-value customers who experienced a significant negative experience with [brand], positioning the make-good offer as a genuine gesture of respect.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'customer loyalty recovery' offer message untuk high-value customers who experienced sebuah significant negative experience with [brand], positioning make-good offer as sebuah genuine gesture of respect."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for a customer service manager to use when au...",
+    "content": "Write a script for a customer service manager to use when auditing and coaching a team member on their response to a difficult customer complaint in [business context].",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk sebuah customer service manager to use when auditing dan coaching sebuah team member on their response to sebuah difficult customer complaint in [business context]."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a social media DM response template for [brand] to re...",
+    "content": "Create a social media DM response template for [brand] to reply to customers who tag the brand in complaints, that acknowledges the issue publicly and moves the conversation to a private resolution channel.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah social media DM response template untuk [brand] to reply to customers who tag brand in complaints, yang mengakui issue publicly dan moves conversation to sebuah private resolution channel."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service email for addressing a product qual...",
+    "content": "Write a customer service email for addressing a product quality complaint about [product] that transparently explains the manufacturing or QC process while offering an immediate remedy without admitting fault.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service email untuk addressing sebuah product quality complaint tentang [product] that transparently explains manufacturing or QC process while offering an immediate remedy without admitting fault."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'prevent the complaint' customer journey audit fo...",
+    "content": "Generate a 'prevent the complaint' customer journey audit for [business], identifying the 5 most common friction points where customers are likely to become frustrated and suggesting proactive solutions for each.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'prevent complaint' customer journey audit untuk [business], identifying 5 most common friction points where customers are likely to become frustrated dan suggesting proactive solutions untuk each."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for a live chat support agent to use when a c...",
+    "content": "Write a script for a live chat support agent to use when a customer asks for the CEO or owner directly during a complaint, that de-escalates the request and routes to the appropriate authority level.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk sebuah live chat support agent to use when sebuah customer asks untuk CEO or owner directly during sebuah complaint, that de-escalates request dan routes to appropriate authority level."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a response template for [brand] when a news outlet re...",
+    "content": "Create a response template for [brand] when a news outlet reaches out for comment about a negative story involving [issue], using controlled messaging and redirecting to official statements.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat response template untuk [brand] when sebuah news outlet reaches out untuk comment tentang sebuah negative story involving [issue], using controlled messaging dan redirecting to official statements."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service playbook section for [business] on...",
+    "content": "Write a customer service playbook section for [business] on handling customers who return products that don't meet return policy eligibility, covering case-by-case evaluation, empathy, and resolution options.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service playbook section untuk [business] on handling customers who return products that don't meet return policy eligibility, covering case-by-case evaluation, empathy, dan resolution options."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'product recall' customer notification script for...",
+    "content": "Generate a 'product recall' customer notification script for [brand] that communicates a recall of [product] clearly, urgently, and with minimal panic — covering replacement process, safety reassurance, and brand accountability.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'product recall' customer notification script untuk [brand] yang mengkomunikasikan sebuah recall of [product] clearly, urgently, dan with minimal panic — covering replacement process, safety reassurance, dan brand accountability."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a response for when a customer asks why their discount...",
+    "content": "Write a response for when a customer asks why their discount code or promotional offer isn't working during checkout for [product], covering common causes and escalation steps in a clear, non-technical way.",
+    "isPremium": true,
+    "tags": [
+      "Coding",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah response untuk when sebuah customer asks why their discount code or promotional offer isn't working during checkout untuk [product], covering common causes dan escalation steps in sebuah clear, non-technical way."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a customer service tone and voice guide for [brand] t...",
+    "content": "Create a customer service tone and voice guide for [brand] that defines appropriate language, emoji usage, response speed standards, and prohibited phrases to ensure consistent and on-brand support interactions.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah customer service tone dan voice guide untuk [brand] yang mendefinisikan appropriate language, emoji usage, response speed standards, dan prohibited phrases to ensure consistent dan on-brand support interactions."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a post-purchase email for [product] that proactively b...",
+    "content": "Write a post-purchase email for [product] that proactively builds a customer's confidence in their buying decision, reducing buyer's remorse and increasing the likelihood of a 5-star review.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah post-purchase email untuk [product] that proactively builds sebuah customer's confidence in their buying decision, reducing buyer's remorse dan increasing likelihood of sebuah 5-star review."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a customer service response for a buyer who claims...",
+    "content": "Generate a customer service response for a buyer who claims they never received their order (for a digital product delivery), covering verification steps, redelivery process, and escalation options.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer service response untuk sebuah buyer who claims they never received their order (untuk sebuah digital product delivery), covering verification steps, redelivery process, dan escalation options."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a retention-focused customer service script for [subsc...",
+    "content": "Write a retention-focused customer service script for [subscription business] when a customer calls to cancel their subscription, using value reframing, pause options, and a final counter-offer.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah retention-focused customer service script untuk [subscription business] when sebuah customer calls to cancel their subscription, using value reframing, pause options, dan sebuah final counter-offer."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'listening to you' feedback collection campaign mes...",
+    "content": "Create a 'listening to you' feedback collection campaign message for [brand] sent post-interaction to gather structured customer insights that can improve the product and service experience.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'listening to you' feedback collection campaign message untuk [brand] sent post-interaction to gather structured customer insights that can improve product dan service experience."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a response to a customer who threatens to report [bran...",
+    "content": "Write a response to a customer who threatens to report [brand] to a regulatory body (e.g., BPOM, OJK, or consumer protection agency) about [issue], using factual, calm, and cooperative language.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah response to sebuah customer who threatens to report [brand] to sebuah regulatory body (e.g., BPOM, OJK, or consumer protection agency) tentang [issue], using factual, calm, dan cooperative language."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a customer service de-escalation training scenario...",
+    "content": "Generate a customer service de-escalation training scenario for [business] where a long-term customer is deeply frustrated after a billing error, with sample dialogue showing best-practice resolution flow.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer service de-escalation training scenario untuk [business] where sebuah long-term customer is deeply frustrated after sebuah billing error, with sample dialogue showing best-practice resolution flow."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a personalized 'happy anniversary' message from [brand...",
+    "content": "Write a personalized 'happy anniversary' message from [brand] to customers on the one-year anniversary of their first purchase, designed to deepen emotional loyalty and encourage repeat business.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah personalized 'happy anniversary' message from [brand] to customers on one-year anniversary of their first purchase, designed to deepen emotional loyalty dan encourage repeat business."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'What our customers say' content strategy for [bran...",
+    "content": "Create a 'What our customers say' content strategy for [brand] that guides the customer service team on how to ethically collect, curate, and share authentic testimonials across platforms.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'What our customers say' content strategy untuk [brand] yang memandu customer service team on how to ethically collect, curate, dan share authentic testimonials across platforms."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for a customer service agent to handle a case...",
+    "content": "Write a script for a customer service agent to handle a case where a customer's account was compromised or they suspect unauthorized activity on [platform/service], covering safety steps and empathy.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk sebuah customer service agent to handle sebuah case where sebuah customer's account was compromised or they suspect unauthorized activity on [platform/service], covering safety steps dan empathy."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 30-day customer success email cadence for new buy...",
+    "content": "Generate a 30-day customer success email cadence for new buyers of [digital product/course/service] that guides them through onboarding, celebrates small wins, and drives continued engagement.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 30-day customer success email cadence untuk new buyers of [digital product/course/service] yang memandu them through onboarding, celebrates small wins, dan drives continued engagement."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a template for declining a request from a customer to...",
+    "content": "Write a template for declining a request from a customer to waive a late fee, cancellation penalty, or contract clause in [business], that is firm but preserves goodwill and the long-term relationship.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah template untuk declining sebuah request from sebuah customer to waive sebuah late fee, cancellation penalty, or contract clause in [business], that is firm but preserves goodwill dan long-term relationship."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a crisis communication protocol for [business] for th...",
+    "content": "Create a crisis communication protocol for [business] for the scenario where private customer data was exposed in a breach, covering legal notification requirements, customer messaging, and trust-rebuilding steps.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Analysis",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah crisis communication protocol untuk [business] untuk scenario where private customer data was exposed in sebuah breach, covering legal notification requirements, customer messaging, dan trust-rebuilding steps."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for handling a customer service interaction i...",
+    "content": "Write a script for handling a customer service interaction in [niche] where the customer's expectations were set incorrectly by a sales rep, requiring both resolution and inter-department accountability.",
+    "isPremium": true,
+    "tags": [
+      "Copywriting",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk handling sebuah customer service interaction in [niche] where customer's expectations were set incorrectly by sebuah sales rep, requiring both resolution dan inter-department accountability."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'Customer of the Month' recognition program scrip...",
+    "content": "Generate a 'Customer of the Month' recognition program script and message for [brand] that makes loyal customers feel celebrated, generates shareable social content, and reinforces brand community.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Customer of Month' recognition program script dan message untuk [brand] yang membuat loyal customers feel celebrated, generates shareable social content, dan reinforces brand community."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a response for a customer who believes they were charg...",
+    "content": "Write a response for a customer who believes they were charged incorrectly for [product/service], that is clear, transparent, walks through the billing explanation step-by-step, and offers a reconciliation if needed.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah response untuk sebuah customer who believes they were charged incorrectly untuk [product/service], that is clear, transparent, walks through billing explanation step-by-step, dan offers sebuah reconciliation if needed."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a script for a customer success call with a new enter...",
+    "content": "Create a script for a customer success call with a new enterprise client of [B2B service], covering onboarding milestones, success metrics, escalation contacts, and how to ensure the client achieves ROI.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah script untuk sebuah customer success call with sebuah new enterprise client of [B2B service], covering onboarding milestones, success metrics, escalation contacts, dan how to ensure client achieves ROI."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write an internal escalation email template for a [business]...",
+    "content": "Write an internal escalation email template for a [business] customer service agent to send to management when a customer situation exceeds their authority level, covering key facts, customer sentiment, and recommended action.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Email",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis an internal escalation email template untuk sebuah [business] customer service agent to send to management when sebuah customer situation exceeds their authority level, covering key facts, customer sentiment, dan recommended action."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'Customer Pulse' monthly report template for [bus...",
+    "content": "Generate a 'Customer Pulse' monthly report template for [business] that synthesizes feedback trends, complaint categories, resolution rates, and satisfaction scores into a one-page executive summary.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Customer Pulse' monthly report template untuk [business] yang mensintesiskan feedback trends, complaint categories, resolution rates, dan satisfaction scores into sebuah one-page executive summary."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a 'We're sorry, here's what we're doing about it' news...",
+    "content": "Write a 'We're sorry, here's what we're doing about it' newsletter for [brand]'s existing customers after a service outage or product issue, using transparent language and a forward-looking tone.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'We're sorry, here's what we're doing tentang it' newsletter untuk [brand]'s existing customers after sebuah service outage or product issue, using transparent language dan sebuah forward-looking tone."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a customer service benchmark review for [business] co...",
+    "content": "Create a customer service benchmark review for [business] comparing response time, resolution rate, satisfaction score, and escalation rate against industry standards, and suggesting 3 actionable improvements.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah customer service benchmark review untuk [business] comparing response time, resolution rate, satisfaction score, dan escalation rate against industry standards, dan suggesting 3 actionable improvements."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for a customer service team handling the afte...",
+    "content": "Write a script for a customer service team handling the aftermath of a negative viral social media moment for [brand], covering internal communication, stakeholder updates, and customer-facing response coordination.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk sebuah customer service team handling aftermath of sebuah negative viral social media moment untuk [brand], covering internal communication, stakeholder updates, dan customer-facing response coordination."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a personalized 'VIP early access' invitation from [...",
+    "content": "Generate a personalized 'VIP early access' invitation from [brand] sent to the top 100 customers by lifetime value, offering exclusive access to a new product or feature before public launch.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah personalized 'VIP early access' invitation from [brand] sent to top 100 customers by lifetime value, offering exclusive access to sebuah new product or feature before public launch."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service response for a [subscription-based...",
+    "content": "Write a customer service response for a [subscription-based business] when a customer's credit card payment failed and their account is at risk of suspension, using urgent but empathetic language.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service response untuk sebuah [subscription-based business] when sebuah customer's credit card payment failed dan their account is at risk of suspension, using urgent but empathetic language."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'satisfaction guarantee' landing page copy for [bra...",
+    "content": "Create a 'satisfaction guarantee' landing page copy for [brand] that explains the risk-reversal policy in clear, confident terms, pre-empts objections, and builds purchase confidence.",
+    "isPremium": true,
+    "tags": [
+      "Funnel",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'satisfaction guarantee' landing page copy untuk [brand] yang menjelaskan risk-reversal policy in clear, confident terms, pre-empts objections, dan builds purchase confidence."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a 5-step customer complaint resolution framework for [...",
+    "content": "Write a 5-step customer complaint resolution framework for [business] that can be taught to new customer service hires in their first week, using simple language, examples, and roleplay prompts.",
+    "isPremium": true,
+    "tags": [
+      "Image Gen",
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 5-step customer complaint resolution framework untuk [business] that can be taught to new customer service hires in their first week, using simple language, examples, dan roleplay prompts."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'community standards and respect' message for [br...",
+    "content": "Generate a 'community standards and respect' message for [brand]'s customer community or social media group that sets boundaries for customer interactions while maintaining a welcoming, inclusive tone.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'community standards dan respect' message untuk [brand]'s customer community or social media group that sets boundaries untuk customer interactions while maintaining sebuah welcoming, inclusive tone."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service script for handling fraudulent char...",
+    "content": "Write a customer service script for handling fraudulent chargeback disputes for [product/service], including evidence collection steps, communication templates, and escalation to payment processor.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service script untuk handling fraudulent chargeback disputes untuk [product/service], including evidence collection steps, communication templates, dan escalation to payment processor."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'behind the scenes' transparency post for [brand]'s...",
+    "content": "Create a 'behind the scenes' transparency post for [brand]'s social media that shows customers what happens after they submit a complaint — building trust and humanizing the customer service process.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'behind scenes' transparency post untuk [brand]'s social media yang menunjukkan customers what happens after they submit sebuah complaint — building trust dan humanizing customer service process."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a retention-focused response to a customer who says '[...",
+    "content": "Write a retention-focused response to a customer who says '[competitor] is cheaper' and is considering switching from [brand], using value-comparison language and a loyalty incentive.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah retention-focused response to sebuah customer who says '[competitor] is cheaper' dan is considering switching from [brand], using value-comparison language dan sebuah loyalty incentive."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a customer service KPI scorecard template for [busi...",
+    "content": "Generate a customer service KPI scorecard template for [business] that measures agent performance across: response time, resolution time, CSAT score, first-contact resolution rate, and escalation frequency.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer service KPI scorecard template untuk [business] yang mengukur agent performance across: response time, resolution time, CSAT score, first-contact resolution rate, dan escalation frequency."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service response to a customer who is emoti...",
+    "content": "Write a customer service response to a customer who is emotionally distressed due to a situation related to [product/service] (e.g., a gift that arrived broken for a wedding), prioritizing empathy over policy.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service response to sebuah customer yang emotionally distressed due to sebuah situation related to [product/service] (e.g., sebuah gift that arrived broken untuk sebuah wedding), prioritizing empathy over policy."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a script for a brand representative at a live event o...",
+    "content": "Create a script for a brand representative at a live event or trade show handling a public complaint from a customer who confronts the booth about a bad experience with [product/service].",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah script untuk sebuah brand representative at sebuah live event or trade show handling sebuah public complaint from sebuah customer who confronts booth tentang sebuah bad experience with [product/service]."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a 'surprise and delight' customer service moment scrip...",
+    "content": "Write a 'surprise and delight' customer service moment script for [brand] — proactively reaching out to a customer who had a neutral experience to upgrade it into an extraordinary one with no transactional ask.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah 'surprise dan delight' customer service moment script untuk [brand] — proactively reaching out to sebuah customer who had sebuah neutral experience to upgrade it into an extraordinary one with no transactional ask."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a customer service email for [brand] informing cust...",
+    "content": "Generate a customer service email for [brand] informing customers of an upcoming price increase, framing it around value delivered, honoring existing customer pricing for a grace period, and inviting feedback.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah customer service email untuk [brand] informing customers of an upcoming price increase, framing it around value delivered, honoring existing customer pricing untuk sebuah grace period, dan inviting feedback."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write an internal customer service memo for [business] estab...",
+    "content": "Write an internal customer service memo for [business] establishing a new policy on handling social media complaints within 1 hour, covering responsibility assignment, response approval process, and reporting.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis an internal customer service memo untuk [business] establishing sebuah new policy on handling social media complaints within 1 hour, covering responsibility assignment, response approval process, dan reporting."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'We're back and better' re-engagement message for [...",
+    "content": "Create a 'We're back and better' re-engagement message for [brand] after a period of service disruption or quality issues, recapping what was fixed, what's new, and inviting customers to return with a welcome-back offer.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'We're back dan better' re-engagement message untuk [brand] after sebuah period of service disruption or quality issues, recapping what was fixed, what's new, dan inviting customers to return with sebuah welcome-back offer."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for a customer service agent handling a custo...",
+    "content": "Write a script for a customer service agent handling a customer who insists on speaking only to the founder or CEO of [business], de-escalating appropriately and empowering the agent to resolve the issue.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk sebuah customer service agent handling sebuah customer who insists on speaking only to founder or CEO of [business], de-escalating appropriately dan empowering agent to resolve issue."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a competitive differentiation response for [brand]'...",
+    "content": "Generate a competitive differentiation response for [brand]'s customer service team to use when customers compare [brand] unfavorably to [competitor], using factual, confident, non-disparaging language.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah competitive differentiation response untuk [brand]'s customer service team to use when customers compare [brand] unfavorably to [competitor], using factual, confident, non-disparaging language."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a post-resolution follow-up message from [brand] sent...",
+    "content": "Write a post-resolution follow-up message from [brand] sent 7 days after a major complaint was resolved, checking on the customer's ongoing satisfaction and offering a direct line for future needs.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah post-resolution follow-up message from [brand] sent 7 days after sebuah major complaint was resolved, checking on customer's ongoing satisfaction dan offering sebuah direct line untuk future needs."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a customer advocacy program outline for [brand] that...",
+    "content": "Create a customer advocacy program outline for [brand] that turns satisfied customers into active promoters through a structured referral reward system, exclusive community access, and co-creation opportunities.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah customer advocacy program outline untuk [brand] yang mengubah satisfied customers into active promoters through sebuah structured referral reward system, exclusive community access, dan co-creation opportunities."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a script for an online [brand] community manager handl...",
+    "content": "Write a script for an online [brand] community manager handling a heated debate among community members about [controversial topic related to niche], using neutral facilitation techniques to restore constructive dialogue.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah script untuk online [brand] community manager handling sebuah heated debate among community members tentang [controversial topic related to niche], using neutral facilitation techniques to restore constructive dialogue."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'Thank you for staying' message for [brand]'s lon...",
+    "content": "Generate a 'Thank you for staying' message for [brand]'s long-term subscribers (2+ years) that acknowledges their loyalty, shares what their support has enabled, and offers an exclusive loyalty reward.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'Thank you untuk staying' message untuk [brand]'s long-term subscribers (2+ years) yang mengakui their loyalty, shares what their support has enabled, dan offers an exclusive loyalty reward."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service response to a customer who complain...",
+    "content": "Write a customer service response to a customer who complains that [product] did not work as advertised for them specifically, requiring a careful blend of empathy, product education, and a personalized solution path.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service response to sebuah customer who complains that [product] did not work as advertised untuk them specifically, requiring sebuah careful blend of empathy, product education, dan sebuah personalized solution path."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a negative review reversal strategy for [brand] that...",
+    "content": "Create a negative review reversal strategy for [brand] that guides the customer service team on how to identify, engage with, and ethically convert 1-2-star reviews into updated positive testimonials.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah negative review reversal strategy untuk [brand] yang memandu customer service team on how to identify, engage with, dan ethically convert 1-2-star reviews into updated positive testimonials."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service script for handling accusations of...",
+    "content": "Write a customer service script for handling accusations of bait-and-switch pricing or misleading promotions for [brand], using clear evidence, factual correction, and a goodwill gesture.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service script untuk handling accusations of bait-dan-switch pricing or misleading promotions untuk [brand], using clear evidence, factual correction, dan sebuah goodwill gesture."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'closed loop feedback' process guide for [brand]...",
+    "content": "Generate a 'closed loop feedback' process guide for [brand] that describes how customer complaints, suggestions, and survey results are collected, analyzed, acted upon, and communicated back to customers.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'closed loop feedback' process guide untuk [brand] yang mendeskripsikan how customer complaints, suggestions, dan survey results are collected, analyzed, acted upon, dan communicated back to customers."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service response for [brand] when a custome...",
+    "content": "Write a customer service response for [brand] when a customer is angry about a stock-out or product unavailability, offering a waitlist, alternative product, or expected restock date with a goodwill incentive.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service response untuk [brand] when sebuah customer is angry tentang sebuah stock-out or product unavailability, offering sebuah waitlist, alternative product, or expected restock date with sebuah goodwill incentive."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a community crisis communication plan for [brand]'s o...",
+    "content": "Create a community crisis communication plan for [brand]'s online community when a member posts harmful, offensive, or false content, covering moderation steps, public response, and affected member support.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah community crisis communication plan untuk [brand]'s online community when member posts harmful, offensive, or false content, covering moderation steps, public response, dan affected member support."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a welcome email from [brand]'s customer service team s...",
+    "content": "Write a welcome email from [brand]'s customer service team sent immediately after purchase, setting response time expectations, introducing key support resources, and making the customer feel secure in their decision.",
+    "isPremium": true,
+    "tags": [
+      "Email",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah welcome email from [brand]'s customer service team sent immediately after purchase, setting response time expectations, introducing key support resources, dan making customer feel secure in their decision."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'we're listening' annual customer feedback report...",
+    "content": "Generate a 'we're listening' annual customer feedback report template for [brand] that summarizes top complaints, improvements made in response, and commitments for the coming year — building long-term trust.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'we're listening' annual customer feedback report template untuk [brand] yang merangkum top complaints, improvements made in response, dan commitments untuk coming year — building long-term trust."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service escalation ladder for [business] th...",
+    "content": "Write a customer service escalation ladder for [business] that defines Tier 1, Tier 2, and Tier 3 support scenarios, with example issues, authority levels, response templates, and resolution time targets for each.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service escalation ladder untuk [business] yang mendefinisikan Tier 1, Tier 2, dan Tier 3 support scenarios, with example issues, authority levels, response templates, dan resolution time targets untuk each."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a script for a [brand] customer service agent handlin...",
+    "content": "Create a script for a [brand] customer service agent handling a situation where a customer's order was lost in transit through a third-party courier, covering responsibility acknowledgment and resolution even if not brand's fault.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah script untuk sebuah [brand] customer service agent handling sebuah situation where sebuah customer's order was lost in transit through sebuah third-party courier, covering responsibility acknowledgment dan resolution even if not brand's fault."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service training quiz for [business] coveri...",
+    "content": "Write a customer service training quiz for [business] covering: empathy language, refund policy, escalation triggers, response time standards, and prohibited words — with answer keys and rationale for each.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service training quiz untuk [business] covering: empathy language, refund policy, escalation triggers, response time standards, dan prohibited words — with answer keys dan rationale untuk each."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 'customer effort score' improvement plan for [bus...",
+    "content": "Generate a 'customer effort score' improvement plan for [business] that identifies the 3 biggest sources of customer friction and proposes specific process, communication, or product changes to reduce effort.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 'customer effort score' improvement plan untuk [business] yang mengidentifikasi 3 biggest sources of customer friction dan proposes specific process, communication, or product changes to reduce effort."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a [brand] customer service agent empowerment policy th...",
+    "content": "Write a [brand] customer service agent empowerment policy that defines how much compensation, discounts, or exceptions agents can offer independently without manager approval — reducing response time and improving satisfaction.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah [brand] customer service agent empowerment policy yang mendefinisikan how much compensation, discounts, or exceptions agents can offer independently without manager approval — reducing response time dan improving satisfaction."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a 'worst-case scenario' response drill for [brand] cu...",
+    "content": "Create a 'worst-case scenario' response drill for [brand] customer service team covering: (a) product safety recall, (b) data breach, (c) founder scandal — with pre-approved response frameworks for each.",
+    "isPremium": true,
+    "tags": [
+      "Analysis",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah 'worst-case scenario' response drill untuk [brand] customer service team covering: (sebuah) product safety recall, (b) data breach, (c) founder scandal — with pre-approved response frameworks untuk each."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer service agent burnout prevention policy for...",
+    "content": "Write a customer service agent burnout prevention policy for [business] that addresses caseload limits, emotional support resources, toxic customer escalation protocols, and recognition systems for high performers.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Creative",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer service agent burnout prevention policy untuk [business] yang mengatasi caseload limits, emotional support resources, toxic customer escalation protocols, dan recognition systems untuk high performers."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Generate a 360-degree customer experience audit for [busines...",
+    "content": "Generate a 360-degree customer experience audit for [business] examining pre-purchase, purchase, post-purchase, and renewal touchpoints to identify customer service gaps and opportunities for proactive delight.",
+    "isPremium": true,
+    "tags": [
+      "Business",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Generate sebuah 360-degree customer experience audit untuk [business] examining pre-purchase, purchase, post-purchase, dan renewal touchpoints to identify customer service gaps dan opportunities untuk proactive delight."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Write a customer loyalty score calculation framework for [br...",
+    "content": "Write a customer loyalty score calculation framework for [brand] that combines purchase frequency, support interaction history, referral activity, and engagement data into a composite loyalty index.",
+    "isPremium": true,
+    "tags": [
+      "Creative",
+      "Analysis",
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Tulis sebuah customer loyalty score calculation framework untuk [brand] yang menggabungkan purchase frequency, support interaction history, referral activity, dan engagement data into sebuah composite loyalty index."
+  },
+  {
+    "category": "Customer Service & Crisis Management",
+    "title": "Create a customer service response matrix for [brand] that c...",
+    "content": "Create a customer service response matrix for [brand] that categorizes complaints by type (product, delivery, billing, experience) and severity (minor, moderate, critical) and assigns specific response templates and timelines for each cell.",
+    "isPremium": true,
+    "tags": [
+      "Customer"
+    ],
+    "detail": "### 💎 Blueprint Prompt: Customer Service & Crisis Management\n\nPrompt ini adalah arsitektur tingkat lanjut yang dioptimalkan untuk Claude 3.5 Sonnet, GPT-4o, dan Gemini Pro. Menggunakan teknik **Chain-of-Density** dan **Persona-Layering** untuk hasil yang profesional dan konversi tinggi. Ganti variabel dalam [bracket] dengan konteks bisnis Anda.",
+    "contentId": "Buat sebuah customer service response matrix untuk [brand] yang mengkategorikan complaints by type (product, delivery, billing, experience) dan severity (minor, moderate, critical) dan assigns specific response templates dan timelines untuk each cell."
+  }
+]
