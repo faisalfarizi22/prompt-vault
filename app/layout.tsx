@@ -34,7 +34,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en" className={`${geistSans.variable} ${instrumentSerif.variable} ${jakartaSans.variable}`}>
         <head>
-          {/* TikTok Pixel Code Start */}
+          {/* TikTok Pixel Code Start - Tetap pakai Script Next.js karena tidak masalah untuk TikTok */}
           <Script id="tiktok-pixel" strategy="afterInteractive">
             {`
               !function (w, d, t) {
@@ -48,12 +48,13 @@ export default function RootLayout({
             `}
           </Script>
           {/* TikTok Pixel Code End */}
-          <Script 
+
+          {/* Google AdSense - Menggunakan tag HTML standar untuk menghindari error 'data-nscript' */}
+          <script 
             async 
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5739160252356689"
             crossOrigin="anonymous"
-            strategy="afterInteractive"
-          />
+          ></script>
         </head>
         <body style={{ margin: 0, fontFamily: "'Geist', system-ui, sans-serif", background: "#fff", color: "#111" }}>
           <Suspense fallback={null}>
