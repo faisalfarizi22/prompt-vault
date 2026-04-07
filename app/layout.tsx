@@ -1,6 +1,6 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
-import { Geist, Instrument_Serif } from "next/font/google";
+import { Geist, Instrument_Serif, Plus_Jakarta_Sans } from "next/font/google";
 import Script from "next/script";
 import { Suspense } from 'react';
 import { ReferralTracker } from "@/components/ReferralTracker";
@@ -17,6 +17,11 @@ const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
 });
 
+const jakartaSans = Plus_Jakarta_Sans({
+  variable: "--font-jakarta",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
   title: "Veloprome | 1,000+ AI Prompts",
   description: "Unlock 1,000+ premium AI prompts for ChatGPT, Claude, and Gemini. IDR 8,000 one-time access.",
@@ -27,7 +32,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <ClerkProvider>
-      <html lang="en" className={`${geistSans.variable} ${instrumentSerif.variable}`}>
+      <html lang="en" className={`${geistSans.variable} ${instrumentSerif.variable} ${jakartaSans.variable}`}>
         <head>
           {/* TikTok Pixel Code Start */}
           <Script id="tiktok-pixel" strategy="afterInteractive">
@@ -43,6 +48,12 @@ export default function RootLayout({
             `}
           </Script>
           {/* TikTok Pixel Code End */}
+          <Script 
+            async 
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5739160252356689"
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
         </head>
         <body style={{ margin: 0, fontFamily: "'Geist', system-ui, sans-serif", background: "#fff", color: "#111" }}>
           <Suspense fallback={null}>

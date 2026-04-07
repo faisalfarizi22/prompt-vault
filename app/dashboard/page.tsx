@@ -167,12 +167,14 @@ function DashboardContent() {
     );
   } else if (activeCategory === "Referral" && isPaid) {
     mainContent = (
-      <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
-         <div style={{ marginBottom: 48 }}>
-            <h1 style={{ fontSize: 48, fontWeight: 900, letterSpacing: "-0.06em", color: "#1E293B", marginBottom: 12 }}>Referral Hub</h1>
-            <p style={{ fontSize: 18, color: "#64748B", fontWeight: 500 }}>Kelola link referral Anda dan pantau komisi yang Anda dapatkan secara real-time.</p>
+      <div style={{ fontFamily: "var(--font-inter), sans-serif", padding: "40px 0" }}>
+         <div style={{ marginBottom: 32 }}>
+            {/* Titles moved into ReferralWidget */}
          </div>
-         <ReferralWidget isPaid={isPaid} onUpgrade={() => setShowPricingModal(true)} />
+         <ReferralWidget 
+            isPaid={isPaid} 
+            onUpgrade={() => setActiveCategory("Campaign")} 
+         />
          <WithdrawalPanel />
       </div>
     );

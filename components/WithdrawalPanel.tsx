@@ -15,19 +15,19 @@ function fmt(n: number) {
 
 function StatusBadge({ status }: { status: string }) {
   const map: Record<string, { color: string; bg: string; label: string; icon: any }> = {
-    PENDING: { color: "#B45309", bg: "#FFFBEB", label: "Diproses", icon: Clock },
-    PAID:    { color: "#16A34A", bg: "#F0FDF4", label: "Berhasil",  icon: Check },
-    REJECTED:{ color: "#DC2626", bg: "#FEF2F2", label: "Ditolak",  icon: X },
+    PENDING: { color: "var(--ethereal-on-surface-variant)", bg: "var(--ethereal-surface-container-highest)", label: "Diproses", icon: Clock },
+    PAID:    { color: "#006c49", bg: "rgba(16, 185, 129, 0.1)", label: "Berhasil",  icon: Check },
+    REJECTED:{ color: "#ba1a1a", bg: "#ffdad6", label: "Ditolak",  icon: X },
   };
   const cfg = map[status] || map.PENDING;
   const Icon = cfg.icon;
   return (
     <span style={{
-      display: "inline-flex", alignItems: "center", gap: 5,
-      fontSize: 11, fontWeight: 700, color: cfg.color, background: cfg.bg,
-      padding: "4px 10px", borderRadius: 20, border: `1px solid ${cfg.color}22`
+      display: "inline-flex", alignItems: "center", gap: 6,
+      fontSize: 10, fontWeight: 700, color: cfg.color, background: cfg.bg,
+      padding: "6px 12px", borderRadius: 20, letterSpacing: "0.05em", textTransform: "uppercase"
     }}>
-      <Icon style={{ width: 11, height: 11 }} />
+      <Icon style={{ width: 12, height: 12 }} />
       {cfg.label}
     </span>
   );
@@ -58,7 +58,7 @@ export function WithdrawalPanel() {
       const res = await fetch("/api/withdrawal", { method: "POST" });
       const data = await res.json();
       if (res.ok) {
-        setMessage({ type: "success", text: "Pengajuan pencairan berhasil dikirim! Admin akan memproses transfer dalam 1×24 jam." });
+        setMessage({ type: "success", text: "Komisi Anda sedang dikirim ke rekening! Verifikasi selesai dalam 1x24 jam." });
         fetchStats();
       } else {
         setMessage({ type: "error", text: data.error || "Gagal mengajukan pencairan." });
@@ -72,7 +72,7 @@ export function WithdrawalPanel() {
   if (loading) {
     return (
       <div style={{ display: "flex", justifyContent: "center", padding: 60 }}>
-        <Loader2 style={{ width: 24, height: 24, color: "#A1A1AA", animation: "spin 1s linear infinite" }} />
+        <Loader2 style={{ width: 32, height: 32, color: "var(--ethereal-primary)", animation: "spin 1s linear infinite" }} />
       </div>
     );
   }
@@ -84,142 +84,171 @@ export function WithdrawalPanel() {
   const canWithdraw = available >= MIN_WD;
 
   const cards = [
-    { label: "Total Komisi", value: fmt(earnings), icon: TrendingUp, color: "#10B981", bg: "#F0FDF4" },
-    { label: "Tersedia untuk WD", value: fmt(available), icon: Wallet, color: "#6366F1", bg: "#EEF2FF" },
-    { label: "Total Dicairkan", value: fmt(totalWithdrawn), icon: CircleDollarSign, color: "#F59E0B", bg: "#FFFBEB" },
+    { label: "TOTAL KOMISI", value: fmt(earnings), icon: TrendingUp },
+    { label: "SIAP CAIR", value: fmt(available), icon: Wallet, isPrimary: true },
+    { label: "TOTAL DITERIMA", value: fmt(totalWithdrawn), icon: CircleDollarSign },
   ];
 
   return (
-    <div style={{ marginTop: 40 }}>
+    <div style={{ marginTop: 100, paddingBottom: 100, fontFamily: "var(--font-inter), sans-serif" }}>
       {/* Header */}
-      <div style={{ marginBottom: 24 }}>
-        <h3 style={{ fontSize: 18, fontWeight: 800, color: "#111", letterSpacing: "-0.03em", margin: "0 0 4px" }}>
-          Pencairan Komisi
+      <div style={{ marginBottom: 48 }}>
+        <div style={{ 
+            display: "inline-flex", alignItems: "center", gap: 8,
+            color: "var(--ethereal-primary)", fontSize: "12px", fontWeight: 800, 
+            background: "rgba(0, 108, 73, 0.05)", padding: "8px 16px", borderRadius: "full",
+            marginBottom: 20, letterSpacing: "0.05em",
+            fontFamily: "var(--font-jakarta)"
+        }}>
+           <CircleDollarSign style={{ width: 16, height: 16 }} />
+           <span>DISBURSEMENT CENTER</span>
+        </div>
+        <h3 style={{ fontSize: 32, fontWeight: 800, color: "var(--ethereal-on-surface)", letterSpacing: "-0.04em", margin: "0 0 12px", fontFamily: "var(--font-jakarta)" }}>
+          Pencairan Saldo Quest
         </h3>
-        <p style={{ fontSize: 13, color: "#71717A", margin: 0 }}>
-          Minimum pencairan Rp 25.000. Admin akan memproses transfer dalam 1×24 jam.
+        <p style={{ fontSize: 16, color: "var(--ethereal-on-surface-variant)", fontWeight: 500, margin: 0, maxWidth: 600, lineHeight: 1.6 }}>
+          Transfer diproses secara otomatis setiap hari kerja pukul 09:00 - 17:00 WIB.
         </p>
       </div>
 
       {/* Balance Cards */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: 14, marginBottom: 24 }}>
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 24, marginBottom: 48 }}>
         {cards.map(c => (
           <div key={c.label} style={{
-            background: "#fff",
-            border: "1px solid #EBEBEB",
-            borderRadius: 16,
-            padding: "18px 20px",
+            background: "var(--ethereal-surface-container-lowest)",
+            borderRadius: "2rem",
+            padding: "32px",
+            boxShadow: "0 20px 40px rgba(28, 27, 27, 0.04)",
+            border: "1px solid rgba(255,255,255,0.5)",
           }}>
-            <div style={{
-              width: 36, height: 36, borderRadius: 10, background: c.bg,
-              display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 12,
+            <p style={{ fontSize: "10px", color: "#94A3B8", fontWeight: 800, margin: "0 0 12px", letterSpacing: "0.15em", fontFamily: "var(--font-jakarta)" }}>{c.label}</p>
+            <p style={{ 
+                fontSize: "28px", fontWeight: 900, 
+                color: c.isPrimary ? "var(--ethereal-primary)" : "var(--ethereal-on-surface)", 
+                margin: 0, letterSpacing: "-0.04em", fontFamily: "var(--font-jakarta)" 
             }}>
-              <c.icon style={{ width: 18, height: 18, color: c.color }} />
-            </div>
-            <p style={{ fontSize: 12, color: "#71717A", fontWeight: 600, margin: "0 0 4px" }}>{c.label}</p>
-            <p style={{ fontSize: 18, fontWeight: 800, color: "#111", margin: 0, letterSpacing: "-0.03em" }}>{c.value}</p>
+                {c.value}
+            </p>
           </div>
         ))}
       </div>
 
-      {/* Message */}
-      {message && (
-        <motion.div
-          initial={{ opacity: 0, y: -8 }}
-          animate={{ opacity: 1, y: 0 }}
+      {/* Withdraw CTA / Alert */}
+      <div style={{
+        background: canWithdraw ? "var(--ethereal-surface-container-lowest)" : "#fffcf2",
+        borderRadius: "2.5rem",
+        padding: "48px",
+        display: "flex", alignItems: "center", justifyContent: "space-between",
+        marginBottom: 64,
+        gap: 32,
+        flexWrap: "wrap",
+        border: `1px solid ${canWithdraw ? "rgba(255,255,255,0.5)" : "#fff1c2"}`,
+        boxShadow: canWithdraw ? "0 40px 100px -20px rgba(0,0,0,0.05)" : "none"
+      }}>
+        <div style={{ flex: 1, minWidth: 320, display: "flex", alignItems: "flex-start", gap: 24 }}>
+          {!canWithdraw && (
+             <div style={{ 
+                width: 48, height: 48, borderRadius: "full", background: "#f59e0b", 
+                display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", flexShrink: 0
+             }}>
+                <ArrowDownToLine style={{ width: 24, height: 24 }} />
+             </div>
+          )}
+          <div>
+            <h4 style={{ 
+                fontWeight: 800, fontSize: "20px", 
+                color: "var(--ethereal-on-surface)", 
+                margin: "0 0 8px", fontFamily: "var(--font-jakarta)" 
+            }}>
+                {canWithdraw ? `${fmt(available)} Siap Dicairkan` : `Saldo Belum Mencapai ${fmt(MIN_WD)}`}
+            </h4>
+            <p style={{ fontSize: "15px", color: "var(--ethereal-on-surface-variant)", fontWeight: 500, margin: 0, lineHeight: 1.6 }}>
+                {canWithdraw
+                ? "Semua syarat pencairan telah terpenuhi. Klik tombol di kanan untuk mulai proses transfer otomatis."
+                : `Terus bagikan link Quest Anda! Anda butuh ${fmt(MIN_WD - available)} lagi untuk melakukan pencairan pertama.`}
+            </p>
+          </div>
+        </div>
+        <motion.button
+          whileHover={canWithdraw ? { scale: 1.05 } : {}}
+          whileTap={canWithdraw ? { scale: 0.95 } : {}}
+          onClick={canWithdraw ? handleWithdraw : undefined}
+          disabled={!canWithdraw || requesting}
           style={{
-            padding: "14px 18px",
-            borderRadius: 12,
-            marginBottom: 16,
-            fontSize: 13, fontWeight: 500,
-            background: message.type === "success" ? "#F0FDF4" : "#FEF2F2",
-            color: message.type === "success" ? "#16A34A" : "#DC2626",
-            border: `1px solid ${message.type === "success" ? "#BBF7D0" : "#FCA5A5"}`,
+            minWidth: 200,
+            padding: "20px 48px",
+            borderRadius: "9999px",
+            border: "none",
+            background: canWithdraw ? "var(--mint-gradient)" : "var(--ethereal-surface-container-highest)",
+            color: canWithdraw ? "#fff" : "#94A3B8",
+            fontSize: "15px", fontWeight: 800,
+            cursor: canWithdraw && !requesting ? "pointer" : "not-allowed",
+            whiteSpace: "nowrap",
+            boxShadow: canWithdraw ? "0 20px 50px rgba(0, 108, 73, 0.2)" : "none",
+            fontFamily: "var(--font-jakarta)",
+            transition: "all 0.3s ease"
           }}
         >
+          {requesting ? "VERIFIKASI..." : "CAIRKAN SALDO"}
+        </motion.button>
+      </div>
+
+      {/* Message Popup */}
+      {message && (
+        <motion.div
+          initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+          style={{
+            padding: "24px 32px", borderRadius: "2rem", marginBottom: 64,
+            fontSize: 15, fontWeight: 700,
+            background: message.type === "success" ? "rgba(16, 185, 129, 0.05)" : "rgba(186, 26, 26, 0.05)",
+            color: message.type === "success" ? "#006c49" : "#ba1a1a",
+            border: `1px solid ${message.type === "success" ? "rgba(16, 185, 129, 0.2)" : "rgba(186, 26, 26, 0.2)"}`,
+            display: "flex", alignItems: "center", gap: 16
+          }}
+        >
+          <div style={{ width: 32, height: 32, borderRadius: "full", background: message.type === "success" ? "#006c49" : "#ba1a1a", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff" }}>
+            {message.type === "success" ? <Check style={{ width: 18, height: 18 }} /> : <X style={{ width: 18, height: 18 }} />}
+          </div>
           {message.text}
         </motion.div>
       )}
 
-      {/* Withdraw CTA */}
-      <div style={{
-        background: canWithdraw ? "linear-gradient(135deg, #111 0%, #1E293B 100%)" : "#F4F4F5",
-        borderRadius: 16,
-        padding: "20px 24px",
-        display: "flex", alignItems: "center", justifyContent: "space-between",
-        marginBottom: 32,
-        gap: 16,
-        flexWrap: "wrap",
-      }}>
-        <div>
-          <p style={{ fontWeight: 800, fontSize: 15, color: canWithdraw ? "#fff" : "#A1A1AA", margin: "0 0 4px" }}>
-            {canWithdraw ? `${fmt(available)} siap dicairkan` : `Belum mencapai minimum ${fmt(MIN_WD)}`}
-          </p>
-          <p style={{ fontSize: 12, color: canWithdraw ? "rgba(255,255,255,0.6)" : "#C4C4C7", margin: 0 }}>
-            {canWithdraw
-              ? "Klik tombol untuk mengajukan pencairan semua saldo tersedia."
-              : `Kumpulkan ${fmt(MIN_WD - available)} lagi untuk bisa melakukan WD.`}
-          </p>
-        </div>
-        <motion.button
-          whileHover={canWithdraw ? { scale: 1.03 } : {}}
-          whileTap={canWithdraw ? { scale: 0.97 } : {}}
-          onClick={canWithdraw ? handleWithdraw : undefined}
-          disabled={!canWithdraw || requesting}
-          style={{
-            display: "flex", alignItems: "center", gap: 8,
-            padding: "12px 24px",
-            borderRadius: 12,
-            border: "none",
-            background: canWithdraw ? "#fff" : "#E4E4E7",
-            color: canWithdraw ? "#111" : "#A1A1AA",
-            fontSize: 13, fontWeight: 700,
-            cursor: canWithdraw && !requesting ? "pointer" : "not-allowed",
-            whiteSpace: "nowrap",
-          }}
-        >
-          {requesting ? (
-            <Loader2 style={{ width: 14, height: 14, animation: "spin 1s linear infinite" }} />
-          ) : (
-            <ArrowDownToLine style={{ width: 14, height: 14 }} />
-          )}
-          {requesting ? "Memproses..." : "Cairkan Sekarang"}
-        </motion.button>
-      </div>
-
-      {/* History */}
+      {/* History List */}
       {history.length > 0 && (
         <div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
-            <History style={{ width: 14, height: 14, color: "#71717A" }} />
-            <span style={{ fontSize: 13, fontWeight: 700, color: "#374151" }}>Riwayat Pencairan</span>
+          <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 32 }}>
+            <h4 style={{ fontSize: 24, fontWeight: 800, color: "var(--ethereal-on-surface)", letterSpacing: "-0.02em", fontFamily: "var(--font-jakarta)" }}>Riwayat Pencairan</h4>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
             {history.map((wd: any) => (
               <div key={wd.id} style={{
-                background: "#fff",
-                border: "1px solid #F0F0F0",
-                borderRadius: 12,
-                padding: "14px 18px",
+                background: "var(--ethereal-surface-container-lowest)",
+                borderRadius: "2rem",
+                padding: "24px 32px",
                 display: "flex", alignItems: "center", justifyContent: "space-between",
-                flexWrap: "wrap", gap: 8,
+                flexWrap: "wrap", gap: 20,
+                border: "1px solid rgba(255,255,255,0.5)",
+                boxShadow: "0 10px 30px rgba(28, 27, 27, 0.02)"
               }}>
-                <div>
-                  <p style={{ fontWeight: 700, fontSize: 14, color: "#111", margin: "0 0 3px" }}>{fmt(wd.amount)}</p>
-                  <p style={{ fontSize: 12, color: "#71717A", margin: 0 }}>
-                    {wd.bankName} · {wd.accountNumber} · {new Date(wd.createdAt).toLocaleDateString("id-ID")}
-                  </p>
-                  {wd.adminNote && (
-                    <p style={{ fontSize: 11, color: "#94A3B8", margin: "3px 0 0" }}>Catatan: {wd.adminNote}</p>
-                  )}
+                <div style={{ display: "flex", alignItems: "center", gap: 24 }}>
+                    <div style={{ width: 56, height: 56, borderRadius: "1.25rem", background: "var(--ethereal-surface-container-low)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                        <CircleDollarSign style={{ width: 24, height: 24, color: "#94A3B8" }} />
+                    </div>
+                    <div>
+                        <p style={{ fontWeight: 800, fontSize: "18px", color: "var(--ethereal-on-surface)", margin: "0 0 6px", fontFamily: "var(--font-jakarta)" }}>{fmt(wd.amount)}</p>
+                        <p style={{ fontSize: "13px", color: "var(--ethereal-on-surface-variant)", fontWeight: 500, margin: 0 }}>
+                            {wd.bankName} · {wd.accountNumber} · {new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'short', year: 'numeric' }).format(new Date(wd.createdAt))}
+                        </p>
+                    </div>
                 </div>
-                <StatusBadge status={wd.status} />
+                <div style={{ textAlign: "right" }}>
+                    <StatusBadge status={wd.status} />
+                </div>
               </div>
             ))}
           </div>
         </div>
       )}
-
       <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
     </div>
   );

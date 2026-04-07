@@ -75,25 +75,55 @@ export async function POST(req: Request) {
       referralCode = await generateUniqueReferralCode();
     }
 
-    // 3. Upsert User (Ensure they exist in Prisma)
-    const user = await (prisma.user as any).upsert({
-      where: { clerkId } as any,
-      update: {
-        referralCode, // Update or keep existing
-        isPaid, // Sync payment state if changed externally before sync
-        ...(actualReferredById ? { referredById: actualReferredById } : {})
-      } as any,
-      create: {
-        clerkId,
-        email,
-        name,
-        isPaid,
-        registrationIp: ip,
-        deviceFingerprint: fingerprint,
-        referredById: actualReferredById,
-        referralCode,
-      } as any
+    // 3. Robust Sync/Upsert Logic
+    let user;
+    const userByClerk = await (prisma.user as any).findUnique({
+      where: { clerkId } as any
     });
+
+    if (userByClerk) {
+      // User found by Clerk ID: Standard update
+      user = await (prisma.user as any).update({
+        where: { clerkId } as any,
+        data: {
+          referralCode: userByClerk.referralCode || referralCode,
+          isPaid,
+          ...(actualReferredById && !userByClerk.referredById ? { referredById: actualReferredById } : {})
+        } as any
+      });
+    } else {
+      // Not found by Clerk ID: Check if they exist by email
+      const userByEmail = await (prisma.user as any).findUnique({
+        where: { email } as any
+      });
+
+      if (userByEmail) {
+        // User exists by email (e.g. legacy user or manual entry): Link to new Clerk ID
+        user = await (prisma.user as any).update({
+          where: { email } as any,
+          data: {
+            clerkId, // Link the existing email to this new Clerk ID
+            referralCode: userByEmail.referralCode || referralCode,
+            isPaid,
+            ...(actualReferredById && !userByEmail.referredById ? { referredById: actualReferredById } : {})
+          } as any
+        });
+      } else {
+        // Brand new user: Create
+        user = await (prisma.user as any).create({
+          data: {
+            clerkId,
+            email,
+            name,
+            isPaid,
+            registrationIp: ip,
+            deviceFingerprint: fingerprint,
+            referredById: actualReferredById,
+            referralCode,
+          } as any
+        });
+      }
+    }
 
     return NextResponse.json({ 
       success: true, 
