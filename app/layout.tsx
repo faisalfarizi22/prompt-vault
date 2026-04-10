@@ -25,6 +25,9 @@ const jakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Veloprome | 1,000+ AI Prompts",
   description: "Unlock 1,000+ premium AI prompts for ChatGPT, Claude, and Gemini. IDR 8,000 one-time access.",
+  other: {
+    "google-adsense-account": "ca-pub-5739160252356689",
+  },
 };
 
 export default function RootLayout({
