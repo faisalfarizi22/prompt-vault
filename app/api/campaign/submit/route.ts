@@ -1,8 +1,13 @@
 import { auth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { IS_CAMPAIGN_ACTIVE } from "@/lib/features";
 
 export async function POST(req: Request) {
+  if (!IS_CAMPAIGN_ACTIVE) {
+    return NextResponse.json({ error: "Fitur campaign sedang non-aktif." }, { status: 403 });
+  }
+
   try {
     const session = await auth();
     const { userId: clerkId } = session;

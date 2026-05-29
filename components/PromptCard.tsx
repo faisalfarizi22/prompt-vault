@@ -167,35 +167,13 @@ export function PromptCard({ id, title, category, content, isLocked = false, isP
             flexGrow: 1,
             fontWeight: 500,
             position: "relative",
-            filter: isLocked ? "blur(8px)" : "none",
-            userSelect: isLocked ? "none" : "auto",
+            filter: "none",
+            userSelect: "auto",
             transition: "all 0.3s ease",
-            opacity: isLocked ? 0.35 : 1
+            opacity: 1
           }}
         >
-          {isLocked ? (
-            "Dapatkan Strategi [KATEGORI] yang dioptimalkan untuk [TUJUAN] Anda. Dilengkapi dengan langkah-langkah [METODE] dan matriks [DETAIL]..."
-          ) : preview}
-          {isLocked && (
-            <div style={{
-              position: "absolute",
-              inset: 0,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              zIndex: 10
-            }}>
-              <div style={{
-                background: "rgba(255,255,255,0.9)",
-                padding: 10,
-                borderRadius: "50%",
-                boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
-                border: "1px solid rgba(0,0,0,0.05)"
-              }}>
-                <LucideLock style={{ width: 16, height: 16, color: "#10B981" }} />
-              </div>
-            </div>
-          )}
+          {preview}
         </div>
 
         <div style={{
@@ -207,14 +185,10 @@ export function PromptCard({ id, title, category, content, isLocked = false, isP
           paddingTop: 16
         }}>
           <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-            {!isPaid && (
-              <>
-                <div style={{ width: 6, height: 6, borderRadius: "50%", background: isLocked ? "#94A3B8" : "#10B981" }} />
-                <span style={{ fontSize: 11, fontWeight: 800, color: "#94A3B8", letterSpacing: "0.02em" }}>
-                  {isLocked ? "PREMIUM VAULT" : "FREE VAULT"}
-                </span>
-              </>
-            )}
+            <div style={{ width: 6, height: 6, borderRadius: "50%", background: "#10B981" }} />
+            <span style={{ fontSize: 11, fontWeight: 800, color: "#10B981", letterSpacing: "0.02em" }}>
+              ALL-ACCESS VAULT
+            </span>
           </div>
 
           <button
@@ -235,12 +209,10 @@ export function PromptCard({ id, title, category, content, isLocked = false, isP
           >
             {copied ? (
               <Check style={{ width: 14, height: 14 }} />
-            ) : isLocked ? (
-              <LucideLock style={{ width: 14, height: 14 }} />
             ) : (
               <Copy style={{ width: 14, height: 14 }} />
             )}
-            {copied ? "Copied" : isLocked ? "Unlock Access" : isPaid ? "Copy" : "Gunakan Sekarang (Gratis)"}
+            {copied ? "Copied" : "Salin Prompt"}
           </button>
         </div>
       </div>

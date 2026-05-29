@@ -1,8 +1,19 @@
 import { auth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
+import { IS_CAMPAIGN_ACTIVE } from "@/lib/features";
 
 export async function GET() {
+  if (!IS_CAMPAIGN_ACTIVE) {
+    return NextResponse.json({ 
+      error: "Campaign is currently inactive",
+      top100: [],
+      userRank: 0,
+      userStats: { name: "", points: 0, referrals: 0, views: 0, rank: 0 },
+      totalParticipants: 0
+    });
+  }
+
   try {
     const session = await auth();
     const { userId: clerkId } = session;

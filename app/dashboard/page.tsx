@@ -21,6 +21,7 @@ import { useUser } from "@clerk/nextjs";
 import { ChevronLeft, ChevronRight, Loader2, SearchX, Layers } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
+import { IS_CAMPAIGN_ACTIVE } from "@/lib/features";
 
 interface Prompt {
   id: number;
@@ -59,7 +60,11 @@ function DashboardContent() {
   useEffect(() => {
     const cat = searchParams.get("category");
     if (cat && ["All", "Campaign", "Referral", "Leaderboard", "Settings"].includes(cat)) {
-      setActiveCategory(cat);
+      if (!IS_CAMPAIGN_ACTIVE && ["Campaign", "Referral", "Leaderboard"].includes(cat)) {
+        setActiveCategory("All");
+      } else {
+        setActiveCategory(cat);
+      }
     }
   }, [searchParams, setActiveCategory]);
   const [data, setData] = useState<ApiResponse | null>(null);
@@ -84,13 +89,12 @@ function DashboardContent() {
 
   const isPaid = user?.publicMetadata?.isPaid === true;
 
-  // Strict Guard: Prevent non-paid users from manually staying in Referral Hub
+  // Guard removed: All users can access all categories
   useEffect(() => {
     if (activeCategory === "Referral" && !isPaid) {
-      setActiveCategory("All");
-      setShowPricingModal(true);
+      // Keep access but maybe show a note if needed, for now just allow
     }
-  }, [activeCategory, isPaid, setActiveCategory]);
+  }, [activeCategory, isPaid]);
 
   useEffect(() => {
     if (activeCategory === "Settings" && !isPaid) {
@@ -138,12 +142,13 @@ function DashboardContent() {
   // --- View Rendering Logic ---
   let mainContent = null;
 
-  if (activeCategory === "Campaign") {
+  // Veloprome Creator Quest campaign views are intentionally hidden via IS_CAMPAIGN_ACTIVE.
+  if (activeCategory === "Campaign" && IS_CAMPAIGN_ACTIVE) {
     mainContent = (
       <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
          <CampaignPopup 
-            isPaid={isPaid} 
-            onUpgrade={() => setShowPricingModal(true)} 
+            isPaid={true} 
+            onUpgrade={() => {}} 
             onJoin={() => setActiveCategory("Campaign")} 
          />
          <div style={{ marginBottom: 48 }}>
@@ -151,21 +156,21 @@ function DashboardContent() {
             <p style={{ fontSize: 18, color: "#64748B", fontWeight: 500 }}>Pelajari cara memenangkan total hadiah Rp 25.000.000 dengan membuat video testimoni.</p>
          </div>
          <DashboardBanner 
-            isPaid={isPaid}
-            onUpgrade={() => setShowPricingModal(true)}
+            isPaid={true}
+            onUpgrade={() => {}}
             variant="leaderboard" 
             onJoin={() => setActiveCategory("Leaderboard")} 
          />
          
          <CampaignRulesDetail 
-            isPaid={isPaid}
-            onUpgrade={() => setShowPricingModal(true)}
+            isPaid={true}
+            onUpgrade={() => {}}
             hasAgreed={hasAgreedToSnK}
             onAgree={handleAgreeSnK}
          />
       </div>
     );
-  } else if (activeCategory === "Referral" && isPaid) {
+  } else if (activeCategory === "Referral" && isPaid && IS_CAMPAIGN_ACTIVE) {
     mainContent = (
       <div style={{ fontFamily: "var(--font-inter), sans-serif", padding: "40px 0" }}>
          <div style={{ marginBottom: 32 }}>
@@ -180,7 +185,7 @@ function DashboardContent() {
     );
   } else if (activeCategory === "Settings") {
     mainContent = <SettingsView />;
-  } else if (activeCategory === "Leaderboard") {
+  } else if (activeCategory === "Leaderboard" && IS_CAMPAIGN_ACTIVE) {
     mainContent = (
       <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
          <div style={{ marginBottom: 48 }}>
@@ -193,20 +198,23 @@ function DashboardContent() {
   } else {
     mainContent = (
       <div style={{ fontFamily: "'Geist', system-ui, sans-serif" }}>
-        {activeCategory === "All" && (
+        {/* Veloprome Creator Quest dashboard promo surfaces are hidden while campaign is inactive. */}
+        {activeCategory === "All" && IS_CAMPAIGN_ACTIVE && (
           <DashboardBanner 
-              isPaid={isPaid} 
-              onUpgrade={() => setShowPricingModal(true)}
+              isPaid={true} 
+              onUpgrade={() => {}}
               onJoin={() => setActiveCategory("Campaign")} 
           />
         )}
-        <CampaignPopup 
-          isPaid={isPaid}
-          onUpgrade={() => setShowPricingModal(true)}
-          onJoin={() => setActiveCategory("Campaign")} 
-        />
-        <DashboardPreviewBanner />
-        <CampaignFloatingBadge onClick={() => setActiveCategory("Campaign")} />
+        {IS_CAMPAIGN_ACTIVE && (
+          <CampaignPopup 
+            isPaid={true}
+            onUpgrade={() => {}}
+            onJoin={() => setActiveCategory("Campaign")} 
+          />
+        )}
+        {/* <DashboardPreviewBanner /> */}
+        {IS_CAMPAIGN_ACTIVE && <CampaignFloatingBadge onClick={() => setActiveCategory("Campaign")} />}
 
         <div style={{
           display: "flex",
@@ -267,11 +275,7 @@ function DashboardContent() {
                   isLocked={prompt.isLocked}
                   isPaid={isPaid}
                   onSelect={() => {
-                    if (prompt.isLocked) {
-                      setShowPricingModal(true);
-                    } else {
-                      setSelectedPrompt(prompt);
-                    }
+                    setSelectedPrompt(prompt);
                   }} 
                 />
               </div>
@@ -347,9 +351,9 @@ function DashboardContent() {
     <>
       {mainContent}
 
-      <PromptSidePanel prompt={selectedPrompt} isPaid={isPaid} onClose={() => setSelectedPrompt(null)} />
+      <PromptSidePanel prompt={selectedPrompt} isPaid={true} onClose={() => setSelectedPrompt(null)} />
       <PricingModal 
-        isOpen={showPricingModal} 
+        isOpen={false} 
         onClose={() => setShowPricingModal(false)} 
       />
 

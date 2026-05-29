@@ -281,7 +281,8 @@ export function SettingsView() {
         <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
           {[
             { label: "Syarat & Ketentuan Referral", href: "#" },
-            { label: "Aturan Campaign Creator Quest", href: "#" },
+            // Veloprome Creator Quest campaign help link is intentionally hidden.
+            // { label: "Aturan Campaign Creator Quest", href: "#" },
             { label: "Hubungi Support via Email", href: "mailto:support@veloprome.com" },
           ].map(item => (
             <a

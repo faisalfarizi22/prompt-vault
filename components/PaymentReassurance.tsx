@@ -16,21 +16,23 @@ export const PaymentReassurance = () => {
           fontWeight: 900, 
           color: "#111", 
           marginBottom: "16px",
-          letterSpacing: "-0.04em"
+          letterSpacing: "-0.04em",
+          display: "none" // Hiding as per request
         }}>
-          Akses Instan dalam <span style={{ color: "#10B981" }}>1 Menit.</span>
+          Akses Instan.
         </h2>
         <p style={{ 
           fontSize: "17px", 
           color: "#64748B", 
           marginBottom: "48px",
-          fontWeight: 500
+          fontWeight: 500,
+          display: "none" // Hiding QRIS text too
         }}>
-          Bayar praktis pakai QRIS. Scan sekarang, akses terbuka otomatis.
+          Daftar sekarang dan nikmati seluruh akses premium secara otomatis.
         </p>
 
         <div style={{ 
-          display: "flex", 
+          display: "none", // Hiding as part of removing payment mentions
           alignItems: "center", 
           justifyContent: "center", 
           gap: "48px", 

@@ -4,7 +4,7 @@ import { ReactNode, useEffect, useState } from "react";
 import Link from "next/link";
 import { 
   BarChart2, BookOpen, Calendar, Crown, Headphones, 
-  HelpCircle, Image, LayoutGrid, Mail, Megaphone, 
+  Globe, HelpCircle, Image, LayoutGrid, Mail, Megaphone, 
   Menu, Music, Play, Rocket, Settings, User, X, 
   Trophy, ChevronRight, Search, Link as LinkIcon
 } from "lucide-react";
@@ -13,6 +13,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { DashboardContext } from "./context";
 import { UserButton, useUser } from "@clerk/nextjs";
 import { UserSync } from "@/components/UserSync";
+import { IS_CAMPAIGN_ACTIVE } from "@/lib/features";
 
 const CATEGORIES = [
   { key: "Image Generation", Icon: Image, short: "Image Gen" },
@@ -189,28 +190,38 @@ function SidebarContent({
           onClick={() => { setActiveCategory("All"); setSidebarOpen(false); }}
         />
 
-        <NavGroup label="Rewards">
-          <NavItem
-            icon={<Trophy style={{ width: 13, height: 13 }} />}
-            label="Campaign"
-            isActive={activeCategory === "Campaign"}
-            onClick={() => { setActiveCategory("Campaign"); setSidebarOpen(false); }}
-          />
-          {user?.publicMetadata?.isPaid === true && (
+        <NavItem
+          icon={<Globe style={{ width: 13, height: 13 }} />}
+          label="AI Web Builder"
+          isActive={false}
+          onClick={() => { window.open("https://build.webuntukusaha.com", "_blank", "noopener,noreferrer"); setSidebarOpen(false); }}
+        />
+
+        {/* Veloprome Creator Quest campaign menu is intentionally hidden via feature flag. */}
+        {IS_CAMPAIGN_ACTIVE && (
+          <NavGroup label="Rewards">
             <NavItem
-              icon={<LinkIcon style={{ width: 13, height: 13 }} />}
-              label="Referral"
-              isActive={activeCategory === "Referral"}
-              onClick={() => { setActiveCategory("Referral"); setSidebarOpen(false); }}
+              icon={<Trophy style={{ width: 13, height: 13 }} />}
+              label="Campaign"
+              isActive={activeCategory === "Campaign"}
+              onClick={() => { setActiveCategory("Campaign"); setSidebarOpen(false); }}
             />
-          )}
-          <NavItem
-            icon={<Crown style={{ width: 13, height: 13 }} />}
-            label="Leaderboard"
-            isActive={activeCategory === "Leaderboard"}
-            onClick={() => { setActiveCategory("Leaderboard"); setSidebarOpen(false); }}
-          />
-        </NavGroup>
+            {user?.publicMetadata?.isPaid === true && (
+              <NavItem
+                icon={<LinkIcon style={{ width: 13, height: 13 }} />}
+                label="Referral"
+                isActive={activeCategory === "Referral"}
+                onClick={() => { setActiveCategory("Referral"); setSidebarOpen(false); }}
+              />
+            )}
+            <NavItem
+              icon={<Crown style={{ width: 13, height: 13 }} />}
+              label="Leaderboard"
+              isActive={activeCategory === "Leaderboard"}
+              onClick={() => { setActiveCategory("Leaderboard"); setSidebarOpen(false); }}
+            />
+          </NavGroup>
+        )}
 
         <NavGroup label="Categories">
           {CATEGORIES.map((cat) => (
@@ -268,19 +279,6 @@ function SidebarContent({
               {fallbackEmail}
             </p>
           </div>
-          {user?.publicMetadata?.isPaid === true && (
-            <span style={{
-              fontSize: 10, fontWeight: 600,
-              fontFamily: "'Geist', system-ui, sans-serif",
-              color: "#16A34A", background: "#F0FDF4",
-              border: "1px solid #BBF7D0",
-              padding: "2px 7px", borderRadius: 5,
-              flexShrink: 0,
-              letterSpacing: "-0.01em",
-            }}>
-              Pro
-            </span>
-          )}
         </div>
       </div>
     </div>

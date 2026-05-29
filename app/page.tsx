@@ -16,10 +16,11 @@ import { FloatingCTA } from "@/components/FloatingCTA";
 import { PaymentReassurance } from "@/components/PaymentReassurance";
 import { SignInButton } from "@clerk/nextjs";
 import { auth } from "@clerk/nextjs/server";
+import { IS_CAMPAIGN_ACTIVE } from "@/lib/features";
 
 export const metadata = {
   title: "VELOPROME | 1,000+ Premium AI Prompts",
-  description: "Buka 1.000+ prompt AI premium untuk ChatGPT, Claude, dan Gemini. Pembayaran sekali bayar hanya IDR 8.000.",
+  description: "Akses pusat data prompt AI premium untuk ChatGPT, Claude, dan Gemini.",
 };
 
 const CATEGORIES_WITH_ICONS = [
@@ -40,7 +41,7 @@ const STATS = [
   { value: "1,000+", label: "Premium Prompts" },
   { value: "11", label: "Categories" },
   { value: "3", label: "AI Platforms" },
-  { value: "IDR 8k", label: "One-time Price" },
+  { value: "FREE", label: "Full Access" },
 ];
 
 const SAMPLE_PROMPTS = [
@@ -66,12 +67,12 @@ const SAMPLE_PROMPTS = [
 
 const TESTIMONIALS = [
   {
-    text: "8 ribu perak buat hemat waktu berjam-jam? No brainer sih! Langsung langganan biar update terus.",
+    text: "8 ribu perak buat hemat waktu? Sekarang malah gratis? Gila sih, no brainer banget buat yang mau scale konten!",
     author: "Kreator Anonim",
     role: "TikTok Affiliate"
   },
   {
-    text: "Gila sih, isinya lengkap banget. Tinggal copy-paste langsung jadi konten viral. Terlalu murah buat value segini.",
+    text: "Gila sih, isinya lengkap banget. Tinggal copy-paste langsung jadi konten viral. Terlalu valuable buat dibagikan gratis.",
     author: "Content Creator",
     role: "Instagram Hero"
   },
@@ -84,8 +85,8 @@ const TESTIMONIALS = [
 
 const FAQS = [
   {
-    q: "Apakah ini langganan bulanan?",
-    a: "Tidak, ini one-time payment. Bayar sekali, akses selamanya tanpa biaya tambahan di masa depan."
+    q: "Apakah ini berbayar?",
+    a: "Tidak, saat ini seluruh akses ke 1,000+ prompt premium kami berikan secara GRATIS untuk mendukung kreator Indonesia."
   },
   {
     q: "Bisa dipakai di HP?",
@@ -97,7 +98,7 @@ const FAQS = [
   },
   {
     q: "Gimana cara aktivasinya?",
-    a: "Setelah pembayaran, sistem kami akan mendeteksi email Anda dalam 1-5 detik dan membuka akses premium secara otomatis."
+    a: "Cukup daftar atau login dengan akun Google Anda, dan seluruh akses premium akan terbuka secara otomatis detik itu juga."
   }
 ];
 
@@ -119,7 +120,8 @@ export default async function LandingPage() {
 
   return (
     <div style={{ minHeight: "100vh", background: "#fff", fontFamily: "'Geist', system-ui, sans-serif", overflowX: "hidden" }}>
-      <CampaignStickyBar isPaid={isPaid} />
+      {/* Veloprome Creator Quest campaign is hidden while IS_CAMPAIGN_ACTIVE is false. */}
+      {IS_CAMPAIGN_ACTIVE && <CampaignStickyBar isPaid={isPaid} />}
       <FloatingCTA />
 
       {/* ────── NAV ────── */}
@@ -232,8 +234,8 @@ export default async function LandingPage() {
 
             <p style={{ fontSize: 19, lineHeight: 1.6, color: "#52525B", maxWidth: 540, marginBottom: 48 }}>
               {isPaid 
-                ? "Selamat datang kembali! Akses penuh ke 1.000+ prompt premium siap Anda gunakan untuk memaksimalkan hasil AI Anda."
-                : "Buka akses ke 1.000+ prompt yang telah diuji untuk ChatGPT, Claude, dan Gemini. Didesain untuk menghemat 20+ jam kerja Anda setiap minggu."
+                ? "Selamat datang kembali! Akses penuh ke pustaka prompt premium siap Anda gunakan untuk memaksimalkan hasil AI Anda."
+                : "Dapatkan akses ke pustaka prompt yang telah diuji untuk ChatGPT, Claude, dan Gemini. Didesain untuk menghemat 20+ jam kerja Anda setiap minggu."
               }
             </p>
 
@@ -260,13 +262,13 @@ export default async function LandingPage() {
                     padding: "18px 36px", borderRadius: 100, border: "none", cursor: "pointer",
                     boxShadow: "0 20px 40px -12px rgba(0,0,0,0.3)",
                   }}>
-                    <span>Get Instant Access</span> <ArrowRight style={{ width: 18, height: 18 }} />
+                    <span>Get Full Access</span> <ArrowRight style={{ width: 18, height: 18 }} />
                   </button>
                 </SignInButton>
               )}
             </div>
             <div style={{ marginTop: 24, fontSize: 14, color: "#A1A1AA" }}>
-              {isPaid ? "Akun Pro Aktif · Akses Selamanya" : "One-time payment · Only IDR 8,000"}
+              Premium Prompts · Full Access
             </div>
           </div>
 
@@ -349,8 +351,8 @@ export default async function LandingPage() {
             <div style={{ width: 48, height: 48, borderRadius: 12, background: "#111", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <Zap style={{ width: 22, height: 22, color: "#fff" }} />
             </div>
-            <h3 style={{ fontSize: 20, fontWeight: 700 }}>Instant Access</h3>
-            <p style={{ color: "#71717A", fontSize: 14 }}>Pembayaran sekali klik, tanpa waktu tunggu. Akses semuanya seketika.</p>
+            <h3 style={{ fontSize: 20, fontWeight: 700 }}>Full Access</h3>
+            <p style={{ color: "#71717A", fontSize: 14 }}>Daftar sekali, nikmati akses instan ke seluruh pustaka prompt kami.</p>
           </div>
 
           <div style={{
@@ -361,8 +363,8 @@ export default async function LandingPage() {
             <div style={{ width: 48, height: 48, borderRadius: 12, background: "#F0FDF4", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <Shield style={{ width: 22, height: 22, color: "#22C55E" }} />
             </div>
-            <h3 style={{ fontSize: 20, fontWeight: 700 }}>Secure Activation</h3>
-            <p style={{ color: "#71717A", fontSize: 14 }}>Aktivasi otomatis langsung ke dashboard Anda setelah pembayaran berhasil.</p>
+            <h3 style={{ fontSize: 20, fontWeight: 700 }}>Unlimited Usage</h3>
+            <p style={{ color: "#71717A", fontSize: 14 }}>Gunakan semua prompt untuk kebutuhan personal maupun bisnis Anda.</p>
           </div>
 
           <div style={{
@@ -370,8 +372,8 @@ export default async function LandingPage() {
             display: "flex", alignItems: "center", gap: 40, color: "#fff"
           }}>
             <div style={{ flex: 1 }}>
-              <h3 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Updates Forever</h3>
-              <p style={{ color: "rgba(255,255,255,0.6)", fontSize: 15 }}>Satu kali pembayaran memberi Anda akses selamanya ke semua pembaruan prompt di masa depan secara gratis.</p>
+              <h3 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Continuous Updates</h3>
+              <p style={{ color: "rgba(255,255,255,0.6)", fontSize: 15 }}>Dapatkan akses ke semua pembaruan prompt di masa depan secara gratis dengan akun Anda.</p>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
               {[Music, Mail, Rocket, Play].map((IconComp, i) => (
@@ -387,7 +389,8 @@ export default async function LandingPage() {
         </div>
       </section>
 
-      <CampaignChallengeSection />
+      {/* Veloprome Creator Quest landing section is hidden while campaign is inactive. */}
+      {IS_CAMPAIGN_ACTIVE && <CampaignChallengeSection />}
 
       {/* ────── UVP SECTION (Why Choose Veloprome) ────── */}
       <section style={{ padding: "100px 24px", background: "#fcfcfc" }}>
@@ -442,7 +445,7 @@ export default async function LandingPage() {
           <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
             {[
               { step: "01", title: "Explore", desc: "Masuk ke dashboard dan cari kategori prompt yang Anda butuhkan (TikTok, Copy, dll)." },
-              { step: "02", title: "Unlock", desc: "Pilih paket sekali bayar yang sesuai. Akses langsung terbuka dalam hitungan detik." },
+              { step: "02", title: "Join", desc: "Daftar gratis untuk membuka akses ke seluruh kategori prompt kami secara instan." },
               { step: "03", title: "Copy-Paste", desc: "Copy prompt-nya, paste ke ChatGPT/Claude/Midjourney dan lihat hasilnya secara instan." }
             ].map((s, i) => (
               <div key={i} style={{
@@ -582,7 +585,7 @@ export default async function LandingPage() {
             Ready to Unlock <br />Your AI Potential?
           </h2>
           <p style={{ fontSize: 18, color: "rgba(255,255,255,0.7)", maxWidth: 500, margin: "0 auto 40px", fontWeight: 500 }}>
-            Dapatkan akses penuh ke 1,000+ premium prompts hanya dengan IDR 8.000 sekali bayar.
+            Dapatkan akses penuh ke seluruh premium prompts secara GRATIS hari ini.
           </p>
 
           <div style={{ display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap", zIndex: 1 }}>
@@ -603,16 +606,16 @@ export default async function LandingPage() {
                   fontSize: 18, fontWeight: 800,
                   padding: "20px 56px", borderRadius: 100, border: "none", cursor: "pointer",
                 }} className="hover-scale">
-                  Get Unlimited Access — IDR 8k
+                  Get Unlimited Access — Free
                 </button>
               </SignInButton>
             )}
           </div>
 
           <div style={{ marginTop: 40, display: "flex", justifyContent: "center", gap: 32, fontSize: 13, color: "rgba(255,255,255,0.5)", fontWeight: 600 }}>
-            <span style={{ display: "flex", alignItems: "center", gap: 8 }}><Check style={{ width: 16, height: 16 }} /> One-time Payment</span>
-            <span style={{ display: "flex", alignItems: "center", gap: 8 }}><Check style={{ width: 16, height: 16 }} /> Lifetime Access</span>
-            <span style={{ display: "flex", alignItems: "center", gap: 8 }}><Check style={{ width: 16, height: 16 }} /> Secure Activation</span>
+            <span style={{ display: "flex", alignItems: "center", gap: 8 }}><Check style={{ width: 16, height: 16 }} /> Free Access</span>
+            <span style={{ display: "flex", alignItems: "center", gap: 8 }}><Check style={{ width: 16, height: 16 }} /> Premium Library</span>
+            <span style={{ display: "flex", alignItems: "center", gap: 8 }}><Check style={{ width: 16, height: 16 }} /> Instant Access</span>
           </div>
         </div>
       </section>
@@ -665,8 +668,9 @@ export default async function LandingPage() {
           .hero-container { padding: 40px 24px 60px !important; }
         }
       `}</style>
-      <ExitIntentPopup />
-      <LandingPageCampaignClient />
+      {/* Veloprome Creator Quest campaign popups are hidden while campaign is inactive. */}
+      {IS_CAMPAIGN_ACTIVE && <ExitIntentPopup />}
+      {IS_CAMPAIGN_ACTIVE && <LandingPageCampaignClient />}
     </div>
   );
 }

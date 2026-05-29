@@ -103,15 +103,7 @@ export async function GET(req: NextRequest) {
     const totalPages = Math.ceil(total / limit);
     const start = (page - 1) * limit;
     const items = prompts.slice(start, start + limit).map(p => {
-      // 2. Apply Security Masking
-      if (p.isPremium && !isPaid) {
-        return {
-          ...p,
-          content: "PROTECTED_CONTENT",
-          contentId: "PROTECTED_CONTENT",
-          isLocked: true
-        };
-      }
+      // Security Masking Disabled: All prompts are free
       return { ...p, isLocked: false };
     });
 

@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { ShieldCheck, KeyRound, RefreshCw, LogIn, Eye, EyeOff, Check, Video, ExternalLink, Save, BarChart3, ArrowDownToLine, X, MessageSquare } from "lucide-react";
 
 export default function AdminPage() {
+  // Veloprome Creator Quest campaign admin UI is intentionally hidden.
+  const SHOW_CREATOR_QUEST_ADMIN = false;
   const [adminSecret, setAdminSecret] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loginError, setLoginError] = useState("");
@@ -272,6 +274,7 @@ export default function AdminPage() {
             >
                 <KeyRound size={18} /> Password Aktivasi
             </button>
+            {SHOW_CREATOR_QUEST_ADMIN && (
             <button 
                 onClick={() => setActiveTab("campaign")}
                 style={{ 
@@ -283,6 +286,7 @@ export default function AdminPage() {
             >
                 <Video size={18} /> Verifikasi Campaign
             </button>
+            )}
             <button 
                 onClick={() => setActiveTab("payouts")}
                 style={{ 
@@ -338,7 +342,8 @@ export default function AdminPage() {
         )}
 
         {/* Tab 2: Campaign Verification */}
-        {activeTab === "campaign" && (
+        {/* Veloprome Creator Quest campaign verification tab is hidden while SHOW_CREATOR_QUEST_ADMIN is false. */}
+        {SHOW_CREATOR_QUEST_ADMIN && activeTab === "campaign" && (
             <div>
                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24 }}>
                     <div>
