@@ -3,7 +3,8 @@ import {
   Sparkles, Copy, ArrowRight, Check, Zap, Shield, Layers,
   Music, Megaphone, User, Headphones, Calendar, BarChart2,
   Play, Mail, BookOpen, Rocket, Image as ImageIcon,
-  Smartphone, Globe, Clock, Star, Trophy
+  Smartphone, Globe, Clock, Star, Trophy,
+  Code, Bot, Palette, TrendingUp, GraduationCap, Heart, Users
 } from "lucide-react";
 import { PromptCard } from "@/components/PromptCard";
 import { 
@@ -35,11 +36,19 @@ const CATEGORIES_WITH_ICONS = [
   { name: "Email Marketing", icon: <Mail className="w-4 h-4" /> },
   { name: "Storytelling", icon: <BookOpen className="w-4 h-4" /> },
   { name: "Product Launch", icon: <Rocket className="w-4 h-4" /> },
+  // Kategori baru dari open-source
+  { name: "Coding & Programming", icon: <Code className="w-4 h-4" /> },
+  { name: "AI Agents", icon: <Bot className="w-4 h-4" /> },
+  { name: "Design", icon: <Palette className="w-4 h-4" /> },
+  { name: "Writing", icon: <BookOpen className="w-4 h-4" /> },
+  { name: "Business", icon: <TrendingUp className="w-4 h-4" /> },
+  { name: "Data Science", icon: <BarChart2 className="w-4 h-4" /> },
+  { name: "Education", icon: <GraduationCap className="w-4 h-4" /> },
 ];
 
 const STATS = [
-  { value: "1,000+", label: "Premium Prompts" },
-  { value: "11", label: "Categories" },
+  { value: "3,000+", label: "Premium Prompts" },
+  { value: "26", label: "Categories" },
   { value: "3", label: "AI Platforms" },
   { value: "FREE", label: "Full Access" },
 ];

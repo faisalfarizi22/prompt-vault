@@ -5,7 +5,8 @@ import {
   Copy, Check, Sparkles, Music, Megaphone,
   User, Headphones, Calendar, BarChart2,
   Play, Mail, BookOpen, Rocket, Image,
-  Lock as LucideLock
+  Lock as LucideLock,
+  Code, Bot, Palette, GraduationCap, Heart, Users, TrendingUp
 } from "lucide-react";
 
 interface PromptCardProps {
@@ -22,16 +23,37 @@ const getCategoryConfig = (category: string) => {
   const normalized = category.toLowerCase();
 
   if (normalized.includes("tiktok")) return { color: "#8b5cf6", icon: Music }; // Violet
-  if (normalized.includes("copywriting")) return { color: "#ef4444", icon: Megaphone }; // Red
+  if (normalized.includes("copywriting") || normalized.includes("marketing") || normalized.includes("sales")) 
+    return { color: "#ef4444", icon: Megaphone }; // Red
   if (normalized.includes("personal branding")) return { color: "#3b82f6", icon: User }; // Blue
   if (normalized.includes("customer service")) return { color: "#10b981", icon: Headphones }; // Emerald
-  if (normalized.includes("content ideas")) return { color: "#f59e0b", icon: Calendar }; // Amber
-  if (normalized.includes("market research")) return { color: "#6366f1", icon: BarChart2 }; // Indigo
+  if (normalized.includes("content ideas") || normalized.includes("daily content")) return { color: "#f59e0b", icon: Calendar }; // Amber
+  if (normalized.includes("market research") || normalized.includes("market analysis")) return { color: "#6366f1", icon: BarChart2 }; // Indigo
   if (normalized.includes("youtube")) return { color: "#dc2626", icon: Play }; // Crimson
   if (normalized.includes("email")) return { color: "#0ea5e9", icon: Mail }; // Sky
-  if (normalized.includes("storytelling")) return { color: "#8b5cf6", icon: BookOpen }; // Purple
-  if (normalized.includes("product launch")) return { color: "#f43f5e", icon: Rocket }; // Rose
+  if (normalized.includes("storytelling") || normalized.includes("writing") || normalized.includes("content creation")) 
+    return { color: "#8b5cf6", icon: BookOpen }; // Purple
+  if (normalized.includes("product launch") || normalized.includes("business") || normalized.includes("startup")) 
+    return { color: "#f43f5e", icon: Rocket }; // Rose
   if (normalized.includes("image generation")) return { color: "#14b8a6", icon: Image }; // Teal
+  if (normalized.includes("coding") || normalized.includes("programming") || normalized.includes("devops")) 
+    return { color: "#2563eb", icon: Code }; // Blue
+  if (normalized.includes("ai agent") || normalized.includes("workflows") || normalized.includes("automation")) 
+    return { color: "#7c3aed", icon: Bot }; // Violet
+  if (normalized.includes("design") || normalized.includes("creative")) 
+    return { color: "#ec4899", icon: Palette }; // Pink
+  if (normalized.includes("data science") || normalized.includes("research")) 
+    return { color: "#0891b2", icon: BarChart2 }; // Cyan
+  if (normalized.includes("learning") || normalized.includes("education") || normalized.includes("teaching")) 
+    return { color: "#d97706", icon: GraduationCap }; // Amber
+  if (normalized.includes("personal development") || normalized.includes("self") || normalized.includes("productivity") || normalized.includes("habit")) 
+    return { color: "#059669", icon: Heart }; // Green
+  if (normalized.includes("leadership") || normalized.includes("hr") || normalized.includes("management")) 
+    return { color: "#4f46e5", icon: Users }; // Indigo
+  if (normalized.includes("health") || normalized.includes("wellness") || normalized.includes("food") || normalized.includes("lifestyle")) 
+    return { color: "#84cc16", icon: Heart }; // Lime
+  if (normalized.includes("legal") || normalized.includes("finance") || normalized.includes("accounting")) 
+    return { color: "#f59e0b", icon: TrendingUp }; // Amber
 
   return { color: "#10B981", icon: Sparkles }; // Default Emerald
 };

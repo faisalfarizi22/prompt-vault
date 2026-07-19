@@ -6,7 +6,8 @@ import {
   BarChart2, BookOpen, Calendar, Crown, Headphones, 
   Globe, HelpCircle, Image, LayoutGrid, Mail, Megaphone, 
   Menu, Music, Play, Rocket, Settings, User, X, 
-  Trophy, ChevronRight, Search, Link as LinkIcon
+  Trophy, ChevronRight, Search, Link as LinkIcon,
+  Code, Bot, Palette, TrendingUp, GraduationCap, Heart, Users
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -27,6 +28,17 @@ const CATEGORIES = [
   { key: "Email Marketing & FOMO Newsletters", Icon: Mail, short: "Email Marketing" },
   { key: "Storytelling & Emotional Selling", Icon: BookOpen, short: "Storytelling" },
   { key: "Product Launch Strategy (H-7 to Launch Day)", Icon: Rocket, short: "Product Launch" },
+  // === Kategori baru dari prompts.chat (open-source) ===
+  { key: "Coding & Programming", Icon: Code, short: "Coding" },
+  { key: "AI Agent & Workflows", Icon: Bot, short: "AI Agents" },
+  { key: "Design & Creative", Icon: Palette, short: "Design" },
+  { key: "Writing & Content Creation", Icon: BookOpen, short: "Writing" },
+  { key: "Business & Strategy", Icon: TrendingUp, short: "Business" },
+  { key: "Data Science & AI", Icon: BarChart2, short: "Data Science" },
+  { key: "Learning & Education", Icon: GraduationCap, short: "Education" },
+  { key: "Personal Development", Icon: Heart, short: "Self Help" },
+  { key: "Leadership & HR", Icon: Users, short: "Leadership" },
+  { key: "Marketing & Sales", Icon: Megaphone, short: "Ad Sales" },
 ];
 
 function NavGroup({ 
